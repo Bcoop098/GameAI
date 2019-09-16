@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\GameAI.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{A9112EF9-E8AD-4FC7-B90C-D6D79D98E6E4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GameAI.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\GameAIEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{98630193-AA8F-4819-A2D5-366420698B01}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\GameAI">
+      <UniqueIdentifier>{2A82859D-CA9A-452D-9480-459A50C3F5A5}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\GameAI\GameAI.Build.cs">
+      <Filter>Source\GameAI</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\GameAI\GameAI.cpp">
+      <Filter>Source\GameAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameAI\GameAI.h">
+      <Filter>Source\GameAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameAI\GameAIGameModeBase.cpp">
+      <Filter>Source\GameAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameAI\GameAIGameModeBase.h">
+      <Filter>Source\GameAI</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GameAI\MyPawn.cpp">
+      <Filter>Source\GameAI</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GameAI\MyPawn.h">
+      <Filter>Source\GameAI</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

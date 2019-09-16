@@ -1,0 +1,3 @@
+C:\Users\Student\Documents\Unreal Projects\GameAI\Intermediate\Build\Win64\UE4Editor\Development\GameAI\Definitions.GameAI.h
+C:\Users\Student\Documents\Unreal Projects\GameAI\Source\GameAI\MyPawn.h
+C:\Users\Student\Documents\Unreal Projects\GameAI\Intermediate\Build\Win64\UE4Editor\Inc\GameAI\MyPawn.generated.h

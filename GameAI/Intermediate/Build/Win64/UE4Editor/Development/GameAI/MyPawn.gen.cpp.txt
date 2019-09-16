@@ -1,0 +1,5 @@
+C:\Users\Student\Documents\Unreal Projects\GameAI\Intermediate\Build\Win64\UE4Editor\Development\GameAI\Definitions.GameAI.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Student\Documents\Unreal Projects\GameAI\Source\GameAI/MyPawn.h
+C:\Users\Student\Documents\Unreal Projects\GameAI\Intermediate\Build\Win64\UE4Editor\Inc\GameAI\MyPawn.generated.h
