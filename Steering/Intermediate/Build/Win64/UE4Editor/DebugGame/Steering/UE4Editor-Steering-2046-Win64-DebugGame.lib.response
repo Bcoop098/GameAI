@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Steering-2046-Win64-DebugGame.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\SteeringEditor\DebugGame\Engine\SharedPCH.Engine.NonOptimized.h.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\Steering.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\SteeringActor.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\SteeringGameModeBase.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\Steering.init.gen.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\SteeringActor.gen.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\SteeringGameModeBase.gen.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\Default.rc2.res"
+/OUT:"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\DebugGame\Steering\UE4Editor-Steering-2046-Win64-DebugGame.lib"
+/INCLUDE:IMPLEMENT_MODULE_Steering
