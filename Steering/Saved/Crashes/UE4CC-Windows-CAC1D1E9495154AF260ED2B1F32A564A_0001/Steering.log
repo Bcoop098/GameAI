@@ -1,0 +1,1081 @@
+﻿Log file open, 09/20/19 17:59:20
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: Steering
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.443253
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: Steering
+Running D:/EpicGames/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="D:/Git/GameAI/Steering/Steering.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (D:\Git\GameAI).
+Creating makefile for SteeringEditor (.uproject file is newer)
+@progress push 5%
+Parsing headers for SteeringEditor
+  Running UnrealHeaderTool "D:\Git\GameAI\Steering\Steering.uproject" "D:\Git\GameAI\Steering\Intermediate\Build\Win64\SteeringEditor\Development\SteeringEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for SteeringEditor in 14.2605914 seconds
+@progress pop
+Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 11 actions with 8 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 9%
+  [1/11] Default.rc2
+  @progress 'Compiling C++ source code...' 18%
+  [2/11] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 27%
+  [3/11] Steering.cpp
+  @progress 'Compiling C++ source code...' 36%
+  [4/11] Steering.init.gen.cpp
+  @progress 'Compiling C++ source code...' 45%
+  [5/11] SteeringActor.gen.cpp
+  @progress 'Compiling C++ source code...' 55%
+  [6/11] SteeringGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 64%
+  [7/11] SteeringGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 73%
+  [8/11] SteeringActor.cpp
+  @progress 'Compiling C++ source code...' 82%
+  [9/11] UE4Editor-Steering.lib
+     Creating library D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering.lib and object D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering.exp
+  @progress 'Compiling C++ source code...' 91%
+  [10/11] UE4Editor-Steering.dll
+     Creating library D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering.suppressed.lib and object D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [11/11] SteeringEditor.target
+Total time in Parallel executor: 60.99 seconds
+Total execution time: 132.42 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i7-7700HQ CPU @ 2.80GHz, GPU: Intel(R) HD Graphics 630
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/EpicGames/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.09.20-22.01.36:795][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.09.20-22.01.36:795][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:796][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.09.20-22.01.36:796][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.09.20-22.01.36:797][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:797][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:803][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.20-22.01.36:803][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.20-22.01.36:804][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.20-22.01.36:804][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.20-22.01.36:804][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.09.20-22.01.36:835][  0]LogHAL: Display: Platform has ~ 16 GB [17039638528 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.09.20-22.01.36:835][  0]LogInit: Going up to parent DeviceProfile []
+[2019.09.20-22.01.36:835][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.09.20-22.01.36:835][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Scalability.ini]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.09.20-22.01.36:836][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [D:/Git/GameAI/Steering/Saved/Config/Windows/Engine.ini]
+[2019.09.20-22.01.36:836][  0]LogInit: Computer: DESKTOP-7HH28IB
+[2019.09.20-22.01.36:836][  0]LogInit: User: benco
+[2019.09.20-22.01.36:836][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.09.20-22.01.36:836][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.09.20-22.01.36:836][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.09.20-22.01.36:836][  0]LogMemory: Platform Memory Stats for Windows
+[2019.09.20-22.01.36:836][  0]LogMemory: Process Physical Memory: 103.73 MB used, 103.73 MB peak
+[2019.09.20-22.01.36:836][  0]LogMemory: Process Virtual Memory: 91.20 MB used, 91.20 MB peak
+[2019.09.20-22.01.36:836][  0]LogMemory: Physical Memory: 7160.91 MB used,  9089.36 MB free, 16250.27 MB total
+[2019.09.20-22.01.36:836][  0]LogMemory: Virtual Memory: 4692.48 MB used,  134213032.00 MB free, 134217728.00 MB total
+[2019.09.20-22.01.37:149][  0]LogInit: Using OS detected language (en-US).
+[2019.09.20-22.01.37:149][  0]LogInit: Using OS detected locale (en-US).
+[2019.09.20-22.01.37:154][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.09.20-22.01.37:501][  0]LogInit: Setting process to per monitor DPI aware
+[2019.09.20-22.01.37:588][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.09.20-22.01.37:588][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.09.20-22.01.37:899][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.20-22.01.37:899][  0]LogD3D11RHI: D3D11 adapters:
+[2019.09.20-22.01.38:942][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1050 Ti' (Feature Level 11_0)
+[2019.09.20-22.01.38:942][  0]LogD3D11RHI:       4018/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.09.20-22.01.39:066][  0]LogD3D11RHI:    1. 'Intel(R) HD Graphics 630' (Feature Level 11_0)
+[2019.09.20-22.01.39:066][  0]LogD3D11RHI:       128/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x8086
+[2019.09.20-22.01.39:071][  0]LogD3D11RHI:    2. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.09.20-22.01.39:071][  0]LogD3D11RHI:       0/0/8125 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.09.20-22.01.39:071][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.09.20-22.01.39:113][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.09.20-22.01.39:114][  0]LogD3D11RHI:     GPU DeviceId: 0x1c8c (for the marketing name, search the web for "GPU Device Id")
+[2019.09.20-22.01.39:114][  0]LogWindows: EnumDisplayDevices:
+[2019.09.20-22.01.39:114][  0]LogWindows:    0. 'Intel(R) HD Graphics 630' (P:1 D:1)
+[2019.09.20-22.01.39:116][  0]LogWindows:    1. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.09.20-22.01.39:116][  0]LogWindows:    2. 'Intel(R) HD Graphics 630' (P:0 D:0)
+[2019.09.20-22.01.39:117][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1050 Ti' (P:0 D:0)
+[2019.09.20-22.01.39:117][  0]LogWindows: DebugString: PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter PrimaryIsNotTheChoosenAdapter 
+[2019.09.20-22.01.39:117][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1050 Ti
+[2019.09.20-22.01.39:117][  0]LogD3D11RHI:   Driver Version: 436.30 (internal:26.21.14.3630, unified:436.30)
+[2019.09.20-22.01.39:117][  0]LogD3D11RHI:      Driver Date: 9-5-2019
+[2019.09.20-22.01.39:117][  0]LogRHI: Texture pool is 2812 MB (70% of 4018 MB)
+[2019.09.20-22.01.39:185][  0]LogD3D11RHI: Async texture creation enabled
+[2019.09.20-22.01.39:208][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.20-22.01.39:209][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.20-22.01.39:209][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.09.20-22.01.39:220][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.09.20-22.01.40:095][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.09.20-22.01.40:138][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.09.20-22.01.40:179][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.09.20-22.01.40:220][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.09.20-22.01.40:256][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.09.20-22.01.40:296][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.09.20-22.01.40:329][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.09.20-22.01.40:364][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.09.20-22.01.40:396][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.09.20-22.01.40:529][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.09.20-22.01.40:530][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.09.20-22.01.40:551][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.09.20-22.01.40:661][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.09.20-22.01.40:661][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.09.20-22.01.40:708][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.09.20-22.01.40:708][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.09.20-22.01.40:740][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.09.20-22.01.40:796][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.09.20-22.01.40:839][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.09.20-22.01.40:912][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.09.20-22.01.41:029][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.09.20-22.01.41:029][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.09.20-22.01.41:029][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.09.20-22.01.41:122][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.09.20-22.01.41:661][  0]LogShaderCompilers: Guid format shader working directory is 12 characters bigger than the processId version (../../../../../Git/GameAI/Steering/Intermediate/Shaders/WorkingDirectory/1212/).
+[2019.09.20-22.01.41:662][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/benco/AppData/Local/Temp/UnrealShaderWorkingDir/3877334C4956F2CEAA3E95B22B8854D4/'.
+[2019.09.20-22.01.41:671][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.09.20-22.01.41:671][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.09.20-22.01.41:671][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.09.20-22.01.42:580][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.09.20-22.01.42:669][  0]LogDerivedDataCache: Loaded boot cache 0.09s 73MB C:/Users/benco/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.20-22.01.42:669][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/benco/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.09.20-22.01.42:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Git/GameAI/Steering/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.09.20-22.01.42:669][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.09.20-22.01.42:669][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Git/GameAI/Steering/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.20-22.01.42:669][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.09.20-22.01.42:685][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.09.20-22.01.42:685][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.09.20-22.01.42:685][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.09.20-22.01.42:700][  0]LogDerivedDataCache: Using Local data cache path C:/Users/benco/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.09.20-22.01.42:700][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.09.20-22.01.42:700][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.09.20-22.01.42:732][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.09.20-22.01.42:733][  0]LogSlate: Using FreeType 2.6.0
+[2019.09.20-22.01.42:734][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.09.20-22.01.42:915][  0]LogAssetRegistry: FAssetRegistry took 0.0347 seconds to start up
+[2019.09.20-22.01.43:478][  0]LogInit: Selected Device Profile: [Windows]
+[2019.09.20-22.01.44:008][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.09.20-22.01.44:008][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.09.20-22.01.44:008][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.09.20-22.01.44:008][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.09.20-22.01.44:008][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.09.20-22.01.44:025][  0]LogNetVersion: Steering 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 2003754175)
+[2019.09.20-22.01.44:791][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.140001 seconds
+[2019.09.20-22.01.44:807][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.09.20-22.01.44:807][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.09.20-22.01.44:807][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.09.20-22.01.47:973][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.09.20-22.01.48:005][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.09.20-22.01.48:506][  0]SourceControl: Source control is disabled
+[2019.09.20-22.01.48:506][  0]SourceControl: Source control is disabled
+[2019.09.20-22.01.48:559][  0]SourceControl: Source control is disabled
+[2019.09.20-22.01.48:578][  0]SourceControl: Source control is disabled
+[2019.09.20-22.01.49:552][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.09.20-22.01.50:180][  0]LogOcInput: OculusInput pre-init called
+[2019.09.20-22.01.52:217][  0]LogEngine: Initializing Engine...
+[2019.09.20-22.01.52:218][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.09.20-22.01.52:220][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.09.20-22.01.52:633][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.09.20-22.01.52:682][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.09.20-22.01.52:789][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.20-22.01.52:973][  0]LogInit: FAudioDevice initialized.
+[2019.09.20-22.01.52:975][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.09.20-22.01.53:095][  0]LogDerivedDataCache: Saved boot cache 0.12s 73MB C:/Users/benco/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.09.20-22.01.53:111][  0]LogInit: Texture streaming: Enabled
+[2019.09.20-22.01.53:214][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.09.20-22.01.53:297][  0]LogInit: Transaction tracking system initialized
+[2019.09.20-22.01.53:447][  0]BlueprintLog: New page: Editor Load
+[2019.09.20-22.01.54:258][  0]LocalizationService: Localization service is disabled
+[2019.09.20-22.01.55:131][  0]LogFileCache: Scanning file cache for directory 'D:/Git/GameAI/Steering/Content/' took 0.02s
+[2019.09.20-22.01.55:131][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.09.20-22.01.55:131][  0]LogCook: Display: Mobile HDR setting 1
+[2019.09.20-22.01.56:179][  0]SourceControl: Source control is disabled
+[2019.09.20-22.01.56:179][  0]Cmd: MAP LOAD FILE="../../../../../Git/GameAI/Steering/Content/TestMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.09.20-22.01.56:179][  0]LightingResults: New page: Lighting Build
+[2019.09.20-22.01.56:183][  0]MapCheck: New page: Map Check
+[2019.09.20-22.01.56:183][  0]LightingResults: New page: Lighting Build
+[2019.09.20-22.01.56:212][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2019.09.20-22.01.56:402][  0]LogLinker: Warning: Can't find file '/Game/TestMap_BuiltData'
+[2019.09.20-22.01.56:402][  0]LogLinker: Warning: Can't find file for asset '/Game/TestMap_BuiltData' while loading NULL.
+[2019.09.20-22.01.56:405][  0]LogLinker: Warning: Can't find file '/Game/TestMap_BuiltData'
+[2019.09.20-22.01.56:405][  0]LogLinker: Warning: Can't find file for asset '/Game/TestMap_BuiltData' while loading NULL.
+[2019.09.20-22.01.56:408][  0]LogLinker: Warning: Can't find file '/Game/TestMap_BuiltData'
+[2019.09.20-22.01.56:408][  0]LogLinker: Warning: Can't find file for asset '/Game/TestMap_BuiltData' while loading NULL.
+[2019.09.20-22.01.56:408][  0]LogLinker: Warning: Can't find file '/Game/TestMap_BuiltData'
+[2019.09.20-22.01.56:408][  0]LogLinker: Warning: Can't find file for asset '/Game/TestMap_BuiltData' while loading NULL.
+[2019.09.20-22.01.56:436][  0]LogLinker: Warning: Can't find file '/Game/TestMap_BuiltData'
+[2019.09.20-22.01.56:436][  0]LoadErrors: Failed to load /Game/TestMap_BuiltData.TestMap_BuiltData Referenced by PersistentLevel
+[2019.09.20-22.01.56:436][  0]LogLinker: Warning: Can't find file for asset '/Game/TestMap_BuiltData' while loading NULL.
+[2019.09.20-22.01.56:498][  0]LogAIModule: Creating AISystem for world TestMap
+[2019.09.20-22.01.56:711][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.09.20-22.01.56:740][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.84ms
+[2019.09.20-22.01.56:741][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.09.20-22.01.56:741][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.155ms to complete.
+[2019.09.20-22.01.56:741][  0]LogFileHelpers: Loading map 'TestMap' took 0.562
+[2019.09.20-22.01.57:075][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.20-22.01.57:108][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.20-22.01.57:131][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.20-22.01.57:154][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.09.20-22.01.57:219][  0]LogCollectionManager: Loaded 0 collections in 0.003531 seconds
+[2019.09.20-22.01.57:251][  0]LogFileCache: Scanning file cache for directory 'D:/Git/GameAI/Steering/Saved/Collections/' took 0.01s
+[2019.09.20-22.01.57:251][  0]LogFileCache: Scanning file cache for directory 'D:/Git/GameAI/Steering/Content/Developers/benco/Collections/' took 0.01s
+[2019.09.20-22.01.57:251][  0]LogFileCache: Scanning file cache for directory 'D:/Git/GameAI/Steering/Content/Collections/' took 0.00s
+[2019.09.20-22.01.57:251][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.09.20-22.01.57:267][  0]LogContentBrowser: Native class hierarchy populated in 0.0151 seconds. Added 2734 classes and 661 folders.
+[2019.09.20-22.01.57:281][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.09.20-22.01.57:359][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:392][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:414][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:421][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:431][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:440][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:448][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:470][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:499][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:546][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:553][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:560][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:576][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:609][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:615][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:625][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:666][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:683][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:689][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:697][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:710][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:718][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:780][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:788][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:803][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.57:816][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.09.20-22.01.59:007][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0016 seconds. Added 0 classes and 0 folders.
+[2019.09.20-22.01.59:099][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2019.09.20-22.01.59:134][  0]LogSlate: Took 0.000273 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.09.20-22.01.59:145][  0]LogSlate: Took 0.001000 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.09.20-22.01.59:236][  0]LogSlate: Took 0.031568 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.09.20-22.01.59:714][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.09.20-22.02.00:092][  0]LogSlate: Took 0.049425 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.20-22.02.00:225][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.20-22.02.00:443][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.09.20-22.02.00:531][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0007 seconds. Added 0 classes and 0 folders.
+[2019.09.20-22.02.00:531][  0]LogLoad: (Engine Initialization) Total time: 165.23 seconds
+[2019.09.20-22.02.00:532][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.09.20-22.02.00:600][  0]LogAssetRegistry: Asset discovery search completed in 17.7083 seconds
+[2019.09.20-22.02.00:613][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000001 seconds (found 0 objects)
+[2019.09.20-22.02.00:613][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000135 seconds (updated 0 objects)
+[2019.09.20-22.02.00:642][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.09.20-22.02.00:660][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.09.20-22.02.04:097][173]LogSlate: Window 'Message Log' being destroyed
+[2019.09.20-22.02.04:101][173]LogSlate: Window 'Message Log' being destroyed
+[2019.09.20-22.02.04:970][217]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.20-22.02.07:344][330]LogSlate: Took 0.048734 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.09.20-22.02.11:813][550]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.20-22.02.17:122][827]LogSlate: Took 0.000286 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.09.20-22.02.17:138][827]LogAssetEditorManager: Opening Asset editor for Class /Script/Steering.SteeringActor
+[2019.09.20-22.02.17:139][827]LogVSAccessor: Warning: Couldn't access Visual Studio
+[2019.09.20-22.02.17:146][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:146][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:146][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:147][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:147][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:147][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:147][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:147][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:147][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:148][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:148][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:149][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:149][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:149][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:150][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:151][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:151][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:151][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:151][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:151][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:151][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:152][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:153][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:154][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:155][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:156][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:157][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:158][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:159][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:160][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:161][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:161][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:161][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:161][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:161][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:162][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:162][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:163][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:168][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:170][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:172][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:173][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:173][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:176][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:177][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:180][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:199][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:208][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:210][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:220][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:220][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:244][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:245][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:246][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:248][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:248][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:248][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:248][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:249][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:249][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:250][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:250][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:250][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:250][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:250][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:250][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:251][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:254][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:257][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:258][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:281][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:285][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:290][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:294][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:296][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:349][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:349][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:357][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:387][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:388][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:389][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:389][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:389][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:389][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:389][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:390][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:391][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:392][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:393][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:394][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:395][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:396][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:396][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:396][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:396][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:396][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:397][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:397][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:397][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:398][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:398][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:399][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:400][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:400][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:400][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:400][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:400][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:400][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:401][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:401][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:401][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:401][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:401][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:401][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:402][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:403][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:404][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:405][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:405][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:405][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:405][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:405][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:406][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:408][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:410][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:412][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:412][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:412][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:417][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:418][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:420][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:438][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:450][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:452][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:461][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:461][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:490][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:491][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:492][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:494][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:495][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:495][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:495][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:495][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:500][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:504][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:505][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:525][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:526][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:529][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:533][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:534][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:554][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:554][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.17:560][827]LogVSAccessor: Warning: Couldn't access module table
+[2019.09.20-22.02.22:192][ 53]Running D:/EpicGames/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="D:/Git/GameAI/Steering/Steering.uproject" -game -rocket -progress
+[2019.09.20-22.02.22:815][ 53]Discovering modules, targets and source code for project...
+[2019.09.20-22.02.29:760][ 53]Binding IntelliSense data...
+[2019.09.20-22.02.35:315][ 53]Binding IntelliSense data... 100%
+[2019.09.20-22.02.35:315][ 53]Writing project files...
+[2019.09.20-22.02.49:443][ 53]Writing project files... 67%
+[2019.09.20-22.02.49:685][ 53]Writing project files... 100%
+[2019.09.20-22.03.22:504][382]LogAssetEditorManager: Opening Asset editor for Class /Script/Steering.SteeringActor
+[2019.09.20-22.05.00:731][698]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (53.466 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.09.20-22.12.00:802][949]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2019.09.20-22.12.00:805][949]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/TestMap" FILE="../../../../../Git/GameAI/Steering/Saved/Autosaves/Game/TestMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.09.20-22.12.02:349][949]LogSavePackage: Moving '../../../../../Git/GameAI/Steering/Saved/TestMap_Auto194B0008E4DC8A725C1CA058F3D737995.tmp' to '../../../../../Git/GameAI/Steering/Saved/Autosaves/Game/TestMap_Auto1.umap'
+[2019.09.20-22.12.02:363][949]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/TestMap' took 1.601
+[2019.09.20-22.12.02:363][949]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.601
+[2019.09.20-22.17.20:418][998]Candidate modules for hot reload:
+[2019.09.20-22.17.20:418][998]  Steering
+[2019.09.20-22.17.20:419][998]Launching UnrealBuildTool... [D:/EpicGames/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=Steering,4836 Win64 Development -TargetType=Editor -Project="D:/Git/GameAI/Steering/Steering.uproject" "D:/Git/GameAI/Steering/Steering.uproject"  -IgnoreJunk]
+[2019.09.20-22.17.20:434][998]Warning: Starting HotReload took  0.1s.
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: New page: Compilation - Sep 20, 2019, 2:17:46 PM
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (D:\Git\GameAI).
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Creating makefile for SteeringEditor (no existing makefile)
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Parsing headers for SteeringEditor
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:   Running UnrealHeaderTool "D:\Git\GameAI\Steering\Steering.uproject" "D:\Git\GameAI\Steering\Intermediate\Build\Win64\SteeringEditor\Development\SteeringEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Reflection code generated for SteeringEditor in 14.2073076 seconds
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Building 4 actions with 8 processes...
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:   [1/4] SteeringActor.cpp
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:   [2/4] UE4Editor-Steering-4836.lib
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:      Creating library D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering-4836.lib and object D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering-4836.exp
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:   [3/4] UE4Editor-Steering-4836.dll
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:      Creating library D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering-4836.suppressed.lib and object D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\UE4Editor-Steering-4836.suppressed.exp
+[2019.09.20-22.17.46:079][166]CompilerResultsLog:   [4/4] SteeringEditor.target
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Total time in Parallel executor: 4.42 seconds
+[2019.09.20-22.17.46:079][166]CompilerResultsLog: Total execution time: 25.12 seconds
+[2019.09.20-22.17.46:079][166]LogMainFrame: MainFrame: Module compiling took 25.773 seconds
+[2019.09.20-22.17.46:159][166]LogUObjectHash: Compacting FUObjectHashTables data took   3.47ms
+[2019.09.20-22.17.46:211][166]LogContentBrowser: Native class hierarchy updated for 'Steering' in 0.0007 seconds. Added 2 classes and 2 folders.
+[2019.09.20-22.17.46:213][166]Display: HotReload successful (0 functions remapped  0 scriptstructs remapped)
+[2019.09.20-22.17.46:357][166]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2019.09.20-22.17.46:376][166]LogContentBrowser: Native class hierarchy populated in 0.0138 seconds. Added 2735 classes and 663 folders.
+[2019.09.20-22.17.46:392][166]Display: HotReload took 26.1s.
+[2019.09.20-22.18.26:709][333]LogEditorViewport: Clicking on Actor (LMB): BP_Sky_Sphere_C (Sky Sphere)
+[2019.09.20-22.18.27:831][386]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.09.20-22.18.27:937][390]LogTemp: Repeating last play command: Selected Viewport
+[2019.09.20-22.18.27:985][390]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/TestMap.TestMap_C' with ClassGeneratedBy '/Game/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.09.20-22.18.27:993][390]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.09.20-22.18.27:993][390]PIE: New page: PIE session: TestMap (Sep 20, 2019, 2:18:27 PM)
+[2019.09.20-22.18.28:222][390]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_TestMap
+[2019.09.20-22.18.28:231][390]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009305s)
+[2019.09.20-22.18.28:240][390]LogAIModule: Creating AISystem for world TestMap
+[2019.09.20-22.18.28:240][390]LogPlayLevel: PIE: World Init took: (0.008576s)
+[2019.09.20-22.18.28:240][390]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/TestMap.TestMap to /Game/UEDPIE_0_TestMap.TestMap (0.018280s)
+[2019.09.20-22.18.28:265][390]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2019.09.20-22.18.28:397][390]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.09.20-22.18.28:525][390]LogInit: FAudioDevice initialized.
+[2019.09.20-22.18.28:679][390]LogLoad: Game class is 'MyGameMode_C'
+[2019.09.20-22.18.28:809][390]LogWorld: Bringing World /Game/UEDPIE_0_TestMap.TestMap up for play (max tick rate 60) at 2019.09.20-18.18.28
+[2019.09.20-22.18.28:820][390]LogWorld: Bringing up level for play took: 0.011391
+[2019.09.20-22.18.29:698][390]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2019.09.20-22.18.29:794][390]LogGameMode: Display: Match State Changed from EnteringMap to WaitingToStart
+[2019.09.20-22.18.29:794][390]LogGameState: Match State Changed from EnteringMap to WaitingToStart
+[2019.09.20-22.18.29:794][390]LogGameMode: Display: Match State Changed from WaitingToStart to InProgress
+[2019.09.20-22.18.30:129][390]LogGameState: Match State Changed from WaitingToStart to InProgress
+[2019.09.20-22.18.30:129][390]PIE: Play in editor start time for /Game/UEDPIE_0_TestMap 2.09
+[2019.09.20-22.18.30:129][390]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/TestMap.TestMap:PersistentLevel' has LevelScriptBlueprint '/Game/TestMap.TestMap:PersistentLevel.TestMap' with GeneratedClass '/Game/TestMap.TestMap_C' with ClassGeneratedBy '/Game/TestMap.TestMap:PersistentLevel.TestMap'
+[2019.09.20-22.18.30:158][390]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.09.20-22.18.34:830][390]LogStats: FPlatformStackWalk::StackWalkAndDump -  4.672 s
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: === Handled ensure: ===
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: 
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: Ensure condition failed: NewTransform.IsValid() [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 626]
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: 
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: Stack: 
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd237e219 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd11f6edf UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd11d6ce4 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd11d90ad UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd0db7cbc UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffc213e2daf UE4Editor-Steering-4836.dll!ASteeringActor::Tick() [d:\git\gameai\steering\source\steering\steeringactor.cpp:39]
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd0dbfea2 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd0d8aeed UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd1d472bc UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbee2d22d8 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbee2d2563 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbee2e2309 UE4Editor-Core.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd1d8f9e3 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd1d9bd12 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd15bdc4f UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd15c7e28 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbecc702f7 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffbed48d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c696bb1 UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6a554c UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6a55ca UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6b316c UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6b5b8e UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffc49937bd4 KERNEL32.DLL!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: [Callstack] 0x00007ffc4aaacee1 ntdll.dll!UnknownFunction []
+[2019.09.20-22.18.34:830][390]LogOutputDevice: Error: 
+[2019.09.20-22.18.35:017][390]LogStats:                SubmitErrorReport -  0.000 s
+[2019.09.20-22.18.37:185][390]LogStats:                    SendNewReport -  2.169 s
+[2019.09.20-22.18.37:185][390]LogStats:             FDebug::EnsureFailed -  7.028 s
+[2019.09.20-22.18.37:266][390]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.09.20-22.18.37:640][390]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.375 s
+[2019.09.20-22.18.37:640][390]LogOutputDevice: Error: === Handled ensure: ===
+[2019.09.20-22.18.37:640][390]LogOutputDevice: Error: 
+[2019.09.20-22.18.37:640][390]LogOutputDevice: Error: Ensure condition failed: !Primitive->Bounds.BoxExtent.ContainsNaN() && !Primitive->Bounds.Origin.ContainsNaN() && !FMath::IsNaN(Primitive->Bounds.SphereRadius) && FMath::IsFinite(Primitive->Bounds.SphereRadius) [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Renderer\Private\RendererScene.cpp] [Line: 1329]
+[2019.09.20-22.18.37:640][390]LogOutputDevice: Error: Nans found on Bounds for Primitive StaticMesh1: Origin X=-nan(ind) Y=-nan(ind) Z=60.253, BoxExtent X=25.401 Y=18.995 Z=2.500, SphereRadius 31.816034
+[2019.09.20-22.18.37:640][390]LogOutputDevice: Error: Stack: 
+[2019.09.20-22.18.37:640][390]LogOutputDevice: Error: [Callstack] 0x00007ffbc7c3a79f UE4Editor-Renderer.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbc7a08055 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd118f500 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd1103fc9 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd1584615 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd15ae651 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd15be323 UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbc7973595 UE4Editor-Renderer.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd124ef2e UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbd124ea4f UE4Editor-Engine.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbecc7031d UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffbed48d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c696bb1 UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6a554c UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6a55ca UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6b316c UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ff70c6b5b8e UE4Editor.exe!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffc49937bd4 KERNEL32.DLL!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: [Callstack] 0x00007ffc4aaacee1 ntdll.dll!UnknownFunction []
+[2019.09.20-22.18.37:641][390]LogOutputDevice: Error: 
+[2019.09.20-22.18.38:294][390]LogStats:                SubmitErrorReport -  0.000 s

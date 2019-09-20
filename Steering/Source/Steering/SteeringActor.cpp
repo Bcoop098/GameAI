@@ -28,7 +28,9 @@ void ASteeringActor::Tick(float DeltaTime)
 	// steering
 	Velocity = FVector(0, 0, 0);
 	Velocity += Seek();
-	Velocity += Seperation();
+	Velocity += Seperation()*0.5;
+	Velocity += Alignment()*0.3;
+	Velocity += Cohesion()*0.3;
 
 	// movement
 	Position += (Velocity * MaxSpeed * DeltaTime);
@@ -55,6 +57,7 @@ FVector ASteeringActor::Seperation()
 {
 	FVector avoidVect = FVector (0, 0, 0);
 	FVector temp = FVector (0, 0, 0);
+	int separationCount = 0;
 
 	for (int i = 0; i < AllSteeringActors.Num(); i++)
 	{
@@ -64,8 +67,14 @@ FVector ASteeringActor::Seperation()
 		temp = Position - AllSteeringActors[i]->Position;
 		if (temp.Size() <= radius)
 		{
-			avoidVect += temp.GetSafeNormal();
+			avoidVect += AllSteeringActors[i]->Position - this->Position;
+			separationCount++;
 		}
+	}
+	if (separationCount != 0)
+	{
+		avoidVect /= separationCount;
+		avoidVect *= -1.f;
 	}
 
 	return avoidVect.GetSafeNormal();
@@ -75,6 +84,7 @@ FVector	ASteeringActor::Alignment()
 {
 	FVector alignVect = FVector(0, 0, 0);
 	FVector temp = FVector(0, 0, 0);
+	int neighborCount = 0;
 
 	for (int i = 0; i < AllSteeringActors.Num(); i++)
 	{
@@ -84,17 +94,22 @@ FVector	ASteeringActor::Alignment()
 		temp = Position - AllSteeringActors[i]->Position;
 		if (temp.Size() <= radius)
 		{
-
+			alignVect += AllSteeringActors[i]->Velocity;
+			neighborCount++;
 		}
 	}
-
-	return alignVect;
+	if (neighborCount != 0)
+	{
+		alignVect /= neighborCount;
+	}
+	return alignVect.GetSafeNormal();
 }
 
 FVector ASteeringActor::Cohesion()
 {
 	FVector cohesVect = FVector(0, 0, 0);
 	FVector temp = FVector(0, 0, 0);
+	int cohesionCount = 0;
 
 	for (int i = 0; i < AllSteeringActors.Num(); i++)
 	{
@@ -104,9 +119,15 @@ FVector ASteeringActor::Cohesion()
 		temp = Position - AllSteeringActors[i]->Position;
 		if (temp.Size() <= radius)
 		{
-
+			cohesVect += AllSteeringActors[i]->Position;
+			cohesionCount++;
 		}
 	}
+	if (cohesionCount != 0)
+	{
+		cohesVect /= cohesionCount;
+		cohesVect -= this->Position;
+	}
 
-	return cohesVect;
+	return cohesVect.GetSafeNormal();
 }
