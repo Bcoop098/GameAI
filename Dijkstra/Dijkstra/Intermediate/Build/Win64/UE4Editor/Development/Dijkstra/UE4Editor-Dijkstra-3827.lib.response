@@ -1,0 +1,18 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-Dijkstra-3827.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\DijkstraEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\Dijkstra.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\DijkstraGameModeBase.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\DijkstraPathFinding.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\Dijkstra.init.gen.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\DijkstraGameModeBase.gen.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\DijkstraPathFinding.gen.cpp.obj"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\Default.rc2.res"
+/OUT:"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\Dijkstra\Dijkstra\Intermediate\Build\Win64\UE4Editor\Development\Dijkstra\UE4Editor-Dijkstra-3827.lib"
+/INCLUDE:IMPLEMENT_MODULE_Dijkstra

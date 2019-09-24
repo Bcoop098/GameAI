@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Dijkstra.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{726CAC05-7690-473E-A4A6-467B548E264C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dijkstra.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\DijkstraEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{536714AC-7BCC-459D-A746-070F276D3B0F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Dijkstra">
+      <UniqueIdentifier>{C6FFFB3D-12A0-4B81-83FD-4FE8AA989110}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Dijkstra\Dijkstra.Build.cs">
+      <Filter>Source\Dijkstra</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Dijkstra\Dijkstra.cpp">
+      <Filter>Source\Dijkstra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dijkstra\Dijkstra.h">
+      <Filter>Source\Dijkstra</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Dijkstra\DijkstraGameModeBase.cpp">
+      <Filter>Source\Dijkstra</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Dijkstra\DijkstraGameModeBase.h">
+      <Filter>Source\Dijkstra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\Dijkstra\DijkstraPathFinding.h">
+      <Filter>Source\Dijkstra</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\Dijkstra\DijkstraPathFinding.cpp">
+      <Filter>Source\Dijkstra</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

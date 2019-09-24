@@ -1,0 +1,10 @@
+F Key deletes current actors and spawns 10 new ones in raodnom positions
+We did everything together, but specifically programmed these bits
+Ben:
+- Cohesion
+-Allignment
+
+Lance:
+-Separation
+-Deleting and Spawning
+
