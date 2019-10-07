@@ -4,9 +4,7 @@
 
 #include "CoreMinimal.h"
 
-/**
- * 
- */
+
 class PATHFINDING_API PathBuilder
 {
 public:
@@ -26,5 +24,10 @@ private:
 	static const int GRID_SCALE_Y = 37;
 
 	bool theGrid[GRID_SCALE_X][GRID_SCALE_Y] = {false};
+
+	struct Node
+	{
+
+	};
 
 };
