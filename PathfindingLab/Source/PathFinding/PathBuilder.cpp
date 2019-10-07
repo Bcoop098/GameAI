@@ -7,10 +7,63 @@ PathBuilder* PathBuilder::Instance = nullptr;
 
 PathBuilder::PathBuilder()
 {
+	//ask about the for each on a 2d Array
+	/* */
+
+	Node* temp;
+
+	for (int x = 0; x < GRID_SCALE_X; x++)
+	{
+		for (int y = 0; y < GRID_SCALE_Y; y++)
+		{
+			temp->blocked = false;
+			temp->pos = FVector2D(x, y);
+			temp->dist = 1;
+			temp->prev = nullptr;
+			temp->neighbors = TArray<Node*>();
+
+			theGrid[x][y] = temp;
+		}
+	}
+	for (int x = 0; x < GRID_SCALE_X; x++)
+	{
+		for (int y = 0; y < GRID_SCALE_Y; y++)
+		{
+			//Left
+			if (x > 0 && x < GRID_SCALE_X)
+			{
+				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+			}
+			//Right
+			if (x >= 0 && x < GRID_SCALE_X - 1)
+			{
+				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+			}
+			//Up
+			if (y >= 0 && y < GRID_SCALE_Y - 1)
+			{
+				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+			}
+			//Down
+			if (y > 0 && y < GRID_SCALE_Y)
+			{
+				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+			}
+		}
+	}
+	//*/
 }
 
 PathBuilder::~PathBuilder()
 {
+	for (int x = 0; x < GRID_SCALE_X; x++)
+	{
+		for (int y = 0; y < GRID_SCALE_Y; y++)
+		{
+			delete theGrid[x][y];
+			theGrid[x][y] = nullptr;
+		}
+	}
 }
 
 PathBuilder* PathBuilder::getInstance()
@@ -22,12 +75,8 @@ PathBuilder* PathBuilder::getInstance()
 	return Instance;
 }
 
-TArray<FVector> PathBuilder::getPath(FVector position, FVector target)
+TArray<FVector2D> PathBuilder::getPath(FVector2D position, FVector2D target)
 {
-	//A* here plz
-	int distance = 0;
-	int indef = INT_MAX;
-
 	//Pseduo
 	//Loop through all points of grid 
 		//Assign each points distance from the source to be indef (node variable)
@@ -35,6 +84,30 @@ TArray<FVector> PathBuilder::getPath(FVector position, FVector target)
 		//Add the current point to a list which will be ran through (que)
 	
 	//After loop, assign the source point to be 0 (take the position given and assign it on the grid)
+
+	/* CODE SEGMENT */
+	int distance = 0;
+	int indef = INT_MAX;
+
+	TArray<Node*> listOfUncheckedNodes;
+
+	for (int x = 0; x < GRID_SCALE_X; x++)
+	{
+		for (int y = 0; y < GRID_SCALE_Y; y++)
+		{
+			if (x != (int)position.X && y != (int)position.Y)
+			{
+				theGrid[x][y]->dist = indef;
+			}
+			else
+			{
+				theGrid[x][y]->dist = distance;
+			}
+			theGrid[x][y]->prev = nullptr;
+			listOfUncheckedNodes.Add(theGrid[x][y]);
+		}
+	}
+	//*/
 
 	//While que is not empty:
 		//take the point(u) with the smallest distance 
@@ -49,22 +122,75 @@ TArray<FVector> PathBuilder::getPath(FVector position, FVector target)
 				//set the distance of v to alt
 				//set u to be the previous point to v
 	
+	/* CODE SEGEMENT */
+	while (listOfUncheckedNodes.Num != 0)
+	{
+		Node* smolPoint = listOfUncheckedNodes[0];
+		Node* checkPoint;
+
+		for (int i = 0; i < listOfUncheckedNodes.Num; i++)
+		{
+			checkPoint = listOfUncheckedNodes[i];
+			if (smolPoint->dist > checkPoint->dist)
+			{
+				smolPoint = checkPoint;
+			}
+		}
+		
+		if (smolPoint == theGrid[(int)target.X][(int)target.Y])
+		{
+			continue;
+		}
+		else
+		{
+			listOfUncheckedNodes.Remove(smolPoint);
+		}
+
+		for (Node* neighbor : smolPoint->neighbors)
+		{
+			int alt = smolPoint->dist + 1;
+			if (alt < neighbor->dist)
+			{
+				neighbor->dist = alt;
+				neighbor->prev = smolPoint;
+			}
+		}
+
+	}
+
+	//*/
+
 	//from the target node, work backwards along the path to find the source:
 		//List of points (S)  = empty
 		//point u = target
-		//if previous value of u is defined or if u is
+		//if previous value of u is defined or if u is source
 			//while u is defined:
 				//insert u to the begining of S
 				//set u to be the previous point
 	//return the list of all the points it takes for the shortest path.
 
+	/* CODE SEGEMENT */
+
+	Node* tNode = theGrid[(int)target.X][(int)target.Y];
+	TArray<FVector2D> path;
+
+	if (tNode->prev != nullptr || tNode == theGrid[(int)position.X][(int)position.Y])	
+	{
+		while (tNode != nullptr)
+		{
+			path.Insert(tNode->pos, 0);
+			tNode = tNode->prev;
+		}
+	}
+	
+	//*/
+
 	/*
 		+ Check if line 55 should be in the loop or remain outside
 		+ Check there is nothing missing in the logic
+		+ Ask if there is a quick way to check path lengths?
 		+ Build a bloody node
 	*/
-
-	TArray<FVector> path;
 
 	
 
@@ -77,7 +203,7 @@ void PathBuilder::changeGrid(int num)
 	{
 		for (int y = 0; y < GRID_SCALE_Y; y++)
 		{
-			theGrid[x][y] = false;
+			theGrid[x][y]->blocked = false;
 		}
 	}
 
@@ -91,7 +217,7 @@ void PathBuilder::changeGrid(int num)
 
 		if (theGrid[xB][yB] == false)
 		{
-			theGrid[xB][yB] = true;
+			theGrid[xB][yB]->blocked = true;
 		}
 		else
 		{
