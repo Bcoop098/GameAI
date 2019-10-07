@@ -16,6 +16,7 @@ PathBuilder::PathBuilder()
 	{
 		for (int y = 0; y < GRID_SCALE_Y; y++)
 		{
+			temp = new Node();
 			temp->blocked = false;
 			temp->pos = FVector2D(x, y);
 			temp->dist = 1;
@@ -123,12 +124,12 @@ TArray<FVector2D> PathBuilder::getPath(FVector2D position, FVector2D target)
 				//set u to be the previous point to v
 	
 	/* CODE SEGEMENT */
-	while (listOfUncheckedNodes.Num != 0)
+	while (listOfUncheckedNodes.Num() != 0)
 	{
 		Node* smolPoint = listOfUncheckedNodes[0];
 		Node* checkPoint;
 
-		for (int i = 0; i < listOfUncheckedNodes.Num; i++)
+		for (int i = 0; i < listOfUncheckedNodes.Num(); i++)
 		{
 			checkPoint = listOfUncheckedNodes[i];
 			if (smolPoint->dist > checkPoint->dist)
