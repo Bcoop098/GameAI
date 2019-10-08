@@ -22,7 +22,9 @@ public:
 private:
 	static const int GRID_SCALE_X = 37;
 	static const int GRID_SCALE_Y = 37;
-	
+	int FindBestIndex();
+	FVector2D targetPos;
+
 	struct Node
 	{
 		bool blocked;
@@ -31,8 +33,25 @@ private:
 
 		FVector2D pos;
 		TArray<Node*> neighbors;
+
+		~Node()
+		{
+			int neighborCount = neighbors.Num();
+
+			for (int i = neighborCount; i >= 0; i--)
+			{
+				delete neighbors[i];
+				neighbors[i] = nullptr;
+			}
+
+			neighbors.Empty();
+		}
 	};
 
 	Node* theGrid[GRID_SCALE_X][GRID_SCALE_Y];
+	TArray<Node*> openList;
+
+	float Heuristic(Node* ptr);
+
 
 };
