@@ -1,0 +1,3 @@
+D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
+d:\repos\gameai\pathfindinglab\source\pathfinding\MyPathBuilder.h
+D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\MyPathBuilder.generated.h

@@ -3,9 +3,10 @@
 #pragma once
 
 #include "CoreMinimal.h"
+//#include "Kismet/BlueprintFunctionLibrary.h"
 
-
-class PATHFINDING_API PathBuilder
+//UCLASS()
+class PATHFINDING_API PathBuilder //: public UBlueprintFunctionLibrary
 {
 public:
 	PathBuilder();
@@ -13,6 +14,7 @@ public:
 
 	static PathBuilder* Instance;
 
+	//UFUNCTION(BlueprintCallable, Catagory = "RossBobert")
 	static PathBuilder* getInstance();
 
 	TArray<FVector2D> getPath(FVector2D postion, FVector2D target);
