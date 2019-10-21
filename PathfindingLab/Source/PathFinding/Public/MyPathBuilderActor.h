@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Actor.h"
+#include "DrawDebugHelpers.h"
 #include "MyPathBuilderActor.generated.h"
 
 UCLASS()
@@ -27,6 +28,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		FVector checkPoint(FVector target);
+
+	UPROPERTY(BlueprintReadOnly)
+		TArray<FVector> Walls;
 
 private:
 	static const int GRID_SCALE_X = 30;
@@ -59,7 +63,6 @@ private:
 		}
 	};
 
-	//UPROPERTY()
 	Node* theGrid[GRID_SCALE_X][GRID_SCALE_Y];
 
 	FVector2D targetPos;
@@ -71,15 +74,4 @@ private:
 	float Heuristic(Node* ptr);
 
 
-/*
-public:
-
-protected:
-	// Called when the game starts or when spawned
-	virtual void BeginPlay() override;
-
-public:
-	// Called every frame
-	virtual void Tick(float DeltaTime) override;
-*/
 };

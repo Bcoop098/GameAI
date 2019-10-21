@@ -57,14 +57,14 @@ PathBuilder::PathBuilder()
 
 PathBuilder::~PathBuilder()
 {
-	for (int x = 0; x < GRID_SCALE_X; ++x)
+	/*for (int x = 0; x < GRID_SCALE_X; ++x)
 	{
 		for (int y = 0; y < GRID_SCALE_Y; ++y)
 		{
 			delete theGrid[x][y];
 			theGrid[x][y] = nullptr;
 		}
-	}
+	}*/
 }
 
 PathBuilder* PathBuilder::getInstance()

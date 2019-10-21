@@ -159,6 +159,12 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Walls_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Walls;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Walls_Inner;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -177,6 +183,18 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		{ "ModuleRelativePath", "Public/MyPathBuilderActor.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_MetaData[] = {
+		{ "Category", "MyPathBuilderActor" },
+		{ "ModuleRelativePath", "Public/MyPathBuilderActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls = { "Walls", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPathBuilderActor, Walls), METADATA_PARAMS(Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_Inner = { "Walls", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPathBuilderActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_Inner,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AMyPathBuilderActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AMyPathBuilderActor>::IsAbstract,
 	};
@@ -186,11 +204,11 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		FuncInfo,
-		nullptr,
+		Z_Construct_UClass_AMyPathBuilderActor_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		ARRAY_COUNT(FuncInfo),
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_AMyPathBuilderActor_Statics::PropPointers),
 		0,
 		0x009000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_AMyPathBuilderActor_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AMyPathBuilderActor_Statics::Class_MetaDataParams))
@@ -204,7 +222,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPathBuilderActor, 2846828263);
+	IMPLEMENT_CLASS(AMyPathBuilderActor, 3354512391);
 	template<> PATHFINDING_API UClass* StaticClass<AMyPathBuilderActor>()
 	{
 		return AMyPathBuilderActor::StaticClass();

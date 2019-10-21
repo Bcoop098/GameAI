@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathFinding.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E3AB0BBB-724E-49DA-957B-11F22FF771CA}</UniqueIdentifier>
+      <UniqueIdentifier>{90358557-3F32-4A38-80BA-ACD345C31C9F}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathFinding.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{8FEDB4F5-5ADB-4A5B-B496-BEF0BDEA1B31}</UniqueIdentifier>
+      <UniqueIdentifier>{BFC8E47A-31EB-47D2-96C9-8F73A8D9A8F4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +27,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathFinding">
-      <UniqueIdentifier>{92388F46-31DD-41EB-8A61-32B29D45B928}</UniqueIdentifier>
+      <UniqueIdentifier>{01617223-21F5-4462-9262-517EC92B7EB1}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
       <Filter>Source\PathFinding</Filter>
@@ -63,13 +63,13 @@
       <Filter>Source\PathFinding</Filter>
     </ClInclude>
     <Filter Include="Source\PathFinding\Private">
-      <UniqueIdentifier>{391CFBB7-66BE-44E0-8A42-6D8D5FEECA6D}</UniqueIdentifier>
+      <UniqueIdentifier>{0C48F08E-612E-4D4F-8EF5-C92B2DB7F978}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\Private\MyPathBuilderActor.cpp">
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
     <Filter Include="Source\PathFinding\Public">
-      <UniqueIdentifier>{6FF370A0-2D2E-4F5C-9E73-57D8B2F95FD1}</UniqueIdentifier>
+      <UniqueIdentifier>{83E676DC-6912-44F0-99CF-29507C2A3BAC}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\PathFinding\Public\MyPathBuilderActor.h">
       <Filter>Source\PathFinding\Public</Filter>

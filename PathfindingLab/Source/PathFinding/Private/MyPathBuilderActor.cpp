@@ -32,22 +32,22 @@ AMyPathBuilderActor::AMyPathBuilderActor()
 			//Left
 			if (x > 0 && x < GRID_SCALE_X)
 			{
-				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+				theGrid[x][y]->neighbors.Add(theGrid[x-1][y]);
 			}
 			//Right
 			if (x >= 0 && x < GRID_SCALE_X - 1)
 			{
-				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+				theGrid[x][y]->neighbors.Add(theGrid[x+1][y]);
 			}
 			//Up
 			if (y >= 0 && y < GRID_SCALE_Y - 1)
 			{
-				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+				theGrid[x][y]->neighbors.Add(theGrid[x][y+1]);
 			}
 			//Down
 			if (y > 0 && y < GRID_SCALE_Y)
 			{
-				theGrid[x][y]->neighbors.Add(theGrid[x][y]);
+				theGrid[x][y]->neighbors.Add(theGrid[x][y-1]);
 			}
 		}
 	}
@@ -56,58 +56,20 @@ AMyPathBuilderActor::AMyPathBuilderActor()
 
 AMyPathBuilderActor::~AMyPathBuilderActor()
 {
-	/*
-	for (int x = 0; x < GRID_SCALE_X; x++)
+	
+	/*for (int x = 0; x < GRID_SCALE_X; x++)
 	{
 		for (int y = 0; y < GRID_SCALE_Y; y++)
 		{
 			delete theGrid[x][y];
 			theGrid[x][y] = nullptr;
 		}
-	}
-	*/
+	}*/
+	
 }
 
 TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 {
-	//Pseduo
-	//Loop through all points of grid 
-		//Assign each points distance from the source to be indef (node variable)
-		//Assign each points previous point as undefined (pointer to node)
-		//Add the current point to a list which will be ran through (que)
-	//After loop, assign the source point to be 0 (take the position given and assign it on the grid)
-
-	/* CODE SEGMENT *
-	int distance = 0;
-	int indef = INT_MAX;
-	TArray<Node*> listOfUncheckedNodes;
-	for (int x = 0; x < GRID_SCALE_X; x++)
-	{
-		for (int y = 0; y < GRID_SCALE_Y; y++)
-		{
-			if (x != (int)position.X && y != (int)position.Y)
-			{
-				theGrid[x][y]->dist = indef;
-			}
-			else
-			{
-				theGrid[x][y]->dist = distance;
-			}
-			theGrid[x][y]->prev = nullptr;
-			listOfUncheckedNodes.Add(theGrid[x][y]);
-		}
-	}
-	//*/
-
-	//While que is not empty:
-		//take the point(u) with the smallest distance 
-		//check if u is the target: end the loop if true
-		//else remove u from the que
-		//for each neighbor(v) to u
-			//make a int/float (alt) which will be assigned the distance of u + the distance from its neighbor
-			//if this alt is less than the distance of v
-				//set the distance of v to alt
-				//set u to be the previous point to v
 
 	float positionZ = position.Z;
 
@@ -123,6 +85,7 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 	{
 		int smolIndex = FindBestIndex(); // = openList[0];
 
+		Node* current;
 
 		if (openList[smolIndex] == theGrid[FMath::RoundToInt(targetPos.X)][FMath::RoundToInt(targetPos.Y)])
 		{
@@ -130,34 +93,24 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 		}
 		else
 		{
+			current = openList[smolIndex];
+			openList[smolIndex] = nullptr;
 			openList.RemoveAt(smolIndex);
 		}
 
-		for (int i = 0; i < openList[smolIndex]->neighbors.Num(); ++i)
+		for (int i = 0; i < current->neighbors.Num(); ++i)
 		{
-			int alt = openList[smolIndex]->dist + 1;
-			if (alt < (openList[smolIndex]->neighbors[i]->dist) && !(openList[smolIndex]->neighbors[i]->blocked))
+			int alt = current->dist + 1;
+			if (alt < (current->neighbors[i]->dist) && !(current->neighbors[i]->blocked))
 			{
-				openList[smolIndex]->neighbors[i]->dist = alt;
-				openList[smolIndex]->neighbors[i]->prev = openList[smolIndex];
-				openList.Add(openList[smolIndex]->neighbors[i]);
+				current->neighbors[i]->dist = alt;
+				current->neighbors[i]->prev = current;
+				openList.Add(current->neighbors[i]);
 			}
 		}
 
 	}
 
-	//*/
-
-	//from the target node, work backwards along the path to find the source:
-		//List of points (S)  = empty
-		//point u = target
-		//if previous value of u is defined or if u is source
-			//while u is defined:
-				//insert u to the begining of S
-				//set u to be the previous point
-	//return the list of all the points it takes for the shortest path.
-
-	/* CODE SEGEMENT */
 
 	Node* tNode = theGrid[FMath::RoundToInt(targetPos.X)][FMath::RoundToInt(targetPos.Y)];
 	TArray<FVector> path;
@@ -166,24 +119,29 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 	{
 		while (tNode != nullptr)
 		{
-			FVector bob = FVector((tNode->pos.X * GridScale), (tNode->pos.Y * GridScale), positionZ);
+			FVector bob = FVector((tNode->pos.X * GridScale + 50), (tNode->pos.Y * GridScale + 50), positionZ);
 			path.Insert(bob, 0);
 			tNode = tNode->prev;
 		}
 	}
 
 	//*/
-
+	
 	return path;
 }
 
+//makes a new path
 void AMyPathBuilderActor::changeGrid(int num)
 {
+	Walls.Empty();
+
 	for (int x = 0; x < GRID_SCALE_X; x++)
 	{
 		for (int y = 0; y < GRID_SCALE_Y; y++)
 		{
 			theGrid[x][y]->blocked = false;
+			theGrid[x][y]->dist = INT_MAX;
+			theGrid[x][y]->prev = nullptr;
 		}
 	}
 
@@ -192,12 +150,14 @@ void AMyPathBuilderActor::changeGrid(int num)
 
 	for (int i = 0; i < num; i++)
 	{
-		xB = rand() % GRID_SCALE_X;
-		yB = rand() % GRID_SCALE_Y;
+		xB = (rand() % GRID_SCALE_X);
+		yB = (rand() % GRID_SCALE_Y);
 
-		if (theGrid[xB][yB] == false)
+		if (theGrid[xB][yB]->blocked == false)
 		{
 			theGrid[xB][yB]->blocked = true;
+			Walls.Add(FVector(xB * GridScale + 50, yB * GridScale + 50, 0));
+			DrawDebugSphere(GetWorld(), FVector(xB * GridScale + 50, yB * GridScale + 50, 0), 24, 32, FColor(255, 0, 0),true,-1.0,0,3.0);
 		}
 		else
 		{
@@ -206,52 +166,6 @@ void AMyPathBuilderActor::changeGrid(int num)
 	}
 }
 
-/*
-void PathNuilder::aStar
-{
-	Path(start,end);
-	start can be a float vector divide cell by x and y size;
-	int(cellX, cellY) // start point;
-	openList(FVector2D(cellX,cellY);
-	LoopTime
-	{
-		while(openlist.size > 0//breaks when path is found, check to make sure openlist has values)
-		{
-
-			//openlist is sorted best to worst(search the list)
-			BestIndex = findBestIndex();
-			dijkstra best is smallest distance;
-			Node* currentNode = openlist[bestIndex]//store the current node
-			if(currentNode == destination)
-			{
-				//build the list to return
-				TArray<FVector> Path;
-				Path.add(currentNode);
-				//search the neighbors, find the smallest distance
-				while(current != Start)
-				foreach(currentNeighbor)
-				{
-					current = smallestneighbor;
-					Path.add(current);
-
-					if(current == start //make sure start is added)
-					{
-						return;
-					}
-				}
-				return;
-			}
-			openlist.removeat[bestIndex] //remove the bestIndex from the openlist
-			get the neighbors and find the distance from all neighbors to the new node
-			if(neighbor distance >distance to neighbor)
-			{
-				neighbor distance = distancetoneighbor
-				openlist.add[neighbor]
-			}
-		}
-	}
-}
-*/
 
 int AMyPathBuilderActor::FindBestIndex()
 {
@@ -260,7 +174,7 @@ int AMyPathBuilderActor::FindBestIndex()
 
 	for (int i = 0; i < openList.Num(); ++i)
 	{
-		if (Heuristic(openList[i]) < bestDistance)
+		if (openList[i]->dist < bestDistance)
 		{
 			bestDistance = openList[i]->dist;
 			bestIndex = i;
@@ -270,11 +184,13 @@ int AMyPathBuilderActor::FindBestIndex()
 	return bestIndex;
 }
 
+//Heuristic failed to work, still leaving it in
 float AMyPathBuilderActor::Heuristic(Node* ptr)
 {
 	return (FVector2D::Distance(ptr->pos, targetPos));
 }
 
+//checks to make sure the target isn't in a wall
 FVector AMyPathBuilderActor::checkPoint(FVector target)
 {
 	FVector newPoint = target;
@@ -291,19 +207,4 @@ FVector AMyPathBuilderActor::checkPoint(FVector target)
 	return newPoint;
 }
 
-/*
-// Called when the game starts or when spawned
-void AMyPathBuilderActor::BeginPlay()
-{
-	Super::BeginPlay();
-
-}
-
-// Called every frame
-void AMyPathBuilderActor::Tick(float DeltaTime)
-{
-	Super::Tick(DeltaTime);
-
-}
-*/
 
