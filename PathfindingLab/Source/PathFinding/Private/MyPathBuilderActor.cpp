@@ -56,6 +56,7 @@ AMyPathBuilderActor::AMyPathBuilderActor()
 
 AMyPathBuilderActor::~AMyPathBuilderActor()
 {
+	/*
 	for (int x = 0; x < GRID_SCALE_X; x++)
 	{
 		for (int y = 0; y < GRID_SCALE_Y; y++)
@@ -64,6 +65,7 @@ AMyPathBuilderActor::~AMyPathBuilderActor()
 			theGrid[x][y] = nullptr;
 		}
 	}
+	*/
 }
 
 TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
@@ -131,14 +133,14 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 			openList.RemoveAt(smolIndex);
 		}
 
-		for (Node* neighbor : openList[smolIndex]->neighbors)
+		for (int i = 0; i < openList[smolIndex]->neighbors.Num(); ++i)
 		{
 			int alt = openList[smolIndex]->dist + 1;
-			if (alt < neighbor->dist && !neighbor->blocked)
+			if (alt < (openList[smolIndex]->neighbors[i]->dist) && !(openList[smolIndex]->neighbors[i]->blocked))
 			{
-				neighbor->dist = alt;
-				neighbor->prev = openList[smolIndex];
-				openList.Add(neighbor);
+				openList[smolIndex]->neighbors[i]->dist = alt;
+				openList[smolIndex]->neighbors[i]->prev = openList[smolIndex];
+				openList.Add(openList[smolIndex]->neighbors[i]);
 			}
 		}
 
@@ -273,9 +275,20 @@ float AMyPathBuilderActor::Heuristic(Node* ptr)
 	return (FVector2D::Distance(ptr->pos, targetPos));
 }
 
-bool AMyPathBuilderActor::checkPoint(FVector2D target)
+FVector AMyPathBuilderActor::checkPoint(FVector target)
 {
-	return !(theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->blocked);
+	FVector newPoint = target;
+	int xB = 0;
+	int yB = 0;
+
+	while (theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->blocked)
+	{
+		xB = rand() % GRID_SCALE_X;
+		yB = rand() % GRID_SCALE_Y;
+		newPoint = FVector(xB, yB, target.Z);
+	} 
+
+	return newPoint;
 }
 
 /*

@@ -22,20 +22,28 @@ public:
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		void changeGrid(int num);
 	
+	//UFUNCTION(BlueprintCallable, Category = "AStarPath")
+		//bool checkPoint(FVector2D target);
+
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
-		bool checkPoint(FVector2D target);
+		FVector checkPoint(FVector target);
 
 private:
 	static const int GRID_SCALE_X = 30;
 	static const int GRID_SCALE_Y = 30;
 
+	
 	struct Node
 	{
 		bool blocked;
 		int dist;
+		
+		UPROPERTY()
 		Node* prev;
 
 		FVector2D pos;
+
+		UPROPERTY()
 		TArray<Node*> neighbors;
 
 		~Node()
@@ -44,7 +52,6 @@ private:
 
 			for (int i = neighborCount; i >= 0; i--)
 			{
-				delete neighbors[i];
 				neighbors[i] = nullptr;
 			}
 
@@ -52,7 +59,9 @@ private:
 		}
 	};
 
+	//UPROPERTY()
 	Node* theGrid[GRID_SCALE_X][GRID_SCALE_Y];
+
 	FVector2D targetPos;
 	float GridScale = 100.0;
 

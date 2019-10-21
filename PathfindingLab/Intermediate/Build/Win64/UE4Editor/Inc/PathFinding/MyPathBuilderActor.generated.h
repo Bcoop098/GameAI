@@ -8,8 +8,8 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-struct FVector2D;
 struct FVector;
+struct FVector2D;
 #ifdef PATHFINDING_MyPathBuilderActor_generated_h
 #error "MyPathBuilderActor.generated.h already included, missing '#pragma once' in MyPathBuilderActor.h"
 #endif
@@ -19,10 +19,10 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execcheckPoint) \
 	{ \
-		P_GET_STRUCT(FVector2D,Z_Param_target); \
+		P_GET_STRUCT(FVector,Z_Param_target); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkPoint(Z_Param_target); \
+		*(FVector*)Z_Param__Result=P_THIS->checkPoint(Z_Param_target); \
 		P_NATIVE_END; \
 	} \
  \
@@ -50,10 +50,10 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execcheckPoint) \
 	{ \
-		P_GET_STRUCT(FVector2D,Z_Param_target); \
+		P_GET_STRUCT(FVector,Z_Param_target); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkPoint(Z_Param_target); \
+		*(FVector*)Z_Param__Result=P_THIS->checkPoint(Z_Param_target); \
 		P_NATIVE_END; \
 	} \
  \
