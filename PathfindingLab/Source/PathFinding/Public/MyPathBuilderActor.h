@@ -32,6 +32,9 @@ public:
 	UPROPERTY(BlueprintReadOnly)
 		TArray<FVector> Walls;
 
+	UPROPERTY(EditAnywhere)
+		bool AstarActive = false;
+
 private:
 	static const int GRID_SCALE_X = 30;
 	static const int GRID_SCALE_Y = 30;
@@ -42,12 +45,10 @@ private:
 		bool blocked;
 		int dist;
 		
-		UPROPERTY()
 		Node* prev;
 
 		FVector2D pos;
 
-		UPROPERTY()
 		TArray<Node*> neighbors;
 
 		~Node()

@@ -160,6 +160,11 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_AstarActive_MetaData[];
+#endif
+		static void NewProp_AstarActive_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_AstarActive;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Walls_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Walls;
@@ -184,6 +189,17 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive_MetaData[] = {
+		{ "Category", "MyPathBuilderActor" },
+		{ "ModuleRelativePath", "Public/MyPathBuilderActor.h" },
+	};
+#endif
+	void Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive_SetBit(void* Obj)
+	{
+		((AMyPathBuilderActor*)Obj)->AstarActive = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive = { "AstarActive", nullptr, (EPropertyFlags)0x0010000000000001, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AMyPathBuilderActor), &Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive_SetBit, METADATA_PARAMS(Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_MetaData[] = {
 		{ "Category", "MyPathBuilderActor" },
 		{ "ModuleRelativePath", "Public/MyPathBuilderActor.h" },
@@ -192,6 +208,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls = { "Walls", nullptr, (EPropertyFlags)0x0010000000000014, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AMyPathBuilderActor, Walls), METADATA_PARAMS(Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_MetaData, ARRAY_COUNT(Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_Inner = { "Walls", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AMyPathBuilderActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_AstarActive,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AMyPathBuilderActor_Statics::NewProp_Walls_Inner,
 	};
@@ -222,7 +239,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPathBuilderActor, 3354512391);
+	IMPLEMENT_CLASS(AMyPathBuilderActor, 199141963);
 	template<> PATHFINDING_API UClass* StaticClass<AMyPathBuilderActor>()
 	{
 		return AMyPathBuilderActor::StaticClass();

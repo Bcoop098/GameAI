@@ -157,7 +157,6 @@ void AMyPathBuilderActor::changeGrid(int num)
 		{
 			theGrid[xB][yB]->blocked = true;
 			Walls.Add(FVector(xB * GridScale + 50, yB * GridScale + 50, 0));
-			DrawDebugSphere(GetWorld(), FVector(xB * GridScale + 50, yB * GridScale + 50, 0), 24, 32, FColor(255, 0, 0),true,-1.0,0,3.0);
 		}
 		else
 		{
@@ -172,12 +171,26 @@ int AMyPathBuilderActor::FindBestIndex()
 	float bestDistance = TNumericLimits<float>::Max();
 	int bestIndex = -1;
 
-	for (int i = 0; i < openList.Num(); ++i)
+	if (AstarActive)
 	{
-		if (openList[i]->dist < bestDistance)
+		for (int i = 0; i < openList.Num(); ++i)
 		{
-			bestDistance = openList[i]->dist;
-			bestIndex = i;
+			if (Heuristic(openList[i]) < bestDistance)
+			{
+				bestDistance = Heuristic(openList[i]);
+				bestIndex = i;
+			}
+		}
+	}
+	else
+	{
+		for (int i = 0; i < openList.Num(); ++i)
+		{
+			if (openList[i]->dist < bestDistance)
+			{
+				bestDistance = openList[i]->dist;
+				bestIndex = i;
+			}
 		}
 	}
 
@@ -194,14 +207,18 @@ float AMyPathBuilderActor::Heuristic(Node* ptr)
 FVector AMyPathBuilderActor::checkPoint(FVector target)
 {
 	FVector newPoint = target;
-	int xB = 0;
-	int yB = 0;
 
 	while (theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->blocked)
 	{
-		xB = rand() % GRID_SCALE_X;
-		yB = rand() % GRID_SCALE_Y;
-		newPoint = FVector(xB, yB, target.Z);
+		for (int i = 0; i < theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors.Num(); ++i)
+		{
+			if (!(theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors[i]->blocked))
+			{
+				target.X = theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors[i]->pos.X;
+				target.Y = theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors[i]->pos.Y;
+			}
+		}
+		
 	} 
 
 	return newPoint;
