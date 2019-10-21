@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathFinding.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FFE9D182-E4EF-4133-A587-532CC9358F00}</UniqueIdentifier>
+      <UniqueIdentifier>{E3AB0BBB-724E-49DA-957B-11F22FF771CA}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathFinding.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{AEE44ACD-869D-4CE6-8E49-C4AF211D9A54}</UniqueIdentifier>
+      <UniqueIdentifier>{8FEDB4F5-5ADB-4A5B-B496-BEF0BDEA1B31}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,14 +27,8 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathFinding">
-      <UniqueIdentifier>{2E2A2F5F-D64E-4F26-9541-FDFCD6232048}</UniqueIdentifier>
+      <UniqueIdentifier>{92388F46-31DD-41EB-8A61-32B29D45B928}</UniqueIdentifier>
     </Filter>
-    <ClCompile Include="..\..\Source\PathFinding\MyPathBuilder.cpp">
-      <Filter>Source\PathFinding</Filter>
-    </ClCompile>
-    <ClInclude Include="..\..\Source\PathFinding\MyPathBuilder.h">
-      <Filter>Source\PathFinding</Filter>
-    </ClInclude>
     <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
       <Filter>Source\PathFinding</Filter>
     </ClCompile>
@@ -68,15 +62,17 @@
     <ClInclude Include="..\..\Source\PathFinding\SteeringActor.h">
       <Filter>Source\PathFinding</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PathFinding\MyPathBuilderActor.h">
-      <Filter>Source\PathFinding</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PathFinding\MyPathBuilderActor.cpp">
-      <Filter>Source\PathFinding</Filter>
+    <Filter Include="Source\PathFinding\Private">
+      <UniqueIdentifier>{391CFBB7-66BE-44E0-8A42-6D8D5FEECA6D}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PathFinding\Private\MyPathBuilderActor.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
+    <Filter Include="Source\PathFinding\Public">
+      <UniqueIdentifier>{6FF370A0-2D2E-4F5C-9E73-57D8B2F95FD1}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PathFinding\Public\MyPathBuilderActor.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
