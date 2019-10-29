@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\PathFinding.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{90358557-3F32-4A38-80BA-ACD345C31C9F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\PathFinding.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\PathFindingEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{BFC8E47A-31EB-47D2-96C9-8F73A8D9A8F4}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\PathFinding">
+      <UniqueIdentifier>{01617223-21F5-4462-9262-517EC92B7EB1}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
+      <Filter>Source\PathFinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathFinding\PathBuilder.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\PathFinding\PathFinding.Build.cs">
+      <Filter>Source\PathFinding</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\PathFinding\PathFinding.cpp">
+      <Filter>Source\PathFinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathFinding\PathFinding.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PathFinding\PathFindingActor.cpp">
+      <Filter>Source\PathFinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathFinding\PathFindingActor.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PathFinding\PathFindingGameModeBase.cpp">
+      <Filter>Source\PathFinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathFinding\PathFindingGameModeBase.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\PathFinding\SteeringActor.cpp">
+      <Filter>Source\PathFinding</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\PathFinding\SteeringActor.h">
+      <Filter>Source\PathFinding</Filter>
+    </ClInclude>
+    <Filter Include="Source\PathFinding\Private">
+      <UniqueIdentifier>{0C48F08E-612E-4D4F-8EF5-C92B2DB7F978}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\PathFinding\Private\MyPathBuilderActor.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
+    <Filter Include="Source\PathFinding\Public">
+      <UniqueIdentifier>{83E676DC-6912-44F0-99CF-29507C2A3BAC}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\PathFinding\Public\MyPathBuilderActor.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
