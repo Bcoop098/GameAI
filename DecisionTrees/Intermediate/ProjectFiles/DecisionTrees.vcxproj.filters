@@ -81,4 +81,14 @@
       <Filter>Source\PathFinding\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PathFinding\Public\StateMachine.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PathFinding\Private\StateMachine.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

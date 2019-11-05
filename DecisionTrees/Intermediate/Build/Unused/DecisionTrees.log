@@ -2,14 +2,11 @@
   Creating makefile for PathFindingEditor (ini files are newer than makefile)
   Parsing headers for PathFindingEditor
     Running UnrealHeaderTool "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\DecisionTrees.uproject" "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Intermediate\Build\Win64\PathFindingEditor\Development\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PathFindingEditor in 8.0488827 seconds
+  Reflection code generated for PathFindingEditor in 6.8321402 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 4 actions with 8 processes...
-    [1/4] MyPathBuilderActor.cpp
-    [2/4] UE4Editor-PathFinding-0011.lib
-       Creating library C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0011.lib and object C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0011.exp
-    [3/4] UE4Editor-PathFinding-0011.dll
-       Creating library C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0011.suppressed.lib and object C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0011.suppressed.exp
-    [4/4] PathFindingEditor.target
-  Total time in Parallel executor: 1.75 seconds
-  Total execution time: 12.40 seconds
+  Building 5 actions with 8 processes...
+    [1/5] StateMachine.cpp
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Source\PathFinding\Private\StateMachine.cpp(38): error C2027: use of undefined type 'MyPathBuilderActor'
+    C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\Source\PathFinding\Public\StateMachine.h(9): note: see declaration of 'MyPathBuilderActor'
+    [2/5] StateMachine.gen.cpp
+C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" PathFindingEditor Win64 Development -Project="C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\DecisionTrees\DecisionTrees.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
