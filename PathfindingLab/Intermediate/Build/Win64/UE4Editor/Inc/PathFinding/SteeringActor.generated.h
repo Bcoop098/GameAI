@@ -8,13 +8,78 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FVector;
 #ifdef PATHFINDING_SteeringActor_generated_h
 #error "SteeringActor.generated.h already included, missing '#pragma once' in SteeringActor.h"
 #endif
 #define PATHFINDING_SteeringActor_generated_h
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_12_RPC_WRAPPERS
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_12_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execcheckCone) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_actorPos); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->checkCone(Z_Param_actorPos,Z_Param_playerPos); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcheckDistanceChase) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_actorPos); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->checkDistanceChase(Z_Param_actorPos,Z_Param_playerPos); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcheckDistance) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_actorPos); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->checkDistance(Z_Param_actorPos,Z_Param_playerPos); \
+		P_NATIVE_END; \
+	}
+
+
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execcheckCone) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_actorPos); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->checkCone(Z_Param_actorPos,Z_Param_playerPos); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcheckDistanceChase) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_actorPos); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->checkDistanceChase(Z_Param_actorPos,Z_Param_playerPos); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execcheckDistance) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_actorPos); \
+		P_GET_STRUCT(FVector,Z_Param_playerPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(bool*)Z_Param__Result=P_THIS->checkDistance(Z_Param_actorPos,Z_Param_playerPos); \
+		P_NATIVE_END; \
+	}
+
+
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_12_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASteeringActor(); \
@@ -58,6 +123,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 
 
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_12_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__cone() { return STRUCT_OFFSET(ASteeringActor, cone); } \
+	FORCEINLINE static uint32 __PPO__rad() { return STRUCT_OFFSET(ASteeringActor, rad); } \
+	FORCEINLINE static uint32 __PPO__detectionCone() { return STRUCT_OFFSET(ASteeringActor, detectionCone); } \
+	FORCEINLINE static uint32 __PPO__distanceToDetect() { return STRUCT_OFFSET(ASteeringActor, distanceToDetect); } \
+	FORCEINLINE static uint32 __PPO__distanceToDetectChase() { return STRUCT_OFFSET(ASteeringActor, distanceToDetectChase); } \
 	FORCEINLINE static uint32 __PPO__SteeringVelocity() { return STRUCT_OFFSET(ASteeringActor, SteeringVelocity); } \
 	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(ASteeringActor, MaxSpeed); } \
 	FORCEINLINE static uint32 __PPO__DragForce() { return STRUCT_OFFSET(ASteeringActor, DragForce); } \

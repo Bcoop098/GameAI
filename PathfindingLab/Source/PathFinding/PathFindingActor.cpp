@@ -27,9 +27,22 @@ void APathFindingActor::Tick(float DeltaTime)
 	{
 		if (Path.Num() > 0)
 		{
-			TargetPos = Path[0];
-			Path.RemoveAt(0);
-			NeedNewDestination = false;
+			if (IsLooping)
+			{
+				TargetPos = Path[pos];
+				++pos;
+				NeedNewDestination = false;
+				if (pos >= Path.Num())
+				{
+					pos = 0;
+				}
+			}
+			else
+			{
+				TargetPos = Path[0];
+				Path.RemoveAt(0);
+				NeedNewDestination = false;
+			}
 		}
 	}
 	else

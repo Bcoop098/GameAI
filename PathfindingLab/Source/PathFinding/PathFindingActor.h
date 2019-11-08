@@ -26,11 +26,18 @@ public:
 
 protected:
 
+	
+
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float ReachRadius = 100.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool NeedNewDestination = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsLooping = true;
+
+	int pos = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FVector> Path;

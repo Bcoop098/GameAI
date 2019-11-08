@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathFinding.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{90358557-3F32-4A38-80BA-ACD345C31C9F}</UniqueIdentifier>
+      <UniqueIdentifier>{CFBD84D7-0787-4C87-88EE-CFA6E8D35519}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathFinding.Target.cs">
       <Filter>Source</Filter>
@@ -11,8 +11,9 @@
     <None Include="..\..\Source\PathFindingEditor.Target.cs">
       <Filter>Source</Filter>
     </None>
+    <None Include="..\..\PathFindingLansinghBenC.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{BFC8E47A-31EB-47D2-96C9-8F73A8D9A8F4}</UniqueIdentifier>
+      <UniqueIdentifier>{E1FBAC70-DDF1-49BB-9027-FC4D311F38D6}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -27,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathFinding">
-      <UniqueIdentifier>{01617223-21F5-4462-9262-517EC92B7EB1}</UniqueIdentifier>
+      <UniqueIdentifier>{50EF9253-F4D3-4EC3-B8B0-7BC94489B953}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
       <Filter>Source\PathFinding</Filter>
@@ -63,13 +64,13 @@
       <Filter>Source\PathFinding</Filter>
     </ClInclude>
     <Filter Include="Source\PathFinding\Private">
-      <UniqueIdentifier>{0C48F08E-612E-4D4F-8EF5-C92B2DB7F978}</UniqueIdentifier>
+      <UniqueIdentifier>{2FB6FF53-C11E-4CB6-BFBB-0A5B356A290A}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\Private\MyPathBuilderActor.cpp">
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
     <Filter Include="Source\PathFinding\Public">
-      <UniqueIdentifier>{83E676DC-6912-44F0-99CF-29507C2A3BAC}</UniqueIdentifier>
+      <UniqueIdentifier>{C6F0DCC6-F6DB-4187-AE2A-7659B88EB427}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\PathFinding\Public\MyPathBuilderActor.h">
       <Filter>Source\PathFinding\Public</Filter>

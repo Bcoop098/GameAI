@@ -103,6 +103,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APathFindingActor); \
 #define PathfindingLab_Source_PathFinding_PathFindingActor_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__ReachRadius() { return STRUCT_OFFSET(APathFindingActor, ReachRadius); } \
 	FORCEINLINE static uint32 __PPO__NeedNewDestination() { return STRUCT_OFFSET(APathFindingActor, NeedNewDestination); } \
+	FORCEINLINE static uint32 __PPO__IsLooping() { return STRUCT_OFFSET(APathFindingActor, IsLooping); } \
 	FORCEINLINE static uint32 __PPO__Path() { return STRUCT_OFFSET(APathFindingActor, Path); }
 
 

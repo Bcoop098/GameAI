@@ -45,6 +45,53 @@ void ASteeringActor::Tick(float DeltaTime)
 	SetActorRotation(PlayerRot);
 }
 
+bool ASteeringActor::checkDistance(FVector actorPos, FVector playerPos)
+{
+	float distance = FVector::Dist(actorPos, playerPos);
+	if (distance <= distanceToDetect)
+	{
+		rad = true;
+		return true;
+	}
+
+	rad = false;
+	return false;
+}
+
+bool ASteeringActor::checkDistanceChase(FVector actorPos, FVector playerPos)
+{
+	float distance = FVector::Dist(actorPos, playerPos);
+	if (distance <= distanceToDetectChase)
+	{
+		rad = true;
+		return true;
+	}
+
+	rad = false;
+	return false;
+}
+
+bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
+{
+	float orient = FVector::DotProduct(-SteeringVelocity.GetSafeNormal(), (actorPos - playerPos).GetSafeNormal());
+	if (orient < 0)
+	{
+		cone = false;
+		return false;
+	}
+
+	float radian = FMath::Acos(orient);
+	
+	if (FMath::Abs(FMath::RadiansToDegrees(radian)) < (detectionCone / 2.0f))
+	{
+		cone = true;
+		return true;
+	}
+
+	cone = false;
+	return false;
+}
+
 FVector ASteeringActor::Seek()
 {
 	FVector dir = TargetPos - Position;
