@@ -73,7 +73,12 @@ bool ASteeringActor::checkDistanceChase(FVector actorPos, FVector playerPos)
 
 bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
 {
-	float orient = FVector::DotProduct(-SteeringVelocity.GetSafeNormal(), (actorPos - playerPos).GetSafeNormal());
+	FVector velocityNormal = SteeringVelocity.GetSafeNormal();
+	FVector direction = playerPos - actorPos;
+	direction.Z = 0.0f;
+	FVector directionNormal = direction.GetSafeNormal();
+	
+	float orient = FVector::DotProduct(velocityNormal, directionNormal);
 	if (orient < 0)
 	{
 		cone = false;

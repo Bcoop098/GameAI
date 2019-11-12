@@ -156,7 +156,7 @@ void AMyPathBuilderActor::changeGrid(int num)
 		if (theGrid[xB][yB]->blocked == false)
 		{
 			theGrid[xB][yB]->blocked = true;
-			Walls.Add(FVector(xB * GridScale + 50, yB * GridScale + 50, 0));
+			Walls.Add(FVector(xB * GridScale + 50, yB * GridScale + 50, 50));
 		}
 		else
 		{

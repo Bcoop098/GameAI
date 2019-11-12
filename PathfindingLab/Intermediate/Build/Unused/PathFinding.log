@@ -1,52 +1,15 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI).
-  Creating makefile for PathFindingEditor (no existing makefile)
+  Creating makefile for PathFindingEditor (ini files are newer than makefile)
   Parsing headers for PathFindingEditor
-    Running UnrealHeaderTool "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\PathFinding.uproject" "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PathFindingEditor in 6.5698086 seconds
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0004.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0008.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0010.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0011.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0012.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0015.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0023.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0026.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0031.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0034.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0038.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0039.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0041.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0043.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0048.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0049.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0050.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Binaries\Win64\UE4Editor-PathFinding-0051.dll
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0004.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0008.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0010.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0011.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0012.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0015.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0023.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0026.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0031.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0034.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0038.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0039.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0041.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0043.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0048.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0049.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0050.lib
-  Deleted hot-reload file: C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0051.lib
+    Running UnrealHeaderTool "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\PathFinding.uproject" "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\DebugGame\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PathFindingEditor in 6.7590079 seconds
   Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 5 actions with 8 processes...
-    [1/5] MyPathBuilderActor.cpp
-    [2/5] PathBuilder.cpp
-    [3/5] UE4Editor-PathFinding.lib
-       Creating library C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.lib and object C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.exp
-    [4/5] UE4Editor-PathFinding.dll
-       Creating library C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.suppressed.lib and object C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.suppressed.exp
-    [5/5] PathFindingEditor.target
-  Total time in Parallel executor: 1.67 seconds
-  Total execution time: 10.95 seconds
+  Building 4 actions with 8 processes...
+    [1/4] SteeringActor.cpp
+    [2/4] UE4Editor-PathFinding-Win64-DebugGame.lib
+       Creating library C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.lib and object C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.exp
+    [3/4] UE4Editor-PathFinding-Win64-DebugGame.dll
+       Creating library C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.suppressed.lib and object C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.suppressed.exp
+    [4/4] PathFindingEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 1.88 seconds
+  Total execution time: 10.92 seconds
