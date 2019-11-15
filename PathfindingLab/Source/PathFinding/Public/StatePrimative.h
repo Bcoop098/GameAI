@@ -15,5 +15,5 @@ public:
 	// Sets default values for this actor's properties
 	AStatePrimative();
 
-	virtual void UpdateState();
+	virtual void UpdateState(const TSubclassOf<AActor>& SteeringActor);
 };

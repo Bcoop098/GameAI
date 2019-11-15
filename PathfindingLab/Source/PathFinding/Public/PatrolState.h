@@ -13,5 +13,7 @@ UCLASS()
 class PATHFINDING_API APatrolState : public AStatePrimative
 {
 	GENERATED_BODY()
-	
+public:
+
+	virtual void UpdateState(const TSubclassOf<AActor>& SteeringActor) override;
 };

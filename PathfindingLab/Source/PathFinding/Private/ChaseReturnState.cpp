@@ -3,3 +3,8 @@
 
 #include "ChaseReturnState.h"
 
+
+void AChaseReturnState::UpdateState(const TSubclassOf<AActor>& SteeringActor)
+{
+	
+}

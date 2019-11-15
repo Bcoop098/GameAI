@@ -11,7 +11,7 @@ AStatePrimative::AStatePrimative()
 
 }
 
-void AStatePrimative::UpdateState()
+void AStatePrimative::UpdateState(const TSubclassOf<AActor>& SteeringActor)
 {
 
 }

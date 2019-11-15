@@ -4,6 +4,8 @@
 #include "SteeringActor.h"
 #include "Kismet/KismetMathLibrary.h"
 
+
+
 // Sets default values
 ASteeringActor::ASteeringActor()
 {
@@ -18,6 +20,8 @@ void ASteeringActor::BeginPlay()
 	Super::BeginPlay();
 
 	Position = GetActorLocation();
+
+	currentState = statesForSeeker[Patrol];
 }
 
 // Called every frame
@@ -43,6 +47,8 @@ void ASteeringActor::Tick(float DeltaTime)
 	// orientation 
 	FRotator PlayerRot = UKismetMathLibrary::FindLookAtRotation(Position, Position + SteeringVelocity);
 	SetActorRotation(PlayerRot);
+
+	currentState.GetDefaultObject()->UpdateState(this->GetClass());
 }
 
 bool ASteeringActor::checkDistance(FVector actorPos, FVector playerPos)
@@ -96,6 +102,7 @@ bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
 	cone = false;
 	return false;
 }
+
 
 FVector ASteeringActor::Seek()
 {

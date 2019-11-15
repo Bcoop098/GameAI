@@ -33,6 +33,9 @@ public:
 	UFUNCTION(BlueprintCallable)
 	bool checkCone(FVector actorPos, FVector playerPos);
 
+	
+
+
 
 protected:
 	enum State
@@ -45,6 +48,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AStatePrimative>> statesForSeeker;
+
+	UPROPERTY()
+	TSubclassOf<AStatePrimative> currentState;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool cone = false;

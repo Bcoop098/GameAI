@@ -124,6 +124,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__statesForSeeker() { return STRUCT_OFFSET(ASteeringActor, statesForSeeker); } \
+	FORCEINLINE static uint32 __PPO__currentState() { return STRUCT_OFFSET(ASteeringActor, currentState); } \
 	FORCEINLINE static uint32 __PPO__cone() { return STRUCT_OFFSET(ASteeringActor, cone); } \
 	FORCEINLINE static uint32 __PPO__rad() { return STRUCT_OFFSET(ASteeringActor, rad); } \
 	FORCEINLINE static uint32 __PPO__detectionCone() { return STRUCT_OFFSET(ASteeringActor, detectionCone); } \

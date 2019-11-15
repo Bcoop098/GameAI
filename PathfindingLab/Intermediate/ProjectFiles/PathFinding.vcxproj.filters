@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathFinding.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{E3644105-A1F2-4191-94DC-0A778B749182}</UniqueIdentifier>
+      <UniqueIdentifier>{1F84F244-9B85-47A2-AD48-FEE2B0C89403}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathFinding.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\PathFindingLansinghBenC.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{50320760-D5E4-4FC2-800B-FB4D9B278312}</UniqueIdentifier>
+      <UniqueIdentifier>{E3387C08-83C0-4785-A2E5-A21627A0E4B5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathFinding">
-      <UniqueIdentifier>{0F475A4A-D774-4872-8D67-467D521F1997}</UniqueIdentifier>
+      <UniqueIdentifier>{0E12C980-5913-4BF7-84DE-D7C487445B7E}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
       <Filter>Source\PathFinding</Filter>
@@ -64,8 +64,14 @@
       <Filter>Source\PathFinding</Filter>
     </ClInclude>
     <Filter Include="Source\PathFinding\Private">
-      <UniqueIdentifier>{BD0EBB0F-B77C-4804-A0EA-7000537E9DD2}</UniqueIdentifier>
+      <UniqueIdentifier>{6622E069-5A60-4493-972D-3D7280C56635}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\PathFinding\Private\ChaseReturnState.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathFinding\Private\ChaseState.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
     <ClCompile Include="..\..\Source\PathFinding\Private\MyPathBuilderActor.cpp">
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
@@ -79,8 +85,14 @@
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
     <Filter Include="Source\PathFinding\Public">
-      <UniqueIdentifier>{B5C61783-B2EA-4357-AF50-C1AA3B5BCC28}</UniqueIdentifier>
+      <UniqueIdentifier>{731051B1-34F2-43A6-B3E1-2713ABFDC632}</UniqueIdentifier>
     </Filter>
+    <ClInclude Include="..\..\Source\PathFinding\Public\ChaseReturnState.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathFinding\Public\ChaseState.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
     <ClInclude Include="..\..\Source\PathFinding\Public\MyPathBuilderActor.h">
       <Filter>Source\PathFinding\Public</Filter>
     </ClInclude>
@@ -93,21 +105,5 @@
     <ClInclude Include="..\..\Source\PathFinding\Public\StatePrimative.h">
       <Filter>Source\PathFinding\Public</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\PathFinding\Public\ChaseState.h">
-      <Filter>Source\PathFinding\Public</Filter>
-    </ClInclude>
-    <ClInclude Include="..\..\Source\PathFinding\Public\ChaseReturnState.h">
-      <Filter>Source\PathFinding\Public</Filter>
-    </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClCompile Include="..\..\Source\PathFinding\Private\ChaseState.cpp">
-      <Filter>Source\PathFinding\Private</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\Source\PathFinding\Private\ChaseReturnState.cpp">
-      <Filter>Source\PathFinding\Private</Filter>
-    </ClCompile>
   </ItemGroup>
 </Project>
