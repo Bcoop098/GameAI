@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#include "StatePrimative.h"
 #include "GameFramework/Actor.h"
 #include "SteeringActor.generated.h"
 
@@ -34,6 +35,16 @@ public:
 
 
 protected:
+	enum State
+	{
+		Patrol = 0,
+		Chase = 1,
+		ReturnPatrol = 2
+	};
+
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	TArray<TSubclassOf<AStatePrimative>> statesForSeeker;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool cone = false;

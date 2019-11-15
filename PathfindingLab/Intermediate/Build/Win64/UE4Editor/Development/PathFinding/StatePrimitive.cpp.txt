@@ -1,0 +1,2 @@
+D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
+D:\Repos\GameAI\PathfindingLab\Source\PathFinding\Public\StatePrimitive.h

@@ -21,6 +21,8 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkDistance();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkDistanceChase();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
+	PATHFINDING_API UClass* Z_Construct_UClass_AStatePrimative_NoRegister();
 // End Cross Module References
 	void ASteeringActor::StaticRegisterNativesASteeringActor()
 	{
@@ -224,6 +226,11 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 #endif
 		static void NewProp_cone_SetBit(void* Obj);
 		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_cone;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statesForSeeker_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_statesForSeeker;
+		static const UE4CodeGen_Private::FClassPropertyParams NewProp_statesForSeeker_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -328,6 +335,14 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		((ASteeringActor*)Obj)->cone = 1;
 	}
 	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone = { "cone", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASteeringActor), &Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData[] = {
+		{ "Category", "SteeringActor" },
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker = { "statesForSeeker", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, statesForSeeker), METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData)) };
+	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_Inner = { "statesForSeeker", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AStatePrimative_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASteeringActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_TargetPos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_SeekDecelerationDistance,
@@ -340,6 +355,8 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_detectionCone,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASteeringActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASteeringActor>::IsAbstract,
@@ -368,7 +385,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 3329339474);
+	IMPLEMENT_CLASS(ASteeringActor, 4232896601);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

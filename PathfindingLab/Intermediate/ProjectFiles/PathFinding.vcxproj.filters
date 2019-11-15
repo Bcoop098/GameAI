@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathFinding.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{A5E67B5F-33B1-43BC-A630-C7183B2E5DF6}</UniqueIdentifier>
+      <UniqueIdentifier>{E3644105-A1F2-4191-94DC-0A778B749182}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathFinding.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\PathFindingLansinghBenC.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{B390F24A-B4E5-4F87-A8A3-3235BA776A32}</UniqueIdentifier>
+      <UniqueIdentifier>{50320760-D5E4-4FC2-800B-FB4D9B278312}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathFinding">
-      <UniqueIdentifier>{246F09A2-D9C0-4106-8785-2F19FE0A221F}</UniqueIdentifier>
+      <UniqueIdentifier>{0F475A4A-D774-4872-8D67-467D521F1997}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
       <Filter>Source\PathFinding</Filter>
@@ -64,22 +64,50 @@
       <Filter>Source\PathFinding</Filter>
     </ClInclude>
     <Filter Include="Source\PathFinding\Private">
-      <UniqueIdentifier>{EC682858-EC5A-4CC8-8D4C-0FEC7FA48FCB}</UniqueIdentifier>
+      <UniqueIdentifier>{BD0EBB0F-B77C-4804-A0EA-7000537E9DD2}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\Private\MyPathBuilderActor.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathFinding\Private\PatrolState.cpp">
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\PathFinding\Private\StateMachine.cpp">
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\Source\PathFinding\Private\StatePrimative.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
     <Filter Include="Source\PathFinding\Public">
-      <UniqueIdentifier>{1BDDE550-BA83-488E-87DE-FE5E1A757E12}</UniqueIdentifier>
+      <UniqueIdentifier>{B5C61783-B2EA-4357-AF50-C1AA3B5BCC28}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\PathFinding\Public\MyPathBuilderActor.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathFinding\Public\PatrolState.h">
       <Filter>Source\PathFinding\Public</Filter>
     </ClInclude>
     <ClInclude Include="..\..\Source\PathFinding\Public\StateMachine.h">
       <Filter>Source\PathFinding\Public</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\PathFinding\Public\StatePrimative.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PathFinding\Public\ChaseState.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\PathFinding\Public\ChaseReturnState.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PathFinding\Private\ChaseState.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\PathFinding\Private\ChaseReturnState.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
