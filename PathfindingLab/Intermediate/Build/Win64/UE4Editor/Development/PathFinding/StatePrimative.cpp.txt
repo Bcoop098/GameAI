@@ -1,3 +1,3 @@
-D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
-D:\Git\GameAI\PathfindingLab\Source\PathFinding\Public\StatePrimative.h
-D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\StatePrimative.generated.h
+D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
+D:\Repos\GameAI\PathfindingLab\Source\PathFinding\Public\StatePrimative.h
+D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\StatePrimative.generated.h

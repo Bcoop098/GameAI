@@ -16,5 +16,5 @@ class PATHFINDING_API AChaseState : public AStatePrimative
 	
 public:
 
-	virtual void UpdateState(const TSubclassOf<AActor>& SteeringActor) override;
+	virtual void UpdateState(const class ASteeringActor& strActr) override;
 };

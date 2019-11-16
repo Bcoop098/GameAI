@@ -3,7 +3,7 @@
 
 #include "PatrolState.h"
 
-void APatrolState::UpdateState(const TSubclassOf<AActor>& SteeringActor)
+void APatrolState::UpdateState(const class ASteeringActor& strActr)
 {
 	//SteeringActor.Get()->CallFunction()
 }

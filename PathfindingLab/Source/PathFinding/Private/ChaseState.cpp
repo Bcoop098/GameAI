@@ -3,7 +3,7 @@
 
 #include "ChaseState.h"
 
-void AChaseState::UpdateState(const TSubclassOf<AActor>& SteeringActor)
+void AChaseState::UpdateState(const class ASteeringActor& strActr)
 {
 
 }

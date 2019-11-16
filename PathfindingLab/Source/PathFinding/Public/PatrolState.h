@@ -15,5 +15,5 @@ class PATHFINDING_API APatrolState : public AStatePrimative
 	GENERATED_BODY()
 public:
 
-	virtual void UpdateState(const TSubclassOf<AActor>& SteeringActor) override;
+	virtual void UpdateState(const class ASteeringActor& strActr) override;
 };

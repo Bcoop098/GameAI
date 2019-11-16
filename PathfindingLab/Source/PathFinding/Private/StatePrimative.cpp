@@ -2,6 +2,7 @@
 
 
 #include "StatePrimative.h"
+#include "SteeringActor.h"
 
 // Sets default values
 AStatePrimative::AStatePrimative()
@@ -11,8 +12,8 @@ AStatePrimative::AStatePrimative()
 
 }
 
-void AStatePrimative::UpdateState(const TSubclassOf<AActor>& SteeringActor)
+void AStatePrimative::UpdateState(const ASteeringActor& strActr)
 {
-
+	//strActr;
 }
 
