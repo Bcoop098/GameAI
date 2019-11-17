@@ -12,6 +12,10 @@ AStatePrimative::AStatePrimative()
 
 }
 
+void AStatePrimative::Start(const ASteeringActor & strActr)
+{
+}
+
 void AStatePrimative::UpdateState(const ASteeringActor& strActr)
 {
 	//strActr;

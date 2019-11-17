@@ -2,8 +2,17 @@
 
 
 #include "PatrolState.h"
+#include "SteeringActor.h"
+
+void APatrolState::Start(const ASteeringActor & strActr)
+{
+	/*
+	pseudocode
+	strActor.getPathfinder().IsLooping = true;
+	*/
+}
 
 void APatrolState::UpdateState(const class ASteeringActor& strActr)
 {
-	//SteeringActor.Get()->CallFunction()
+
 }

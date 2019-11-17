@@ -69,7 +69,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		{ "ModuleRelativePath", "SteeringActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkCone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkCone", sizeof(SteeringActor_eventcheckCone_Parms), Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkCone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkCone", sizeof(SteeringActor_eventcheckCone_Parms), Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ASteeringActor_checkCone()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -114,7 +114,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		{ "ModuleRelativePath", "SteeringActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkDistance", sizeof(SteeringActor_eventcheckDistance_Parms), Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkDistance", sizeof(SteeringActor_eventcheckDistance_Parms), Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ASteeringActor_checkDistance()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -159,7 +159,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		{ "ModuleRelativePath", "SteeringActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkDistanceChase", sizeof(SteeringActor_eventcheckDistanceChase_Parms), Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams)) };
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkDistanceChase", sizeof(SteeringActor_eventcheckDistanceChase_Parms), Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x54820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams)) };
 	UFunction* Z_Construct_UFunction_ASteeringActor_checkDistanceChase()
 	{
 		static UFunction* ReturnFunction = nullptr;
@@ -244,9 +244,9 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PathFinding,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASteeringActor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASteeringActor_checkCone, "checkCone" }, // 1510049753
-		{ &Z_Construct_UFunction_ASteeringActor_checkDistance, "checkDistance" }, // 567682636
-		{ &Z_Construct_UFunction_ASteeringActor_checkDistanceChase, "checkDistanceChase" }, // 4229473396
+		{ &Z_Construct_UFunction_ASteeringActor_checkCone, "checkCone" }, // 2697331384
+		{ &Z_Construct_UFunction_ASteeringActor_checkDistance, "checkDistance" }, // 1080595326
+		{ &Z_Construct_UFunction_ASteeringActor_checkDistanceChase, "checkDistanceChase" }, // 3358229485
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::Class_MetaDataParams[] = {
@@ -396,7 +396,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 3864910961);
+	IMPLEMENT_CLASS(ASteeringActor, 2788789093);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

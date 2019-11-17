@@ -12,6 +12,9 @@ class PATHFINDING_API ASteeringActor : public AActor
 {
 	GENERATED_BODY()
 	
+
+
+
 public:	
 	// Sets default values for this actor's properties
 	ASteeringActor();
@@ -25,13 +28,13 @@ public:
 	virtual void Tick(float DeltaTime) override;
 
 	UFUNCTION(BlueprintCallable)
-	bool checkDistance(FVector actorPos, FVector playerPos);
+	bool checkDistance(FVector actorPos, FVector playerPos) const;
 
 	UFUNCTION(BlueprintCallable)
-	bool checkDistanceChase(FVector actorPos, FVector playerPos);
+	bool checkDistanceChase(FVector actorPos, FVector playerPos) const;
 
 	UFUNCTION(BlueprintCallable)
-	bool checkCone(FVector actorPos, FVector playerPos);
+	bool checkCone (FVector actorPos, FVector playerPos) const;
 
 	
 
@@ -53,10 +56,10 @@ protected:
 	TSubclassOf<AStatePrimative> currentState;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool cone = false;
+	bool cone = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool rad = false;
+	bool rad = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	float detectionCone = 120.0f;

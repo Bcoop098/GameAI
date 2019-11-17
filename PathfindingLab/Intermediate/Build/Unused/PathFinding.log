@@ -1,13 +1,11 @@
 ﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Git\GameAI).
   Parsing headers for PathFindingEditor
     Running UnrealHeaderTool "D:\Git\GameAI\PathfindingLab\PathFinding.uproject" "D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PathFindingEditor in 9.1520477 seconds
+  Reflection code generated for PathFindingEditor in 11.3505497 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 8 processes...
-    [1/3] UE4Editor-PathFinding-0005.lib
-       Creating library D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0005.lib and object D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0005.exp
-    [2/3] UE4Editor-PathFinding-0005.dll
-       Creating library D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0005.suppressed.lib and object D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0005.suppressed.exp
-    [3/3] PathFindingEditor.target
-  Total time in Parallel executor: 1.84 seconds
-  Total execution time: 12.83 seconds
+  Building 6 actions with 8 processes...
+    [1/6] ChaseReturnState.cpp
+    [2/6] PatrolState.cpp
+    [3/6] SteeringActor.cpp
+D:\Git\GameAI\PathfindingLab\Source\PathFinding\SteeringActor.cpp(51): error C2276: '&': illegal operation on bound member function expression
+D:\Visual Studio\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command "D:\EpicGames\UE_4.22\Engine\Build\BatchFiles\Build.bat PathFindingEditor Win64 Development -Project="D:\Git\GameAI\PathfindingLab\PathFinding.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.

@@ -15,6 +15,6 @@ class PATHFINDING_API AChaseState : public AStatePrimative
 	GENERATED_BODY()
 	
 public:
-
+	virtual void Start(const class ASteeringActor& strActr) override;
 	virtual void UpdateState(const class ASteeringActor& strActr) override;
 };

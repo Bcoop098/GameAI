@@ -15,5 +15,6 @@ public:
 	// Sets default values for this actor's properties
 	AStatePrimative();
 
+	virtual void Start(const class ASteeringActor& strActr);
 	virtual void UpdateState(const class ASteeringActor& strActr);
 };

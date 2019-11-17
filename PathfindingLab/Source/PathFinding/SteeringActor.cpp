@@ -48,36 +48,49 @@ void ASteeringActor::Tick(float DeltaTime)
 	FRotator PlayerRot = UKismetMathLibrary::FindLookAtRotation(Position, Position + SteeringVelocity);
 	SetActorRotation(PlayerRot);
 
-	currentState.GetDefaultObject()->UpdateState(this->GetClass());
+	/*if (checkDistance(this->GetActorLocation, this->GetActorLocation) && checkCone(this->GetActorLocation, this->GetActorLocation))
+	{
+		currentState = statesForSeeker[Chase];
+	}*/
+
+	/*
+	else if(escapeTime >= 4)
+	{
+		currentState = statesForSeeker[ReturnPatrol];
+	}
+	float distance = (Position - TargetPos).Size();
+	else if(ditance <= 100.0f)
+	{
+		currentState = statesForSeeker[Patrol];
+	}
+	*/
+	//currentState.GetDefaultObject()->UpdateState(this->GetClass());
 }
 
-bool ASteeringActor::checkDistance(FVector actorPos, FVector playerPos)
+bool ASteeringActor::checkDistance(FVector actorPos, FVector playerPos) const
 {
 	float distance = FVector::Dist(actorPos, playerPos);
 	if (distance <= distanceToDetect)
 	{
-		rad = true;
+
 		return true;
 	}
 
-	rad = false;
 	return false;
 }
 
-bool ASteeringActor::checkDistanceChase(FVector actorPos, FVector playerPos)
+bool ASteeringActor::checkDistanceChase(FVector actorPos, FVector playerPos) const
 {
 	float distance = FVector::Dist(actorPos, playerPos);
 	if (distance <= distanceToDetectChase)
 	{
-		rad = true;
 		return true;
 	}
 
-	rad = false;
 	return false;
 }
 
-bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
+bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos) const
 {
 	FVector velocityNormal = SteeringVelocity.GetSafeNormal();
 	FVector direction = playerPos - actorPos;
@@ -87,7 +100,6 @@ bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
 	float orient = FVector::DotProduct(velocityNormal, directionNormal);
 	if (orient < 0)
 	{
-		cone = false;
 		return false;
 	}
 
@@ -95,11 +107,9 @@ bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
 	
 	if (FMath::Abs(FMath::RadiansToDegrees(radian)) < (detectionCone / 2.0f))
 	{
-		cone = true;
 		return true;
 	}
 
-	cone = false;
 	return false;
 }
 

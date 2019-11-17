@@ -2,9 +2,20 @@
 
 
 #include "ChaseReturnState.h"
+#include "SteeringActor.h"
 
 
-void AChaseReturnState::UpdateState(const TSubclassOf<AActor>& SteeringActor)
+void AChaseReturnState::Start(const ASteeringActor & strActr)
+{
+	/*
+	pseudocode
+	strActor.getPathfinder().AddPathToFollow(newPath)
+
+	*/
+}
+
+void AChaseReturnState::UpdateState(const class ASteeringActor& strActr)
 {
 	
 }
+
