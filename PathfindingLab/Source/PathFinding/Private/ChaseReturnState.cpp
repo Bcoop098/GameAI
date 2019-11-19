@@ -2,9 +2,9 @@
 
 
 #include "ChaseReturnState.h"
+#include "SteeringActor.h"
 
-
-void AChaseReturnState::UpdateState(const TSubclassOf<AActor>& SteeringActor)
+void AChaseReturnState::UpdateState(const ASteeringActor& strActr)
 {
 	
 }

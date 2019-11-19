@@ -21,7 +21,7 @@ void ASteeringActor::BeginPlay()
 
 	Position = GetActorLocation();
 
-	currentState = statesForSeeker[Patrol];
+	currentState = EState::ES_Patrol;
 }
 
 // Called every frame
@@ -48,7 +48,7 @@ void ASteeringActor::Tick(float DeltaTime)
 	FRotator PlayerRot = UKismetMathLibrary::FindLookAtRotation(Position, Position + SteeringVelocity);
 	SetActorRotation(PlayerRot);
 
-	currentState.GetDefaultObject()->UpdateState(this->GetClass());
+	//statesForSeeker[0].GetDefaultObject()->UpdateState(ThisClass());
 }
 
 bool ASteeringActor::checkDistance(FVector actorPos, FVector playerPos)
@@ -79,6 +79,20 @@ bool ASteeringActor::checkDistanceChase(FVector actorPos, FVector playerPos)
 
 bool ASteeringActor::checkCone(FVector actorPos, FVector playerPos)
 {
+	//Check if player is in range first
+	if (currentState == EState::ES_Patrol && checkDistance(actorPos, playerPos))
+	{
+		return false;
+	}
+	else if (currentState == EState::ES_ReturnPatrol && checkDistance(actorPos, playerPos))
+	{
+		return false;
+	}
+	else if (currentState == EState::ES_Chase && checkDistanceChase(actorPos, playerPos))
+	{
+		return false;
+	}
+
 	FVector velocityNormal = SteeringVelocity.GetSafeNormal();
 	FVector direction = playerPos - actorPos;
 	direction.Z = 0.0f;

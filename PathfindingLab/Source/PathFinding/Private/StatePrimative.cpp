@@ -14,6 +14,10 @@ AStatePrimative::AStatePrimative()
 
 void AStatePrimative::UpdateState(const ASteeringActor& strActr)
 {
-	//strActr;
+
 }
 
+void AStatePrimative::CANTHISWORK()
+{
+	print("FAQ");
+}

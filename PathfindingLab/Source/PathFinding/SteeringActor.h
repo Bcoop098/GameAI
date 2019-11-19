@@ -7,6 +7,14 @@
 #include "GameFramework/Actor.h"
 #include "SteeringActor.generated.h"
 
+UENUM(BlueprintType)
+enum class EState : uint8
+{
+	ES_Patrol		UMETA(DisplayName="Patrol"),
+	ES_Chase		UMETA(DisplayName = "Chase"),
+	ES_ReturnPatrol UMETA(DisplayName = "ReturnPartol")
+};
+
 UCLASS()
 class PATHFINDING_API ASteeringActor : public AActor
 {
@@ -38,19 +46,11 @@ public:
 
 
 protected:
-	enum State
-	{
-		Patrol = 0,
-		Chase = 1,
-		ReturnPatrol = 2
-	};
-
-
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TSubclassOf<AStatePrimative>> statesForSeeker;
 
 	UPROPERTY()
-	TSubclassOf<AStatePrimative> currentState;
+	EState currentState;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		bool cone = false;

@@ -13,10 +13,11 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 // Cross Module References
+	PATHFINDING_API UEnum* Z_Construct_UEnum_PathFinding_EState();
+	UPackage* Z_Construct_UPackage__Script_PathFinding();
 	PATHFINDING_API UClass* Z_Construct_UClass_ASteeringActor_NoRegister();
 	PATHFINDING_API UClass* Z_Construct_UClass_ASteeringActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	UPackage* Z_Construct_UPackage__Script_PathFinding();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkCone();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkDistance();
@@ -24,6 +25,61 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PATHFINDING_API UClass* Z_Construct_UClass_AStatePrimative_NoRegister();
 // End Cross Module References
+	static UEnum* EState_StaticEnum()
+	{
+		static UEnum* Singleton = nullptr;
+		if (!Singleton)
+		{
+			Singleton = GetStaticEnum(Z_Construct_UEnum_PathFinding_EState, Z_Construct_UPackage__Script_PathFinding(), TEXT("EState"));
+		}
+		return Singleton;
+	}
+	template<> PATHFINDING_API UEnum* StaticEnum<EState>()
+	{
+		return EState_StaticEnum();
+	}
+	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EState(EState_StaticEnum, TEXT("/Script/PathFinding"), TEXT("EState"), false, nullptr, nullptr);
+	uint32 Get_Z_Construct_UEnum_PathFinding_EState_Hash() { return 3627550552U; }
+	UEnum* Z_Construct_UEnum_PathFinding_EState()
+	{
+#if WITH_HOT_RELOAD
+		UPackage* Outer = Z_Construct_UPackage__Script_PathFinding();
+		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EState"), 0, Get_Z_Construct_UEnum_PathFinding_EState_Hash(), false);
+#else
+		static UEnum* ReturnEnum = nullptr;
+#endif // WITH_HOT_RELOAD
+		if (!ReturnEnum)
+		{
+			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
+				{ "EState::ES_Patrol", (int64)EState::ES_Patrol },
+				{ "EState::ES_Chase", (int64)EState::ES_Chase },
+				{ "EState::ES_ReturnPatrol", (int64)EState::ES_ReturnPatrol },
+			};
+#if WITH_METADATA
+			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
+				{ "BlueprintType", "true" },
+				{ "ES_Chase.DisplayName", "Chase" },
+				{ "ES_Patrol.DisplayName", "Patrol" },
+				{ "ES_ReturnPatrol.DisplayName", "ReturnPartol" },
+				{ "ModuleRelativePath", "SteeringActor.h" },
+			};
+#endif
+			static const UE4CodeGen_Private::FEnumParams EnumParams = {
+				(UObject*(*)())Z_Construct_UPackage__Script_PathFinding,
+				nullptr,
+				"EState",
+				"EState",
+				Enumerators,
+				ARRAY_COUNT(Enumerators),
+				RF_Public|RF_Transient|RF_MarkAsNative,
+				UE4CodeGen_Private::EDynamicType::NotDynamic,
+				(uint8)UEnum::ECppForm::EnumClass,
+				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
+			};
+			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
+		}
+		return ReturnEnum;
+	}
 	void ASteeringActor::StaticRegisterNativesASteeringActor()
 	{
 		UClass* Class = ASteeringActor::StaticClass();
@@ -229,7 +285,8 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentState_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_currentState;
+		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_currentState;
+		static const UE4CodeGen_Private::FBytePropertyParams NewProp_currentState_Underlying;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statesForSeeker_MetaData[];
 #endif
@@ -344,7 +401,8 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		{ "ModuleRelativePath", "SteeringActor.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState = { "currentState", nullptr, (EPropertyFlags)0x0024080000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, currentState), Z_Construct_UClass_AStatePrimative_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData)) };
+	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState = { "currentState", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, currentState), Z_Construct_UEnum_PathFinding_EState, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData)) };
+	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData[] = {
 		{ "Category", "SteeringActor" },
@@ -366,6 +424,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_Underlying,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_Inner,
 	};
@@ -396,7 +455,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 3864910961);
+	IMPLEMENT_CLASS(ASteeringActor, 4277400755);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

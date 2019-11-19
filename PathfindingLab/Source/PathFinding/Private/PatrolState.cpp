@@ -2,8 +2,9 @@
 
 
 #include "PatrolState.h"
+#include "SteeringActor.h"
 
-void APatrolState::UpdateState(const class ASteeringActor& strActr)
+void APatrolState::UpdateState(const ASteeringActor& strActr)
 {
-	//SteeringActor.Get()->CallFunction()
+	print("On Patrol");
 }

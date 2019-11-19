@@ -2,8 +2,9 @@
 
 
 #include "ChaseState.h"
+#include "SteeringActor.h"
 
-void AChaseState::UpdateState(const class ASteeringActor& strActr)
+void AChaseState::UpdateState(const ASteeringActor& strActr)
 {
 
 }

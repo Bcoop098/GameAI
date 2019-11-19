@@ -3,6 +3,7 @@
 #pragma once
 
 #include "CoreMinimal.h"
+#define print(Format, ...) UE_LOG(LogTemp, Warning, TEXT(Format), ##__VA_ARGS__)
 #include "GameFramework/Actor.h"
 #include "StatePrimative.generated.h"
 
@@ -16,4 +17,7 @@ public:
 	AStatePrimative();
 
 	virtual void UpdateState(const class ASteeringActor& strActr);
+
+
+	void CANTHISWORK();
 };
