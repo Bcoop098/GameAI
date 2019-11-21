@@ -8,79 +8,14 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-struct FVector;
 #ifdef PATHFINDING_SteeringActor_generated_h
 #error "SteeringActor.generated.h already included, missing '#pragma once' in SteeringActor.h"
 #endif
 #define PATHFINDING_SteeringActor_generated_h
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_RPC_WRAPPERS \
- \
-	DECLARE_FUNCTION(execcheckCone) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_actorPos); \
-		P_GET_STRUCT(FVector,Z_Param_playerPos); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkCone(Z_Param_actorPos,Z_Param_playerPos); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execcheckDistanceChase) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_actorPos); \
-		P_GET_STRUCT(FVector,Z_Param_playerPos); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkDistanceChase(Z_Param_actorPos,Z_Param_playerPos); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execcheckDistance) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_actorPos); \
-		P_GET_STRUCT(FVector,Z_Param_playerPos); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkDistance(Z_Param_actorPos,Z_Param_playerPos); \
-		P_NATIVE_END; \
-	}
-
-
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
- \
-	DECLARE_FUNCTION(execcheckCone) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_actorPos); \
-		P_GET_STRUCT(FVector,Z_Param_playerPos); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkCone(Z_Param_actorPos,Z_Param_playerPos); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execcheckDistanceChase) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_actorPos); \
-		P_GET_STRUCT(FVector,Z_Param_playerPos); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkDistanceChase(Z_Param_actorPos,Z_Param_playerPos); \
-		P_NATIVE_END; \
-	} \
- \
-	DECLARE_FUNCTION(execcheckDistance) \
-	{ \
-		P_GET_STRUCT(FVector,Z_Param_actorPos); \
-		P_GET_STRUCT(FVector,Z_Param_playerPos); \
-		P_FINISH; \
-		P_NATIVE_BEGIN; \
-		*(bool*)Z_Param__Result=P_THIS->checkDistance(Z_Param_actorPos,Z_Param_playerPos); \
-		P_NATIVE_END; \
-	}
-
-
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_INCLASS_NO_PURE_DECLS \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASteeringActor(); \
 	friend struct Z_Construct_UClass_ASteeringActor_Statics; \
@@ -89,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(ASteeringActor)
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_INCLASS \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS \
 private: \
 	static void StaticRegisterNativesASteeringActor(); \
 	friend struct Z_Construct_UClass_ASteeringActor_Statics; \
@@ -98,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(ASteeringActor)
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_STANDARD_CONSTRUCTORS \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API ASteeringActor(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(ASteeringActor) \
@@ -111,7 +46,7 @@ private: \
 public:
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_ENHANCED_CONSTRUCTORS \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API ASteeringActor(ASteeringActor&&); \
@@ -122,14 +57,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(ASteeringActor)
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_PRIVATE_PROPERTY_OFFSET \
-	FORCEINLINE static uint32 __PPO__statesForSeeker() { return STRUCT_OFFSET(ASteeringActor, statesForSeeker); } \
-	FORCEINLINE static uint32 __PPO__currentState() { return STRUCT_OFFSET(ASteeringActor, currentState); } \
-	FORCEINLINE static uint32 __PPO__cone() { return STRUCT_OFFSET(ASteeringActor, cone); } \
-	FORCEINLINE static uint32 __PPO__rad() { return STRUCT_OFFSET(ASteeringActor, rad); } \
-	FORCEINLINE static uint32 __PPO__detectionCone() { return STRUCT_OFFSET(ASteeringActor, detectionCone); } \
-	FORCEINLINE static uint32 __PPO__distanceToDetect() { return STRUCT_OFFSET(ASteeringActor, distanceToDetect); } \
-	FORCEINLINE static uint32 __PPO__distanceToDetectChase() { return STRUCT_OFFSET(ASteeringActor, distanceToDetectChase); } \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__SteeringVelocity() { return STRUCT_OFFSET(ASteeringActor, SteeringVelocity); } \
 	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(ASteeringActor, MaxSpeed); } \
 	FORCEINLINE static uint32 __PPO__DragForce() { return STRUCT_OFFSET(ASteeringActor, DragForce); } \
@@ -138,25 +66,25 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 	FORCEINLINE static uint32 __PPO__TargetPos() { return STRUCT_OFFSET(ASteeringActor, TargetPos); }
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_18_PROLOG
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_GENERATED_BODY_LEGACY \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_10_PROLOG
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_PRIVATE_PROPERTY_OFFSET \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_RPC_WRAPPERS \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_INCLASS \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_STANDARD_CONSTRUCTORS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_21_GENERATED_BODY \
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_PRIVATE_PROPERTY_OFFSET \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_RPC_WRAPPERS_NO_PURE_DECLS \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_INCLASS_NO_PURE_DECLS \
-	PathfindingLab_Source_PathFinding_SteeringActor_h_21_ENHANCED_CONSTRUCTORS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS_NO_PURE_DECLS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
@@ -166,13 +94,5 @@ template<> PATHFINDING_API UClass* StaticClass<class ASteeringActor>();
 #undef CURRENT_FILE_ID
 #define CURRENT_FILE_ID PathfindingLab_Source_PathFinding_SteeringActor_h
 
-
-#define FOREACH_ENUM_ESTATE(op) \
-	op(EState::ES_Patrol) \
-	op(EState::ES_Chase) \
-	op(EState::ES_ReturnPatrol) 
-
-enum class EState : uint8;
-template<> PATHFINDING_API UEnum* StaticEnum<EState>();
 
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

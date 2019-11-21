@@ -13,217 +13,14 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 // Cross Module References
-	PATHFINDING_API UEnum* Z_Construct_UEnum_PathFinding_EState();
-	UPackage* Z_Construct_UPackage__Script_PathFinding();
 	PATHFINDING_API UClass* Z_Construct_UClass_ASteeringActor_NoRegister();
 	PATHFINDING_API UClass* Z_Construct_UClass_ASteeringActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
-	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkCone();
+	UPackage* Z_Construct_UPackage__Script_PathFinding();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
-	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkDistance();
-	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_checkDistanceChase();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
-	PATHFINDING_API UClass* Z_Construct_UClass_AStatePrimative_NoRegister();
 // End Cross Module References
-	static UEnum* EState_StaticEnum()
-	{
-		static UEnum* Singleton = nullptr;
-		if (!Singleton)
-		{
-			Singleton = GetStaticEnum(Z_Construct_UEnum_PathFinding_EState, Z_Construct_UPackage__Script_PathFinding(), TEXT("EState"));
-		}
-		return Singleton;
-	}
-	template<> PATHFINDING_API UEnum* StaticEnum<EState>()
-	{
-		return EState_StaticEnum();
-	}
-	static FCompiledInDeferEnum Z_CompiledInDeferEnum_UEnum_EState(EState_StaticEnum, TEXT("/Script/PathFinding"), TEXT("EState"), false, nullptr, nullptr);
-	uint32 Get_Z_Construct_UEnum_PathFinding_EState_Hash() { return 3627550552U; }
-	UEnum* Z_Construct_UEnum_PathFinding_EState()
-	{
-#if WITH_HOT_RELOAD
-		UPackage* Outer = Z_Construct_UPackage__Script_PathFinding();
-		static UEnum* ReturnEnum = FindExistingEnumIfHotReloadOrDynamic(Outer, TEXT("EState"), 0, Get_Z_Construct_UEnum_PathFinding_EState_Hash(), false);
-#else
-		static UEnum* ReturnEnum = nullptr;
-#endif // WITH_HOT_RELOAD
-		if (!ReturnEnum)
-		{
-			static const UE4CodeGen_Private::FEnumeratorParam Enumerators[] = {
-				{ "EState::ES_Patrol", (int64)EState::ES_Patrol },
-				{ "EState::ES_Chase", (int64)EState::ES_Chase },
-				{ "EState::ES_ReturnPatrol", (int64)EState::ES_ReturnPatrol },
-			};
-#if WITH_METADATA
-			const UE4CodeGen_Private::FMetaDataPairParam Enum_MetaDataParams[] = {
-				{ "BlueprintType", "true" },
-				{ "ES_Chase.DisplayName", "Chase" },
-				{ "ES_Patrol.DisplayName", "Patrol" },
-				{ "ES_ReturnPatrol.DisplayName", "ReturnPartol" },
-				{ "ModuleRelativePath", "SteeringActor.h" },
-			};
-#endif
-			static const UE4CodeGen_Private::FEnumParams EnumParams = {
-				(UObject*(*)())Z_Construct_UPackage__Script_PathFinding,
-				nullptr,
-				"EState",
-				"EState",
-				Enumerators,
-				ARRAY_COUNT(Enumerators),
-				RF_Public|RF_Transient|RF_MarkAsNative,
-				UE4CodeGen_Private::EDynamicType::NotDynamic,
-				(uint8)UEnum::ECppForm::EnumClass,
-				METADATA_PARAMS(Enum_MetaDataParams, ARRAY_COUNT(Enum_MetaDataParams))
-			};
-			UE4CodeGen_Private::ConstructUEnum(ReturnEnum, EnumParams);
-		}
-		return ReturnEnum;
-	}
 	void ASteeringActor::StaticRegisterNativesASteeringActor()
 	{
-		UClass* Class = ASteeringActor::StaticClass();
-		static const FNameNativePtrPair Funcs[] = {
-			{ "checkCone", &ASteeringActor::execcheckCone },
-			{ "checkDistance", &ASteeringActor::execcheckDistance },
-			{ "checkDistanceChase", &ASteeringActor::execcheckDistanceChase },
-		};
-		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
-	}
-	struct Z_Construct_UFunction_ASteeringActor_checkCone_Statics
-	{
-		struct SteeringActor_eventcheckCone_Parms
-		{
-			FVector actorPos;
-			FVector playerPos;
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_playerPos;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_actorPos;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((SteeringActor_eventcheckCone_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SteeringActor_eventcheckCone_Parms), &Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_playerPos = { "playerPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventcheckCone_Parms, playerPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_actorPos = { "actorPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventcheckCone_Parms, actorPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_playerPos,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkCone_Statics::NewProp_actorPos,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkCone_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkCone", sizeof(SteeringActor_eventcheckCone_Parms), Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkCone_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ASteeringActor_checkCone()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_checkCone_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ASteeringActor_checkDistance_Statics
-	{
-		struct SteeringActor_eventcheckDistance_Parms
-		{
-			FVector actorPos;
-			FVector playerPos;
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_playerPos;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_actorPos;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((SteeringActor_eventcheckDistance_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SteeringActor_eventcheckDistance_Parms), &Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_playerPos = { "playerPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventcheckDistance_Parms, playerPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_actorPos = { "actorPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventcheckDistance_Parms, actorPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_playerPos,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::NewProp_actorPos,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkDistance", sizeof(SteeringActor_eventcheckDistance_Parms), Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ASteeringActor_checkDistance()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_checkDistance_Statics::FuncParams);
-		}
-		return ReturnFunction;
-	}
-	struct Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics
-	{
-		struct SteeringActor_eventcheckDistanceChase_Parms
-		{
-			FVector actorPos;
-			FVector playerPos;
-			bool ReturnValue;
-		};
-		static void NewProp_ReturnValue_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_ReturnValue;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_playerPos;
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_actorPos;
-		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
-#endif
-		static const UE4CodeGen_Private::FFunctionParams FuncParams;
-	};
-	void Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_ReturnValue_SetBit(void* Obj)
-	{
-		((SteeringActor_eventcheckDistanceChase_Parms*)Obj)->ReturnValue = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(SteeringActor_eventcheckDistanceChase_Parms), &Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_ReturnValue_SetBit, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_playerPos = { "playerPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventcheckDistanceChase_Parms, playerPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_actorPos = { "actorPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventcheckDistanceChase_Parms, actorPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
-	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers[] = {
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_ReturnValue,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_playerPos,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::NewProp_actorPos,
-	};
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams[] = {
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "checkDistanceChase", sizeof(SteeringActor_eventcheckDistanceChase_Parms), Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::Function_MetaDataParams)) };
-	UFunction* Z_Construct_UFunction_ASteeringActor_checkDistanceChase()
-	{
-		static UFunction* ReturnFunction = nullptr;
-		if (!ReturnFunction)
-		{
-			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_checkDistanceChase_Statics::FuncParams);
-		}
-		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ASteeringActor_NoRegister()
 	{
@@ -232,7 +29,6 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	struct Z_Construct_UClass_ASteeringActor_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
-		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -260,38 +56,6 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_SteeringVelocity_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_SteeringVelocity;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_distanceToDetectChase_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_distanceToDetectChase;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_distanceToDetect_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_distanceToDetect;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_detectionCone_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_detectionCone;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_rad_MetaData[];
-#endif
-		static void NewProp_rad_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_rad;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_cone_MetaData[];
-#endif
-		static void NewProp_cone_SetBit(void* Obj);
-		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_cone;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_currentState_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_currentState;
-		static const UE4CodeGen_Private::FBytePropertyParams NewProp_currentState_Underlying;
-#if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statesForSeeker_MetaData[];
-#endif
-		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_statesForSeeker;
-		static const UE4CodeGen_Private::FClassPropertyParams NewProp_statesForSeeker_Inner;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -299,11 +63,6 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	UObject* (*const Z_Construct_UClass_ASteeringActor_Statics::DependentSingletons[])() = {
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_PathFinding,
-	};
-	const FClassFunctionLinkInfo Z_Construct_UClass_ASteeringActor_Statics::FuncInfo[] = {
-		{ &Z_Construct_UFunction_ASteeringActor_checkCone, "checkCone" }, // 1510049753
-		{ &Z_Construct_UFunction_ASteeringActor_checkDistance, "checkDistance" }, // 567682636
-		{ &Z_Construct_UFunction_ASteeringActor_checkDistanceChase, "checkDistanceChase" }, // 4229473396
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::Class_MetaDataParams[] = {
@@ -353,64 +112,6 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_SteeringVelocity = { "SteeringVelocity", nullptr, (EPropertyFlags)0x0020080000000014, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, SteeringVelocity), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_SteeringVelocity_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_SteeringVelocity_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetectChase_MetaData[] = {
-		{ "Category", "SteeringActor" },
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetectChase = { "distanceToDetectChase", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, distanceToDetectChase), METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetectChase_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetectChase_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetect_MetaData[] = {
-		{ "Category", "SteeringActor" },
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetect = { "distanceToDetect", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, distanceToDetect), METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetect_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetect_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_detectionCone_MetaData[] = {
-		{ "Category", "SteeringActor" },
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_detectionCone = { "detectionCone", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, detectionCone), METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_detectionCone_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_detectionCone_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad_MetaData[] = {
-		{ "Category", "SteeringActor" },
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	void Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad_SetBit(void* Obj)
-	{
-		((ASteeringActor*)Obj)->rad = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad = { "rad", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASteeringActor), &Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_MetaData[] = {
-		{ "Category", "SteeringActor" },
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	void Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_SetBit(void* Obj)
-	{
-		((ASteeringActor*)Obj)->cone = 1;
-	}
-	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone = { "cone", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASteeringActor), &Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone_MetaData)) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData[] = {
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState = { "currentState", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, currentState), Z_Construct_UEnum_PathFinding_EState, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_MetaData)) };
-	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
-#if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData[] = {
-		{ "Category", "SteeringActor" },
-		{ "ModuleRelativePath", "SteeringActor.h" },
-	};
-#endif
-	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker = { "statesForSeeker", nullptr, (EPropertyFlags)0x0024080000000005, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, statesForSeeker), METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_MetaData)) };
-	const UE4CodeGen_Private::FClassPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_Inner = { "statesForSeeker", nullptr, (EPropertyFlags)0x0004000000000000, UE4CodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_AStatePrimative_NoRegister, Z_Construct_UClass_UClass, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASteeringActor_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_TargetPos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_SeekDecelerationDistance,
@@ -418,15 +119,6 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_DragForce,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_MaxSpeed,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_SteeringVelocity,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetectChase,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_distanceToDetect,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_detectionCone,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_rad,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_cone,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_currentState_Underlying,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_statesForSeeker_Inner,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_ASteeringActor_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<ASteeringActor>::IsAbstract,
@@ -436,11 +128,11 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		FuncInfo,
+		nullptr,
 		Z_Construct_UClass_ASteeringActor_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		ARRAY_COUNT(FuncInfo),
+		0,
 		ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -455,7 +147,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 4277400755);
+	IMPLEMENT_CLASS(ASteeringActor, 818038747);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

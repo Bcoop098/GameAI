@@ -10,11 +10,11 @@
  * 
  */
 UCLASS()
-class PATHFINDING_API APatrolState : public AStatePrimative
+class PATHFINDING_API UPatrolState : public UStatePrimative
 {
 	GENERATED_BODY()
 public:
 
-	virtual void Start(const class ASteeringActor& strActr) override;
-	virtual void UpdateState(const class ASteeringActor& strActr) override;
+	virtual void StartState() override;
+	virtual void UpdateState(float deltaTime) override;
 };

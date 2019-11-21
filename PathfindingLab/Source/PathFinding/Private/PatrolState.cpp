@@ -4,8 +4,7 @@
 #include "PatrolState.h"
 #include "SteeringActor.h"
 
-
-void APatrolState::Start(const ASteeringActor & strActr)
+void UPatrolState::StartState()
 {
 	/*
 	pseudocode
@@ -13,7 +12,7 @@ void APatrolState::Start(const ASteeringActor & strActr)
 	strActor.getPathfinder().SetPath(patrolPath);
 	*/
 }
-void APatrolState::UpdateState(const ASteeringActor& strActr)
+void UPatrolState::UpdateState(float deltaTime)
 {
 	print("On Patrol");
 }

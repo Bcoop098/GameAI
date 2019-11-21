@@ -7,14 +7,6 @@
 #include "GameFramework/Actor.h"
 #include "SteeringActor.generated.h"
 
-UENUM(BlueprintType)
-enum class EState : uint8
-{
-	ES_Patrol		UMETA(DisplayName="Patrol"),
-	ES_Chase		UMETA(DisplayName = "Chase"),
-	ES_ReturnPatrol UMETA(DisplayName = "ReturnPartol")
-};
-
 UCLASS()
 class PATHFINDING_API ASteeringActor : public AActor
 {
@@ -32,41 +24,7 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	UFUNCTION(BlueprintCallable)
-	bool checkDistance(FVector actorPos, FVector playerPos);
-
-	UFUNCTION(BlueprintCallable)
-	bool checkDistanceChase(FVector actorPos, FVector playerPos);
-
-	UFUNCTION(BlueprintCallable)
-	bool checkCone(FVector actorPos, FVector playerPos);
-
-	
-
-
-
 protected:
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<TSubclassOf<AStatePrimative>> statesForSeeker;
-
-	UPROPERTY()
-	EState currentState;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool cone = false;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool rad = false;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float detectionCone = 120.0f;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float distanceToDetect = 400.0f;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float distanceToDetectChase = 800.0f;
-
 	FVector Seek();
 
 	FVector Position = FVector(0,0,0);

@@ -24,6 +24,8 @@ public:
 
 	virtual void Tick(float DeltaTime) override;
 
+	class AMyPathBuilderActor* GetPathBuilder();
+
 protected:
 
 	
@@ -41,4 +43,7 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FVector> Path;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	class AMyPathBuilderActor* pathBuilder = nullptr;
 };

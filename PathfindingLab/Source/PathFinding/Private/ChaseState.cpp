@@ -4,7 +4,7 @@
 #include "ChaseState.h"
 #include "SteeringActor.h"
 
-void AChaseState::Start(const ASteeringActor & strActr)
+void UChaseState::StartState()
 {
 	/*
 	pseudocode
@@ -14,7 +14,7 @@ void AChaseState::Start(const ASteeringActor & strActr)
 	*/
 }
 
-void AChaseState::UpdateState(const ASteeringActor& strActr)
+void UChaseState::UpdateState(float deltaTime)
 {
 	//strActor.getPathfinder().SetPath(MyPathbuilder.getPath(strActr.position, player.position));
 }

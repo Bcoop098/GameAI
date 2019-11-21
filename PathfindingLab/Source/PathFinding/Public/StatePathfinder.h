@@ -1,0 +1,76 @@
+// Fill out your copyright notice in the Description page of Project Settings.
+
+#pragma once
+
+#include "CoreMinimal.h"
+#include "PathFindingActor.h"
+#include "StatePathfinder.generated.h"
+
+UENUM(BlueprintType)
+enum class EState : uint8
+{
+	ES_Patrol		UMETA(DisplayName = "Patrol"),
+	ES_Chase		UMETA(DisplayName = "Chase"),
+	ES_ReturnPatrol UMETA(DisplayName = "ReturnPartol")
+};
+
+UCLASS()
+class PATHFINDING_API AStatePathfinder : public APathFindingActor
+{
+	GENERATED_BODY()
+	
+public:
+
+	virtual void Tick(float DeltaTime) override;
+
+	UFUNCTION(BlueprintCallable)
+		bool checkDistance(FVector actorPos, FVector playerPos);
+
+	UFUNCTION(BlueprintCallable)
+		bool checkDistanceChase(FVector actorPos, FVector playerPos);
+
+	UFUNCTION(BlueprintCallable)
+		bool checkCone(FVector actorPos, FVector playerPos);
+
+protected:
+
+	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector Point1 = FVector(0.0, 0.0, 0.0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector Point2 = FVector(0.0, 0.0, 0.0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector Point3 = FVector(0.0, 0.0, 0.0);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector Point4 = FVector(0.0, 0.0, 0.0);
+
+	TArray<FVector> patrolRoute;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		TArray<TSubclassOf<UStatePrimative>> statesForSeeker;
+	TArray<UStatePrimative*> stateObjects;
+
+	UPROPERTY()
+		EState currentState;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool cone = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool rad = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float detectionCone = 120.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float distanceToDetect = 400.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float distanceToDetectChase = 800.0f;
+
+	
+};

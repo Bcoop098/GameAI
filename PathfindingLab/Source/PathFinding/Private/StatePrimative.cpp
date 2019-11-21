@@ -3,25 +3,24 @@
 
 #include "StatePrimative.h"
 #include "SteeringActor.h"
+#include "StatePathfinder.h"
 
 // Sets default values
-AStatePrimative::AStatePrimative()
-{
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false;
-
-}
-
-void AStatePrimative::Start(const ASteeringActor & strActr)
-{
-
-}
-void AStatePrimative::UpdateState(const ASteeringActor& strActr)
+UStatePrimative::UStatePrimative()
 {
 
 }
 
-void AStatePrimative::CANTHISWORK()
+void UStatePrimative::Init(AStatePathfinder* owner)
 {
-	print("FAQ");
+	Owner = owner;
+}
+
+void UStatePrimative::StartState()
+{
+
+}
+void UStatePrimative::UpdateState(float deltaTime)
+{
+
 }

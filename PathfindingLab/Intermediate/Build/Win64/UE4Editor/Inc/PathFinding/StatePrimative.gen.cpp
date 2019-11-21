@@ -13,19 +13,19 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStatePrimative() {}
 // Cross Module References
-	PATHFINDING_API UClass* Z_Construct_UClass_AStatePrimative_NoRegister();
-	PATHFINDING_API UClass* Z_Construct_UClass_AStatePrimative();
-	ENGINE_API UClass* Z_Construct_UClass_AActor();
+	PATHFINDING_API UClass* Z_Construct_UClass_UStatePrimative_NoRegister();
+	PATHFINDING_API UClass* Z_Construct_UClass_UStatePrimative();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UObject();
 	UPackage* Z_Construct_UPackage__Script_PathFinding();
 // End Cross Module References
-	void AStatePrimative::StaticRegisterNativesAStatePrimative()
+	void UStatePrimative::StaticRegisterNativesUStatePrimative()
 	{
 	}
-	UClass* Z_Construct_UClass_AStatePrimative_NoRegister()
+	UClass* Z_Construct_UClass_UStatePrimative_NoRegister()
 	{
-		return AStatePrimative::StaticClass();
+		return UStatePrimative::StaticClass();
 	}
-	struct Z_Construct_UClass_AStatePrimative_Statics
+	struct Z_Construct_UClass_UStatePrimative_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
 #if WITH_METADATA
@@ -34,21 +34,21 @@ void EmptyLinkFunctionForGeneratedCodeStatePrimative() {}
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
-	UObject* (*const Z_Construct_UClass_AStatePrimative_Statics::DependentSingletons[])() = {
-		(UObject* (*)())Z_Construct_UClass_AActor,
+	UObject* (*const Z_Construct_UClass_UStatePrimative_Statics::DependentSingletons[])() = {
+		(UObject* (*)())Z_Construct_UClass_UObject,
 		(UObject* (*)())Z_Construct_UPackage__Script_PathFinding,
 	};
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePrimative_Statics::Class_MetaDataParams[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UStatePrimative_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "StatePrimative.h" },
 		{ "ModuleRelativePath", "Public/StatePrimative.h" },
 	};
 #endif
-	const FCppClassTypeInfoStatic Z_Construct_UClass_AStatePrimative_Statics::StaticCppClassTypeInfo = {
-		TCppClassTypeTraits<AStatePrimative>::IsAbstract,
+	const FCppClassTypeInfoStatic Z_Construct_UClass_UStatePrimative_Statics::StaticCppClassTypeInfo = {
+		TCppClassTypeTraits<UStatePrimative>::IsAbstract,
 	};
-	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_AStatePrimative_Statics::ClassParams = {
-		&AStatePrimative::StaticClass,
+	const UE4CodeGen_Private::FClassParams Z_Construct_UClass_UStatePrimative_Statics::ClassParams = {
+		&UStatePrimative::StaticClass,
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
@@ -59,25 +59,25 @@ void EmptyLinkFunctionForGeneratedCodeStatePrimative() {}
 		0,
 		0,
 		0,
-		0x009000A0u,
-		METADATA_PARAMS(Z_Construct_UClass_AStatePrimative_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_AStatePrimative_Statics::Class_MetaDataParams))
+		0x001000A0u,
+		METADATA_PARAMS(Z_Construct_UClass_UStatePrimative_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UStatePrimative_Statics::Class_MetaDataParams))
 	};
-	UClass* Z_Construct_UClass_AStatePrimative()
+	UClass* Z_Construct_UClass_UStatePrimative()
 	{
 		static UClass* OuterClass = nullptr;
 		if (!OuterClass)
 		{
-			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_AStatePrimative_Statics::ClassParams);
+			UE4CodeGen_Private::ConstructUClass(OuterClass, Z_Construct_UClass_UStatePrimative_Statics::ClassParams);
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStatePrimative, 2000919533);
-	template<> PATHFINDING_API UClass* StaticClass<AStatePrimative>()
+	IMPLEMENT_CLASS(UStatePrimative, 3250333574);
+	template<> PATHFINDING_API UClass* StaticClass<UStatePrimative>()
 	{
-		return AStatePrimative::StaticClass();
+		return UStatePrimative::StaticClass();
 	}
-	static FCompiledInDefer Z_CompiledInDefer_UClass_AStatePrimative(Z_Construct_UClass_AStatePrimative, &AStatePrimative::StaticClass, TEXT("/Script/PathFinding"), TEXT("AStatePrimative"), false, nullptr, nullptr, nullptr);
-	DEFINE_VTABLE_PTR_HELPER_CTOR(AStatePrimative);
+	static FCompiledInDefer Z_CompiledInDefer_UClass_UStatePrimative(Z_Construct_UClass_UStatePrimative, &UStatePrimative::StaticClass, TEXT("/Script/PathFinding"), TEXT("UStatePrimative"), false, nullptr, nullptr, nullptr);
+	DEFINE_VTABLE_PTR_HELPER_CTOR(UStatePrimative);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 #ifdef _MSC_VER
 #pragma warning (pop)

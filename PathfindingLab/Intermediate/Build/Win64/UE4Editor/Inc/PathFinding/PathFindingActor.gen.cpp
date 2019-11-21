@@ -20,6 +20,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 	PATHFINDING_API UFunction* Z_Construct_UFunction_APathFindingActor_AddToPathFollow();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_APathFindingActor_SetPathToFollow();
+	PATHFINDING_API UClass* Z_Construct_UClass_AMyPathBuilderActor_NoRegister();
 // End Cross Module References
 	void APathFindingActor::StaticRegisterNativesAPathFindingActor()
 	{
@@ -128,6 +129,10 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_pathBuilder_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_pathBuilder;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Path_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_Path;
@@ -164,6 +169,13 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		{ "ModuleRelativePath", "PathFindingActor.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APathFindingActor_Statics::NewProp_pathBuilder_MetaData[] = {
+		{ "Category", "PathFindingActor" },
+		{ "ModuleRelativePath", "PathFindingActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_APathFindingActor_Statics::NewProp_pathBuilder = { "pathBuilder", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APathFindingActor, pathBuilder), Z_Construct_UClass_AMyPathBuilderActor_NoRegister, METADATA_PARAMS(Z_Construct_UClass_APathFindingActor_Statics::NewProp_pathBuilder_MetaData, ARRAY_COUNT(Z_Construct_UClass_APathFindingActor_Statics::NewProp_pathBuilder_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_APathFindingActor_Statics::NewProp_Path_MetaData[] = {
 		{ "Category", "PathFindingActor" },
@@ -202,6 +214,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_APathFindingActor_Statics::NewProp_ReachRadius = { "ReachRadius", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(APathFindingActor, ReachRadius), METADATA_PARAMS(Z_Construct_UClass_APathFindingActor_Statics::NewProp_ReachRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_APathFindingActor_Statics::NewProp_ReachRadius_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_APathFindingActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathFindingActor_Statics::NewProp_pathBuilder,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathFindingActor_Statics::NewProp_Path,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathFindingActor_Statics::NewProp_Path_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_APathFindingActor_Statics::NewProp_IsLooping,
@@ -235,7 +248,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APathFindingActor, 2361044315);
+	IMPLEMENT_CLASS(APathFindingActor, 1177609234);
 	template<> PATHFINDING_API UClass* StaticClass<APathFindingActor>()
 	{
 		return APathFindingActor::StaticClass();

@@ -3,7 +3,7 @@
 
 #include "PathFindingActor.h"
 #include "Kismet/KismetMathLibrary.h"
-
+#include "MyPathBuilderActor.h"
 
 void APathFindingActor::SetPathToFollow(const TArray<FVector>& newPath)
 {
@@ -53,4 +53,9 @@ void APathFindingActor::Tick(float DeltaTime)
 			NeedNewDestination = true;
 		}
 	}
+}
+
+AMyPathBuilderActor* APathFindingActor::GetPathBuilder()
+{
+	return pathBuilder;
 }

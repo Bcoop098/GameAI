@@ -4,7 +4,7 @@
 #include "ChaseReturnState.h"
 #include "SteeringActor.h"
 
-void AChaseReturnState::Start(const ASteeringActor & strActr)
+void UChaseReturnState::StartState()
 {
 	/*
 	pseudocode
@@ -13,7 +13,7 @@ void AChaseReturnState::Start(const ASteeringActor & strActr)
 	*/
 }
 
-void AChaseReturnState::UpdateState(const ASteeringActor& strActr)
+void UChaseReturnState::UpdateState(float deltaTime)
 {
 	
 }

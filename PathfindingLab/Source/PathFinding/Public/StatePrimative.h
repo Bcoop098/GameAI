@@ -4,21 +4,22 @@
 
 #include "CoreMinimal.h"
 #define print(Format, ...) UE_LOG(LogTemp, Warning, TEXT(Format), ##__VA_ARGS__)
-#include "GameFramework/Actor.h"
+#include "UObject/UObject.h"
 #include "StatePrimative.generated.h"
 
 UCLASS()
-class PATHFINDING_API AStatePrimative : public AActor
+class PATHFINDING_API UStatePrimative : public UObject
 {
 	GENERATED_BODY()
 	
 public:	
 	// Sets default values for this actor's properties
-	AStatePrimative();
+	UStatePrimative();
 
-	virtual void Start(const class ASteeringActor& strActr);
-	virtual void UpdateState(const class ASteeringActor& strActr);
+	void Init(class AStatePathfinder* owner);
+	virtual void StartState();
+	virtual void UpdateState(float deltaTime);
 
-
-	void CANTHISWORK();
+protected:
+	class AStatePathfinder* Owner = nullptr;
 };
