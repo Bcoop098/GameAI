@@ -48,6 +48,26 @@ void ASteeringActor::Tick(float DeltaTime)
 	FRotator PlayerRot = UKismetMathLibrary::FindLookAtRotation(Position, Position + SteeringVelocity);
 	SetActorRotation(PlayerRot);
 
+	/*if (checkDistance(this->GetActorLocation, playerPos) && checkCone(this->GetActorLocation, playerPos))
+	{
+		currentState = statesForSeeker[Chase];
+		statesForSeeker[0].GetDefaultObject()->Start(ThisClass());
+	}*/
+
+	/*
+	else if(escapeTime >= 4)
+	{
+		currentState = statesForSeeker[ReturnPatrol];
+		statesForSeeker[0].GetDefaultObject()->Start(ThisClass());
+	}
+	float distance = (Position - PatrolStart).Size(); //determines how close the actor is to the start of patrol
+	else if(distance <= 100.0f && currentState = statesForSeeker[ReturnPatrol])
+	{
+		currentState = statesForSeeker[Patrol];
+		statesForSeeker[0].GetDefaultObject()->Start(ThisClass());
+	}
+	*/
+
 	//statesForSeeker[0].GetDefaultObject()->UpdateState(ThisClass());
 }
 
