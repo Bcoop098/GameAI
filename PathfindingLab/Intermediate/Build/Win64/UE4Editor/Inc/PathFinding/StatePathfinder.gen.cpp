@@ -22,6 +22,8 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkDistance();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkDistanceChase();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_GetLastPatrol();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_GetPatrol();
 	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PATHFINDING_API UClass* Z_Construct_UClass_UStatePrimative_NoRegister();
 // End Cross Module References
@@ -87,6 +89,8 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 			{ "checkCone", &AStatePathfinder::execcheckCone },
 			{ "checkDistance", &AStatePathfinder::execcheckDistance },
 			{ "checkDistanceChase", &AStatePathfinder::execcheckDistanceChase },
+			{ "GetLastPatrol", &AStatePathfinder::execGetLastPatrol },
+			{ "GetPatrol", &AStatePathfinder::execGetPatrol },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -225,6 +229,73 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics
+	{
+		struct StatePathfinder_eventGetLastPatrol_Parms
+		{
+			FVector ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StatePathfinder_eventGetLastPatrol_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::NewProp_ReturnValue,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStatePathfinder, nullptr, "GetLastPatrol", sizeof(StatePathfinder_eventGetLastPatrol_Parms), Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStatePathfinder_GetLastPatrol()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStatePathfinder_GetLastPatrol_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics
+	{
+		struct StatePathfinder_eventGetPatrol_Parms
+		{
+			TArray<FVector> ReturnValue;
+		};
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue_Inner;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StatePathfinder_eventGetPatrol_Parms, ReturnValue), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::NewProp_ReturnValue_Inner = { "ReturnValue", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::NewProp_ReturnValue_Inner,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStatePathfinder, nullptr, "GetPatrol", sizeof(StatePathfinder_eventGetPatrol_Parms), Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStatePathfinder_GetPatrol()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStatePathfinder_GetPatrol_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AStatePathfinder_NoRegister()
 	{
 		return AStatePathfinder::StaticClass();
@@ -296,6 +367,8 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		{ &Z_Construct_UFunction_AStatePathfinder_checkCone, "checkCone" }, // 3649636018
 		{ &Z_Construct_UFunction_AStatePathfinder_checkDistance, "checkDistance" }, // 142003607
 		{ &Z_Construct_UFunction_AStatePathfinder_checkDistanceChase, "checkDistanceChase" }, // 3034434625
+		{ &Z_Construct_UFunction_AStatePathfinder_GetLastPatrol, "GetLastPatrol" }, // 3383039346
+		{ &Z_Construct_UFunction_AStatePathfinder_GetPatrol, "GetPatrol" }, // 37427671
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::Class_MetaDataParams[] = {
@@ -431,7 +504,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStatePathfinder, 738302344);
+	IMPLEMENT_CLASS(AStatePathfinder, 4265127130);
 	template<> PATHFINDING_API UClass* StaticClass<AStatePathfinder>()
 	{
 		return AStatePathfinder::StaticClass();

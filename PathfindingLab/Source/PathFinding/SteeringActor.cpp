@@ -62,3 +62,8 @@ FVector ASteeringActor::Seek()
 
 	return dir * speedRatio;
 }
+
+FVector ASteeringActor::GetTarget()
+{
+	return TargetPos;
+}

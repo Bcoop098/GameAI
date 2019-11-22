@@ -32,6 +32,12 @@ public:
 	UFUNCTION(BlueprintCallable)
 		bool checkCone(FVector actorPos, FVector playerPos);
 
+	UFUNCTION(BlueprintCallable)
+		TArray<FVector>& GetPatrol();
+
+	UFUNCTION(BlueprintCallable)
+		FVector GetLastPatrol();
+
 protected:
 
 	virtual void BeginPlay() override;
@@ -40,15 +46,19 @@ protected:
 		FVector Point1 = FVector(0.0, 0.0, 0.0);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector Point2 = FVector(0.0, 0.0, 0.0);
+		FVector Point2 = FVector(5.0, 0.0, 0.0);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector Point3 = FVector(0.0, 0.0, 0.0);
+		FVector Point3 = FVector(5.0, 5.0, 0.0);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector Point4 = FVector(0.0, 0.0, 0.0);
+		FVector Point4 = FVector(0.0, 5.0, 0.0);
 
 	TArray<FVector> patrolRoute;
+	
+	FVector lastPatrolPoint;
+
+	float escapeTime = 0.0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<TSubclassOf<UStatePrimative>> statesForSeeker;

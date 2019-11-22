@@ -16,6 +16,22 @@ struct FVector;
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execGetLastPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->GetLastPatrol(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TArray<FVector>*)Z_Param__Result=P_THIS->GetPatrol(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execcheckCone) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_actorPos); \
@@ -48,6 +64,22 @@ struct FVector;
 
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execGetLastPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->GetLastPatrol(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execGetPatrol) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(TArray<FVector>*)Z_Param__Result=P_THIS->GetPatrol(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execcheckCone) \
 	{ \

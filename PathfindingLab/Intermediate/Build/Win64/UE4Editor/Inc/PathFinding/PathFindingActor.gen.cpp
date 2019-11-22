@@ -19,6 +19,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 	UPackage* Z_Construct_UPackage__Script_PathFinding();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_APathFindingActor_AddToPathFollow();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_APathFindingActor_SetLooping();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_APathFindingActor_SetPathToFollow();
 	PATHFINDING_API UClass* Z_Construct_UClass_AMyPathBuilderActor_NoRegister();
 // End Cross Module References
@@ -27,6 +28,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		UClass* Class = APathFindingActor::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "AddToPathFollow", &APathFindingActor::execAddToPathFollow },
+			{ "SetLooping", &APathFindingActor::execSetLooping },
 			{ "SetPathToFollow", &APathFindingActor::execSetPathToFollow },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
@@ -71,6 +73,43 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APathFindingActor_AddToPathFollow_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_APathFindingActor_SetLooping_Statics
+	{
+		struct PathFindingActor_eventSetLooping_Parms
+		{
+			bool isLooping;
+		};
+		static void NewProp_isLooping_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_isLooping;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	void Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::NewProp_isLooping_SetBit(void* Obj)
+	{
+		((PathFindingActor_eventSetLooping_Parms*)Obj)->isLooping = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::NewProp_isLooping = { "isLooping", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(PathFindingActor_eventSetLooping_Parms), &Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::NewProp_isLooping_SetBit, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::NewProp_isLooping,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "PathFindingActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_APathFindingActor, nullptr, "SetLooping", sizeof(PathFindingActor_eventSetLooping_Parms), Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_APathFindingActor_SetLooping()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_APathFindingActor_SetLooping_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -161,6 +200,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_APathFindingActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_APathFindingActor_AddToPathFollow, "AddToPathFollow" }, // 1866452554
+		{ &Z_Construct_UFunction_APathFindingActor_SetLooping, "SetLooping" }, // 786216034
 		{ &Z_Construct_UFunction_APathFindingActor_SetPathToFollow, "SetPathToFollow" }, // 3868039958
 	};
 #if WITH_METADATA
@@ -248,7 +288,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APathFindingActor, 1177609234);
+	IMPLEMENT_CLASS(APathFindingActor, 4262911313);
 	template<> PATHFINDING_API UClass* StaticClass<APathFindingActor>()
 	{
 		return APathFindingActor::StaticClass();

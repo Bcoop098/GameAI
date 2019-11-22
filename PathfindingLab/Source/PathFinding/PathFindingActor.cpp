@@ -59,3 +59,8 @@ AMyPathBuilderActor* APathFindingActor::GetPathBuilder()
 {
 	return pathBuilder;
 }
+
+void APathFindingActor::SetLooping(bool isLooping)
+{
+	IsLooping = isLooping;
+}

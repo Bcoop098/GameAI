@@ -17,19 +17,19 @@ void AStatePathfinder::BeginPlay()
 
 	currentState = EState::ES_Patrol;
 
-	TArray<FVector> temp = pathBuilder->getPath(Point1, (FVector2D)Point2);
+	TArray<FVector> temp = pathBuilder->getPath(Point1, ((FVector2D)Point2));
 	patrolRoute.Append(temp);
 	temp.Reset();
 
-	temp = pathBuilder->getPath(Point2, (FVector2D)Point3);
+	temp = pathBuilder->getPath(Point2, ((FVector2D)Point3));
 	patrolRoute.Append(temp);
 	temp.Reset();
 
-	temp = pathBuilder->getPath(Point3, (FVector2D)Point4);
+	temp = pathBuilder->getPath(Point3, ((FVector2D)Point4));
 	patrolRoute.Append(temp);
 	temp.Reset();
 
-	temp = pathBuilder->getPath(Point4, (FVector2D)Point1);
+	temp = pathBuilder->getPath(Point4, ((FVector2D)Point1));
 	patrolRoute.Append(temp);
 	temp.Reset();
 }
@@ -37,25 +37,37 @@ void AStatePathfinder::BeginPlay()
 void AStatePathfinder::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
+	//Check if player is in cone of vision
 	if (checkCone(this->GetActorLocation(), TargetPos))
 	{
-		currentState = EState::ES_Chase;
+		if (currentState != EState::ES_Chase)
+		{
+			currentState = EState::ES_Chase;
+			stateObjects[(int)currentState]->StartState();
+		}
+		escapeTime = 0.0;
+	}
+	//check if they have been out of sight for too long
+	else if (currentState == EState::ES_Chase && escapeTime >= 4)
+	{
+		currentState = EState::ES_ReturnPatrol;
 		stateObjects[(int)currentState]->StartState();
 	}
-
-	
-	/*else if(escapeTime >= 4)
+	//check if player is out of chase cone
+	else if (currentState == EState::ES_Chase && !checkCone(this->GetActorLocation(), TargetPos))
 	{
-		currentState = statesForSeeker[ReturnPatrol];
-		statesForSeeker[0].GetDefaultObject()->Start(ThisClass());
+		escapeTime += DeltaTime;
 	}
-	float distance = (Position - PatrolStart).Size(); //determines how close the actor is to the start of patrol
-	
-	else if(distance <= 100.0f && currentState = statesForSeeker[ReturnPatrol])
+	//check if they made it back to the patrol route
+	else if(currentState == EState::ES_ReturnPatrol && Path.Num() <= 1)
 	{
-		currentState = statesForSeeker[Patrol];
-		statesForSeeker[0].GetDefaultObject()->Start(ThisClass());
-	}*/
+		currentState = EState::ES_Patrol;
+		stateObjects[(int)currentState]->StartState();
+	}
+	else if (currentState == EState::ES_Patrol)
+	{
+		lastPatrolPoint = Path[pos];
+	}
 	
 
 	stateObjects[(int)currentState]->UpdateState(DeltaTime);
@@ -125,4 +137,14 @@ bool AStatePathfinder::checkCone(FVector actorPos, FVector playerPos)
 
 	cone = false;
 	return false;
+}
+
+TArray<FVector>& AStatePathfinder::GetPatrol()
+{
+	return patrolRoute;
+}
+
+FVector AStatePathfinder::GetLastPatrol()
+{
+	return lastPatrolPoint;
 }

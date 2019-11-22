@@ -2,17 +2,14 @@
 
 
 #include "PatrolState.h"
-#include "SteeringActor.h"
+#include "StatePathfinder.h"
 
 void UPatrolState::StartState()
 {
-	/*
-	pseudocode
-	strActor.getPathfinder().IsLooping = true;
-	strActor.getPathfinder().SetPath(patrolPath);
-	*/
+	Owner->SetLooping(true);
+	Owner->SetPathToFollow(Owner->GetPatrol());
 }
 void UPatrolState::UpdateState(float deltaTime)
 {
-	print("On Patrol");
+	//print("On Patrol");
 }

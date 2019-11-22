@@ -18,4 +18,8 @@ public:
 
 	virtual void StartState() override;
 	virtual void UpdateState(float deltaTime) override;
+
+protected:
+	float maxTargetTime = 3.0;
+	float targetTime = 0.0;
 };

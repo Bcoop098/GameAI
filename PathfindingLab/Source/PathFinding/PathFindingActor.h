@@ -21,6 +21,8 @@ public:
 	UFUNCTION(BlueprintCallable)
 	void AddToPathFollow(const TArray<FVector>& newPath);
 
+	UFUNCTION(BlueprintCallable)
+	void SetLooping(bool isLooping);
 
 	virtual void Tick(float DeltaTime) override;
 

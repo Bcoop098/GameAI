@@ -16,6 +16,15 @@ struct FVector;
 
 #define PathfindingLab_Source_PathFinding_PathFindingActor_h_13_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execSetLooping) \
+	{ \
+		P_GET_UBOOL(Z_Param_isLooping); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetLooping(Z_Param_isLooping); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execAddToPathFollow) \
 	{ \
 		P_GET_TARRAY_REF(FVector,Z_Param_Out_newPath); \
@@ -36,6 +45,15 @@ struct FVector;
 
 
 #define PathfindingLab_Source_PathFinding_PathFindingActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execSetLooping) \
+	{ \
+		P_GET_UBOOL(Z_Param_isLooping); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->SetLooping(Z_Param_isLooping); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execAddToPathFollow) \
 	{ \

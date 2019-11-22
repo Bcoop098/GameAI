@@ -2,19 +2,25 @@
 
 
 #include "ChaseState.h"
-#include "SteeringActor.h"
+#include "StatePathFinder.h"
+#include "MyPathBuilderActor.h"
 
 void UChaseState::StartState()
 {
-	/*
-	pseudocode
-	strActor.getPathfinder().IsLooping = false;
-	strActor.getPathfinder().SetPath(MyPathbuilder.getPath(strActr.position, player.position));
-
-	*/
+	Owner->SetLooping(false);
+	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetActorLocation() / 100.0), (FVector2D)(Owner->GetTarget() / 100.0)));
+	targetTime = maxTargetTime;
 }
 
 void UChaseState::UpdateState(float deltaTime)
 {
-	//strActor.getPathfinder().SetPath(MyPathbuilder.getPath(strActr.position, player.position));
+	if (targetTime <= 0.0)
+	{
+		targetTime = maxTargetTime;
+		Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath(Owner->GetActorLocation(), (FVector2D)Owner->GetTarget()));
+	}
+	else
+	{
+		targetTime -= deltaTime;
+	}
 }
