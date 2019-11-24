@@ -59,14 +59,14 @@ void AStatePathfinder::Tick(float DeltaTime)
 		escapeTime += DeltaTime;
 	}
 	//check if they made it back to the patrol route
-	else if(currentState == EState::ES_ReturnPatrol && Path.Num() <= 1)
+	else if(currentState == EState::ES_ReturnPatrol && Path.Num() < 1)
 	{
 		currentState = EState::ES_Patrol;
 		stateObjects[(int)currentState]->StartState();
 	}
 	else if (currentState == EState::ES_Patrol)
 	{
-		lastPatrolPoint = Path[pos];
+		lastPatrolPoint = FVector(0.0, 0.0, 0.0);//Path[0];
 	}
 	
 

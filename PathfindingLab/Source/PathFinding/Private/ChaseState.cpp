@@ -8,7 +8,7 @@
 void UChaseState::StartState()
 {
 	Owner->SetLooping(false);
-	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetActorLocation() / 100.0), (FVector2D)(Owner->GetTarget() / 100.0)));
+	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetActorLocation()), (FVector2D)(Owner->GetTarget())));
 	targetTime = maxTargetTime;
 }
 

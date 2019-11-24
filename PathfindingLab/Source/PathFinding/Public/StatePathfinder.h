@@ -46,25 +46,28 @@ protected:
 		FVector Point1 = FVector(0.0, 0.0, 0.0);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector Point2 = FVector(5.0, 0.0, 0.0);
+		FVector Point2 = FVector(2900.0, 0.0, 0.0);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector Point3 = FVector(5.0, 5.0, 0.0);
+		FVector Point3 = FVector(2900.0, 2900.0, 0.0);
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		FVector Point4 = FVector(0.0, 5.0, 0.0);
+		FVector Point4 = FVector(0.0, 2900.0, 0.0);
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<FVector> patrolRoute;
 	
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector lastPatrolPoint;
 
+	UPROPERTY()
 	float escapeTime = 0.0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<TSubclassOf<UStatePrimative>> statesForSeeker;
 	TArray<UStatePrimative*> stateObjects;
 
-	UPROPERTY()
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		EState currentState;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

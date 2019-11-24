@@ -161,6 +161,9 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStatePathfinder); \
 	FORCEINLINE static uint32 __PPO__Point2() { return STRUCT_OFFSET(AStatePathfinder, Point2); } \
 	FORCEINLINE static uint32 __PPO__Point3() { return STRUCT_OFFSET(AStatePathfinder, Point3); } \
 	FORCEINLINE static uint32 __PPO__Point4() { return STRUCT_OFFSET(AStatePathfinder, Point4); } \
+	FORCEINLINE static uint32 __PPO__patrolRoute() { return STRUCT_OFFSET(AStatePathfinder, patrolRoute); } \
+	FORCEINLINE static uint32 __PPO__lastPatrolPoint() { return STRUCT_OFFSET(AStatePathfinder, lastPatrolPoint); } \
+	FORCEINLINE static uint32 __PPO__escapeTime() { return STRUCT_OFFSET(AStatePathfinder, escapeTime); } \
 	FORCEINLINE static uint32 __PPO__statesForSeeker() { return STRUCT_OFFSET(AStatePathfinder, statesForSeeker); } \
 	FORCEINLINE static uint32 __PPO__currentState() { return STRUCT_OFFSET(AStatePathfinder, currentState); } \
 	FORCEINLINE static uint32 __PPO__cone() { return STRUCT_OFFSET(AStatePathfinder, cone); } \

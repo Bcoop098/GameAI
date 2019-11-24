@@ -73,17 +73,18 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 
 	float positionZ = position.Z;
 
-	targetPos = target;
+	FVector redPos = position / GridScale;
+	targetPos = target / GridScale;
 	openList.Empty();
 
-	theGrid[FMath::RoundToInt(position.X)][FMath::RoundToInt(position.Y)]->dist = 0;
+	theGrid[FMath::RoundToInt(redPos.X)][FMath::RoundToInt(redPos.Y)]->dist = 0;
 
-	openList.Add(theGrid[FMath::RoundToInt(position.X)][FMath::RoundToInt(position.Y)]);
+	openList.Add(theGrid[FMath::RoundToInt(redPos.X)][FMath::RoundToInt(redPos.Y)]);
 
 	/* CODE SEGEMENT */
 	while (openList.Num() > 0)
 	{
-		int smolIndex = FindBestIndex(); // = openList[0];
+		int smolIndex = FindBestIndex();
 
 		Node* current;
 
@@ -115,7 +116,7 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 	Node* tNode = theGrid[FMath::RoundToInt(targetPos.X)][FMath::RoundToInt(targetPos.Y)];
 	TArray<FVector> path;
 
-	if (tNode->prev != nullptr || tNode == theGrid[FMath::RoundToInt(position.X)][FMath::RoundToInt(position.Y)])
+	if (tNode->prev != nullptr || tNode == theGrid[FMath::RoundToInt(redPos.X)][FMath::RoundToInt(redPos.Y)])
 	{
 		while (tNode != nullptr)
 		{
@@ -206,16 +207,16 @@ float AMyPathBuilderActor::Heuristic(Node* ptr)
 //checks to make sure the target isn't in a wall
 FVector AMyPathBuilderActor::checkPoint(FVector target)
 {
-	FVector newPoint = target;
+	FVector newPoint = target / GridScale;
 
-	while (theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->blocked)
+	while (theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->blocked)
 	{
-		for (int i = 0; i < theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors.Num(); ++i)
+		for (int i = 0; i < theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors.Num(); ++i)
 		{
-			if (!(theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors[i]->blocked))
+			if (!(theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->blocked))
 			{
-				target.X = theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors[i]->pos.X;
-				target.Y = theGrid[FMath::RoundToInt(target.X)][FMath::RoundToInt(target.Y)]->neighbors[i]->pos.Y;
+				newPoint.X = theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->pos.X;
+				newPoint.Y = theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->pos.Y;
 			}
 		}
 		
