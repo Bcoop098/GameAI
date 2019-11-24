@@ -26,6 +26,14 @@ struct FVector2D;
 		P_NATIVE_END; \
 	} \
  \
+	DECLARE_FUNCTION(execresetGrid) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->resetGrid(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execchangeGrid) \
 	{ \
 		P_GET_PROPERTY(UIntProperty,Z_Param_num); \
@@ -54,6 +62,14 @@ struct FVector2D;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		*(FVector*)Z_Param__Result=P_THIS->checkPoint(Z_Param_target); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execresetGrid) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->resetGrid(); \
 		P_NATIVE_END; \
 	} \
  \

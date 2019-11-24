@@ -122,6 +122,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(APathFindingActor); \
 	FORCEINLINE static uint32 __PPO__ReachRadius() { return STRUCT_OFFSET(APathFindingActor, ReachRadius); } \
 	FORCEINLINE static uint32 __PPO__NeedNewDestination() { return STRUCT_OFFSET(APathFindingActor, NeedNewDestination); } \
 	FORCEINLINE static uint32 __PPO__IsLooping() { return STRUCT_OFFSET(APathFindingActor, IsLooping); } \
+	FORCEINLINE static uint32 __PPO__pos() { return STRUCT_OFFSET(APathFindingActor, pos); } \
 	FORCEINLINE static uint32 __PPO__Path() { return STRUCT_OFFSET(APathFindingActor, Path); } \
 	FORCEINLINE static uint32 __PPO__pathBuilder() { return STRUCT_OFFSET(APathFindingActor, pathBuilder); }
 

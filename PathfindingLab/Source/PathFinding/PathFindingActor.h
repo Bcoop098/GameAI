@@ -41,6 +41,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsLooping = true;
 
+	UPROPERTY()
 	int pos = 0;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)

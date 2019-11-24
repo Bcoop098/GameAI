@@ -11,3 +11,13 @@ D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFindin
 D:\Repos\GameAI\PathfindingLab\Source\PathFinding\Public\MyPathBuilderActor.h
 D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
 D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\MyPathBuilderActor.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/GameplayStatics.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetSystemLibrary.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/CollisionProfile.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\CollisionProfile.generated.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetSystemLibrary.generated.h
+D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Sound/DialogueTypes.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\DialogueTypes.generated.h
+d:\unreal\ue_4.22\engine\source\runtime\engine\classes\kismet\GameplayStaticsTypes.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStaticsTypes.generated.h
+D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameplayStatics.generated.h

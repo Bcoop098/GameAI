@@ -20,6 +20,9 @@ public:
 	virtual void UpdateState(float deltaTime) override;
 
 protected:
-	float maxTargetTime = 3.0;
+	UPROPERTY()
+	float maxTargetTime = 2.0;
+
+	UPROPERTY()
 	float targetTime = 0.0;
 };

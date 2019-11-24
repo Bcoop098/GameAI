@@ -22,9 +22,9 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		void changeGrid(int num);
-	
-	//UFUNCTION(BlueprintCallable, Category = "AStarPath")
-		//bool checkPoint(FVector2D target);
+
+	UFUNCTION(BlueprintCallable, Category = "AStarPath")
+		void resetGrid();
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		FVector checkPoint(FVector target);
@@ -33,7 +33,7 @@ public:
 		TArray<FVector> Walls;
 
 	UPROPERTY(EditAnywhere)
-		bool AstarActive = false;
+		bool AstarActive = true;
 
 private:
 	static const int GRID_SCALE_X = 30;
@@ -65,6 +65,8 @@ private:
 	};
 
 	Node* theGrid[GRID_SCALE_X][GRID_SCALE_Y];
+
+	FVector redPos;
 
 	FVector2D targetPos;
 	float GridScale = 100.0;

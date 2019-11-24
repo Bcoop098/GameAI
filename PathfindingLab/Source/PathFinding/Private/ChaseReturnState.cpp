@@ -8,7 +8,8 @@
 void UChaseReturnState::StartState()
 {
 	Owner->SetLooping(false);
-	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetActorLocation()), (FVector2D)(Owner->GetLastPatrol())));
+	Owner->GetPathBuilder()->resetGrid();
+	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetPosition()), ((FVector2D)Owner->GetLastPatrol())));
 	/*
 	pseudocode
 	strActor.getPathfinder().SetPathToFollow(MyPathbuilder.getPath(strActr.position, patrolStart));

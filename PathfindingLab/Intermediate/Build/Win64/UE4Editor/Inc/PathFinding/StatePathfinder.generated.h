@@ -157,6 +157,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStatePathfinder); \
 
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__temp() { return STRUCT_OFFSET(AStatePathfinder, temp); } \
 	FORCEINLINE static uint32 __PPO__Point1() { return STRUCT_OFFSET(AStatePathfinder, Point1); } \
 	FORCEINLINE static uint32 __PPO__Point2() { return STRUCT_OFFSET(AStatePathfinder, Point2); } \
 	FORCEINLINE static uint32 __PPO__Point3() { return STRUCT_OFFSET(AStatePathfinder, Point3); } \
@@ -165,6 +166,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStatePathfinder); \
 	FORCEINLINE static uint32 __PPO__lastPatrolPoint() { return STRUCT_OFFSET(AStatePathfinder, lastPatrolPoint); } \
 	FORCEINLINE static uint32 __PPO__escapeTime() { return STRUCT_OFFSET(AStatePathfinder, escapeTime); } \
 	FORCEINLINE static uint32 __PPO__statesForSeeker() { return STRUCT_OFFSET(AStatePathfinder, statesForSeeker); } \
+	FORCEINLINE static uint32 __PPO__stateObjects() { return STRUCT_OFFSET(AStatePathfinder, stateObjects); } \
 	FORCEINLINE static uint32 __PPO__currentState() { return STRUCT_OFFSET(AStatePathfinder, currentState); } \
 	FORCEINLINE static uint32 __PPO__cone() { return STRUCT_OFFSET(AStatePathfinder, cone); } \
 	FORCEINLINE static uint32 __PPO__rad() { return STRUCT_OFFSET(AStatePathfinder, rad); } \

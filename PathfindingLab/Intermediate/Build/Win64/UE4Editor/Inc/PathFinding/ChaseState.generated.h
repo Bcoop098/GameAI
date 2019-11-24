@@ -59,7 +59,11 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(UChaseState); \
 	DEFINE_DEFAULT_CONSTRUCTOR_CALL(UChaseState)
 
 
-#define PathfindingLab_Source_PathFinding_Public_ChaseState_h_15_PRIVATE_PROPERTY_OFFSET
+#define PathfindingLab_Source_PathFinding_Public_ChaseState_h_15_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__maxTargetTime() { return STRUCT_OFFSET(UChaseState, maxTargetTime); } \
+	FORCEINLINE static uint32 __PPO__targetTime() { return STRUCT_OFFSET(UChaseState, targetTime); }
+
+
 #define PathfindingLab_Source_PathFinding_Public_ChaseState_h_12_PROLOG
 #define PathfindingLab_Source_PathFinding_Public_ChaseState_h_15_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \

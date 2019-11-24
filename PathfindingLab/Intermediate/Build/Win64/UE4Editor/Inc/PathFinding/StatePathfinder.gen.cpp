@@ -24,8 +24,8 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkDistanceChase();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_GetLastPatrol();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_GetPatrol();
-	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	PATHFINDING_API UClass* Z_Construct_UClass_UStatePrimative_NoRegister();
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 // End Cross Module References
 	static UEnum* EState_StaticEnum()
 	{
@@ -335,6 +335,11 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		static const UE4CodeGen_Private::FEnumPropertyParams NewProp_currentState;
 		static const UE4CodeGen_Private::FBytePropertyParams NewProp_currentState_Underlying;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_stateObjects_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_stateObjects;
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_stateObjects_Inner;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_statesForSeeker_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_statesForSeeker;
@@ -368,6 +373,15 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Point1_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Point1;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_temp_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_temp;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_temp_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_targetOfPlayer_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_targetOfPlayer;
 		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
@@ -441,6 +455,13 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 	const UE4CodeGen_Private::FEnumPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_currentState = { "currentState", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Enum, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, currentState), Z_Construct_UEnum_PathFinding_EState, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_currentState_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_currentState_MetaData)) };
 	const UE4CodeGen_Private::FBytePropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_currentState_Underlying = { "UnderlyingType", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Byte, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, nullptr, METADATA_PARAMS(nullptr, 0) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects_MetaData[] = {
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects = { "stateObjects", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, stateObjects), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects_MetaData)) };
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects_Inner = { "stateObjects", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UClass_UStatePrimative_NoRegister, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_statesForSeeker_MetaData[] = {
 		{ "Category", "StatePathfinder" },
 		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
@@ -497,6 +518,20 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 	};
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1 = { "Point1", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, Point1), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_MetaData[] = {
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp = { "temp", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, temp), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_Inner = { "temp", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_targetOfPlayer_MetaData[] = {
+		{ "Category", "StatePathfinder" },
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_targetOfPlayer = { "targetOfPlayer", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, targetOfPlayer), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_targetOfPlayer_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_targetOfPlayer_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_AStatePathfinder_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_distanceToDetectChase,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_distanceToDetect,
@@ -505,6 +540,8 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_cone,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_currentState,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_currentState_Underlying,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_stateObjects_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_statesForSeeker,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_statesForSeeker_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_escapeTime,
@@ -515,6 +552,9 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point3,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_targetOfPlayer,
 	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_AStatePathfinder_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<AStatePathfinder>::IsAbstract,
@@ -543,7 +583,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStatePathfinder, 3959949063);
+	IMPLEMENT_CLASS(AStatePathfinder, 1027464590);
 	template<> PATHFINDING_API UClass* StaticClass<AStatePathfinder>()
 	{
 		return AStatePathfinder::StaticClass();

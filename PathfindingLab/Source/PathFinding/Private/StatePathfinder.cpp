@@ -3,6 +3,7 @@
 
 #include "StatePathfinder.h"
 #include "MyPathBuilderActor.h"
+#include "Kismet/GameplayStatics.h"
 
 void AStatePathfinder::BeginPlay()
 {
@@ -17,28 +18,32 @@ void AStatePathfinder::BeginPlay()
 
 	currentState = EState::ES_Patrol;
 
-	TArray<FVector> temp = pathBuilder->getPath(Point1, ((FVector2D)Point2));
-	patrolRoute.Append(temp);
-	temp.Reset();
+	temp.Empty();
 
-	temp = pathBuilder->getPath(Point2, ((FVector2D)Point3));
+	temp = pathBuilder->getPath(Point1, FVector2D(Point2.X, Point2.Y));
 	patrolRoute.Append(temp);
-	temp.Reset();
+	temp.Empty();
 
-	temp = pathBuilder->getPath(Point3, ((FVector2D)Point4));
+	/*temp = pathBuilder->getPath(Point2, FVector2D(Point3.X, Point3.Y));
 	patrolRoute.Append(temp);
-	temp.Reset();
+	temp.Empty();
 
-	temp = pathBuilder->getPath(Point4, ((FVector2D)Point1));
+	temp = pathBuilder->getPath(Point3, FVector2D(Point4.X, Point4.Y));
 	patrolRoute.Append(temp);
-	temp.Reset();
+	temp.Empty();
+
+	temp = pathBuilder->getPath(Point4, FVector2D(Point1.X, Point1.Y));
+	patrolRoute.Append(temp);
+	temp.Empty();*/
+
+	stateObjects[(int)currentState]->StartState();
 }
 
 void AStatePathfinder::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//Check if player is in cone of vision
-	if (checkCone(this->GetActorLocation(), TargetPos))
+	if (checkCone(this->GetPosition(), targetOfPlayer))
 	{
 		if (currentState != EState::ES_Chase)
 		{
@@ -48,13 +53,13 @@ void AStatePathfinder::Tick(float DeltaTime)
 		escapeTime = 0.0;
 	}
 	//check if they have been out of sight for too long
-	else if (currentState == EState::ES_Chase && escapeTime >= 4)
+	else if (currentState == EState::ES_Chase && escapeTime >= 4.0)
 	{
 		currentState = EState::ES_ReturnPatrol;
 		stateObjects[(int)currentState]->StartState();
 	}
 	//check if player is out of chase cone
-	else if (currentState == EState::ES_Chase && !checkCone(this->GetActorLocation(), TargetPos))
+	else if (currentState == EState::ES_Chase && !checkCone(this->GetActorLocation(), targetOfPlayer))
 	{
 		escapeTime += DeltaTime;
 	}
@@ -64,9 +69,10 @@ void AStatePathfinder::Tick(float DeltaTime)
 		currentState = EState::ES_Patrol;
 		stateObjects[(int)currentState]->StartState();
 	}
+	//keeping track of last point visited
 	else if (currentState == EState::ES_Patrol)
 	{
-		lastPatrolPoint = FVector(0.0, 0.0, 0.0);//Path[0];
+		lastPatrolPoint = patrolRoute[pos];
 	}
 	
 
@@ -102,15 +108,15 @@ bool AStatePathfinder::checkDistanceChase(FVector actorPos, FVector playerPos)
 bool AStatePathfinder::checkCone(FVector actorPos, FVector playerPos)
 {
 	//Check if player is in range first
-	if (currentState == EState::ES_Patrol && checkDistance(actorPos, playerPos))
+	if (currentState == EState::ES_Patrol && !checkDistance(actorPos, playerPos))
 	{
 		return false;
 	}
-	else if (currentState == EState::ES_ReturnPatrol && checkDistance(actorPos, playerPos))
+	else if (currentState == EState::ES_ReturnPatrol && !checkDistance(actorPos, playerPos))
 	{
 		return false;
 	}
-	else if (currentState == EState::ES_Chase && checkDistanceChase(actorPos, playerPos))
+	else if (currentState == EState::ES_Chase && !checkDistanceChase(actorPos, playerPos))
 	{
 		return false;
 	}

@@ -58,6 +58,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 
 
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
+	FORCEINLINE static uint32 __PPO__Position() { return STRUCT_OFFSET(ASteeringActor, Position); } \
 	FORCEINLINE static uint32 __PPO__SteeringVelocity() { return STRUCT_OFFSET(ASteeringActor, SteeringVelocity); } \
 	FORCEINLINE static uint32 __PPO__MaxSpeed() { return STRUCT_OFFSET(ASteeringActor, MaxSpeed); } \
 	FORCEINLINE static uint32 __PPO__DragForce() { return STRUCT_OFFSET(ASteeringActor, DragForce); } \

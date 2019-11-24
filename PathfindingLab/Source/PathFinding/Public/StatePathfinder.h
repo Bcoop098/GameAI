@@ -38,9 +38,15 @@ public:
 	UFUNCTION(BlueprintCallable)
 		FVector GetLastPatrol();
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector targetOfPlayer;
+
 protected:
 
 	virtual void BeginPlay() override;
+
+	UPROPERTY()
+		TArray<FVector> temp;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector Point1 = FVector(0.0, 0.0, 0.0);
@@ -65,7 +71,9 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		TArray<TSubclassOf<UStatePrimative>> statesForSeeker;
-	TArray<UStatePrimative*> stateObjects;
+
+	UPROPERTY()
+		TArray<UStatePrimative*> stateObjects;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		EState currentState;

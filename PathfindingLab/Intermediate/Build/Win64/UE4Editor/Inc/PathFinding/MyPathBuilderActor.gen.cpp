@@ -22,6 +22,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AMyPathBuilderActor_getPath();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector2D();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_AMyPathBuilderActor_resetGrid();
 // End Cross Module References
 	void AMyPathBuilderActor::StaticRegisterNativesAMyPathBuilderActor()
 	{
@@ -30,6 +31,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 			{ "changeGrid", &AMyPathBuilderActor::execchangeGrid },
 			{ "checkPoint", &AMyPathBuilderActor::execcheckPoint },
 			{ "getPath", &AMyPathBuilderActor::execgetPath },
+			{ "resetGrid", &AMyPathBuilderActor::execresetGrid },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -91,7 +93,6 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyPathBuilderActor_checkPoint_Statics::Function_MetaDataParams[] = {
 		{ "Category", "AStarPath" },
 		{ "ModuleRelativePath", "Public/MyPathBuilderActor.h" },
-		{ "ToolTip", "UFUNCTION(BlueprintCallable, Category = \"AStarPath\")\nbool checkPoint(FVector2D target);" },
 	};
 #endif
 	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyPathBuilderActor_checkPoint_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyPathBuilderActor, nullptr, "checkPoint", sizeof(MyPathBuilderActor_eventcheckPoint_Parms), Z_Construct_UFunction_AMyPathBuilderActor_checkPoint_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AMyPathBuilderActor_checkPoint_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04820401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyPathBuilderActor_checkPoint_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyPathBuilderActor_checkPoint_Statics::Function_MetaDataParams)) };
@@ -148,6 +149,29 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_AMyPathBuilderActor_resetGrid_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AMyPathBuilderActor_resetGrid_Statics::Function_MetaDataParams[] = {
+		{ "Category", "AStarPath" },
+		{ "ModuleRelativePath", "Public/MyPathBuilderActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AMyPathBuilderActor_resetGrid_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AMyPathBuilderActor, nullptr, "resetGrid", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AMyPathBuilderActor_resetGrid_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AMyPathBuilderActor_resetGrid_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AMyPathBuilderActor_resetGrid()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AMyPathBuilderActor_resetGrid_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	UClass* Z_Construct_UClass_AMyPathBuilderActor_NoRegister()
 	{
 		return AMyPathBuilderActor::StaticClass();
@@ -179,8 +203,9 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AMyPathBuilderActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_AMyPathBuilderActor_changeGrid, "changeGrid" }, // 646305390
-		{ &Z_Construct_UFunction_AMyPathBuilderActor_checkPoint, "checkPoint" }, // 3352405780
+		{ &Z_Construct_UFunction_AMyPathBuilderActor_checkPoint, "checkPoint" }, // 736323069
 		{ &Z_Construct_UFunction_AMyPathBuilderActor_getPath, "getPath" }, // 1860846237
+		{ &Z_Construct_UFunction_AMyPathBuilderActor_resetGrid, "resetGrid" }, // 2646841304
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPathBuilderActor_Statics::Class_MetaDataParams[] = {
@@ -239,7 +264,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPathBuilderActor, 199141963);
+	IMPLEMENT_CLASS(AMyPathBuilderActor, 4116369834);
 	template<> PATHFINDING_API UClass* StaticClass<AMyPathBuilderActor>()
 	{
 		return AMyPathBuilderActor::StaticClass();

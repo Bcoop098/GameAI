@@ -31,6 +31,15 @@ void EmptyLinkFunctionForGeneratedCodeChaseState() {}
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_targetTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_targetTime;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_maxTargetTime_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_maxTargetTime;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
 		static const FCppClassTypeInfoStatic StaticCppClassTypeInfo;
 		static const UE4CodeGen_Private::FClassParams ClassParams;
 	};
@@ -44,6 +53,22 @@ void EmptyLinkFunctionForGeneratedCodeChaseState() {}
 		{ "ModuleRelativePath", "Public/ChaseState.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UChaseState_Statics::NewProp_targetTime_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ChaseState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UChaseState_Statics::NewProp_targetTime = { "targetTime", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UChaseState, targetTime), METADATA_PARAMS(Z_Construct_UClass_UChaseState_Statics::NewProp_targetTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_UChaseState_Statics::NewProp_targetTime_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_UChaseState_Statics::NewProp_maxTargetTime_MetaData[] = {
+		{ "ModuleRelativePath", "Public/ChaseState.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_UChaseState_Statics::NewProp_maxTargetTime = { "maxTargetTime", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(UChaseState, maxTargetTime), METADATA_PARAMS(Z_Construct_UClass_UChaseState_Statics::NewProp_maxTargetTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_UChaseState_Statics::NewProp_maxTargetTime_MetaData)) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_UChaseState_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UChaseState_Statics::NewProp_targetTime,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_UChaseState_Statics::NewProp_maxTargetTime,
+	};
 	const FCppClassTypeInfoStatic Z_Construct_UClass_UChaseState_Statics::StaticCppClassTypeInfo = {
 		TCppClassTypeTraits<UChaseState>::IsAbstract,
 	};
@@ -53,11 +78,11 @@ void EmptyLinkFunctionForGeneratedCodeChaseState() {}
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
 		nullptr,
-		nullptr,
+		Z_Construct_UClass_UChaseState_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
 		0,
-		0,
+		ARRAY_COUNT(Z_Construct_UClass_UChaseState_Statics::PropPointers),
 		0,
 		0x001000A0u,
 		METADATA_PARAMS(Z_Construct_UClass_UChaseState_Statics::Class_MetaDataParams, ARRAY_COUNT(Z_Construct_UClass_UChaseState_Statics::Class_MetaDataParams))
@@ -71,7 +96,7 @@ void EmptyLinkFunctionForGeneratedCodeChaseState() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(UChaseState, 1018181327);
+	IMPLEMENT_CLASS(UChaseState, 4265737414);
 	template<> PATHFINDING_API UClass* StaticClass<UChaseState>()
 	{
 		return UChaseState::StaticClass();

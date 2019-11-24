@@ -24,11 +24,12 @@ public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
-	FVector GetTarget();
+	FVector GetPosition();
 
 protected:
 	FVector Seek();
 
+	UPROPERTY()
 	FVector Position = FVector(0,0,0);
 
 	UPROPERTY(BlueprintReadOnly)

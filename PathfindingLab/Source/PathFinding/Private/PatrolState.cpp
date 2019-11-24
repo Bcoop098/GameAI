@@ -11,5 +11,5 @@ void UPatrolState::StartState()
 }
 void UPatrolState::UpdateState(float deltaTime)
 {
-	//print("On Patrol");
+	//Nothing
 }

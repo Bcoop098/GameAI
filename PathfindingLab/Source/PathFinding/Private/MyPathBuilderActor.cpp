@@ -73,7 +73,7 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 
 	float positionZ = position.Z;
 
-	FVector redPos = position / GridScale;
+	redPos = position / GridScale;
 	targetPos = target / GridScale;
 	openList.Empty();
 
@@ -166,6 +166,17 @@ void AMyPathBuilderActor::changeGrid(int num)
 	}
 }
 
+void AMyPathBuilderActor::resetGrid()
+{
+	for (int x = 0; x < GRID_SCALE_X; x++)
+	{
+		for (int y = 0; y < GRID_SCALE_Y; y++)
+		{
+			theGrid[x][y]->dist = INT_MAX;
+			theGrid[x][y]->prev = nullptr;
+		}
+	}
+}
 
 int AMyPathBuilderActor::FindBestIndex()
 {
