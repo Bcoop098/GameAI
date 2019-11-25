@@ -253,16 +253,26 @@ float AMyPathBuilderActor::Heuristic(Node* ptr)
 //checks to make sure the target isn't in a wall
 FVector AMyPathBuilderActor::checkPoint(FVector target)
 {
-	FVector newPoint = target / GridScale;
+	FVector targetPoint = target / GridScale;
+	FVector newPoint = targetPoint;
+	FVector oldPoint = FVector(MAX_FLT, MAX_FLT, targetPoint.Z);
 
 	while (theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->blocked)
 	{
-		for (int i = 0; i < theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors.Num(); ++i)
+		for (int i = 0; i < theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors.Num(); ++i)
 		{
-			if (!(theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->blocked))
+			if (!(theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->blocked))
 			{
-				newPoint.X = theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->pos.X;
-				newPoint.Y = theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->pos.Y;
+				/*if (FVector2D::Distance(theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->pos, FVector2D(targetPoint.X, targetPoint.Y))
+					<
+					FVector2D::Distance(FVector2D(oldPoint.X, oldPoint.Y), FVector2D(targetPoint.X, targetPoint.Y)))*/
+				{
+					//oldPoint = newPoint;
+
+					newPoint.X = theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->pos.X;
+					newPoint.Y = theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->pos.Y;
+				}
+				
 			}
 		}
 		

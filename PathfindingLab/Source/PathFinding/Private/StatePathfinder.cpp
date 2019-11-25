@@ -43,7 +43,7 @@ void AStatePathfinder::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//Check if player is in cone of vision
-	if (checkCone(this->GetPosition(), targetOfPlayer) && ray)
+	if (checkCone(this->GetPosition(), targetOfPlayer))
 	{
 		if (currentState != EState::ES_Chase)
 		{
@@ -59,12 +59,9 @@ void AStatePathfinder::Tick(float DeltaTime)
 		stateObjects[(int)currentState]->StartState();
 	}
 	//check if player is out of chase cone
-	else if (currentState == EState::ES_Chase)
+	else if (currentState == EState::ES_Chase && !checkCone(this->GetActorLocation(), targetOfPlayer))
 	{
-		if (!checkCone(this->GetActorLocation(), targetOfPlayer) || !ray)
-		{
-			escapeTime += DeltaTime;
-		}
+		escapeTime += DeltaTime;
 	}
 	//check if they made it back to the patrol route
 	else if(currentState == EState::ES_ReturnPatrol && Path.Num() < 1)

@@ -93,8 +93,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float distanceToDetectChase = 800.0f;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		bool ray = false;
+	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		//bool ray = false;
 
 	
 };
