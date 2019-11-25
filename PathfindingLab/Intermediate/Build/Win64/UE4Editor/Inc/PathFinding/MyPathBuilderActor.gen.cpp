@@ -217,7 +217,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	{
 		struct MyPathBuilderActor_eventsetGrid_Parms
 		{
-			TArray<FVector2D> listOfWalls;
+			TArray<FVector> listOfWalls;
 		};
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_listOfWalls_MetaData[];
@@ -236,7 +236,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls = { "listOfWalls", nullptr, (EPropertyFlags)0x0010000008000182, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(MyPathBuilderActor_eventsetGrid_Parms, listOfWalls), METADATA_PARAMS(Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls_MetaData, ARRAY_COUNT(Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls_MetaData)) };
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls_Inner = { "listOfWalls", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector2D, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls_Inner = { "listOfWalls", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::PropPointers[] = {
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AMyPathBuilderActor_setGrid_Statics::NewProp_listOfWalls_Inner,
@@ -292,7 +292,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		{ &Z_Construct_UFunction_AMyPathBuilderActor_checkPoint2D, "checkPoint2D" }, // 3456303115
 		{ &Z_Construct_UFunction_AMyPathBuilderActor_getPath, "getPath" }, // 1860846237
 		{ &Z_Construct_UFunction_AMyPathBuilderActor_resetGrid, "resetGrid" }, // 2646841304
-		{ &Z_Construct_UFunction_AMyPathBuilderActor_setGrid, "setGrid" }, // 682646193
+		{ &Z_Construct_UFunction_AMyPathBuilderActor_setGrid, "setGrid" }, // 344793798
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AMyPathBuilderActor_Statics::Class_MetaDataParams[] = {
@@ -351,7 +351,7 @@ void EmptyLinkFunctionForGeneratedCodeMyPathBuilderActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AMyPathBuilderActor, 1212680272);
+	IMPLEMENT_CLASS(AMyPathBuilderActor, 2319256788);
 	template<> PATHFINDING_API UClass* StaticClass<AMyPathBuilderActor>()
 	{
 		return AMyPathBuilderActor::StaticClass();

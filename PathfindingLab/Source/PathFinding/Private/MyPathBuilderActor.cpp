@@ -168,7 +168,7 @@ void AMyPathBuilderActor::changeGrid(int num)
 	}
 }
 
-void AMyPathBuilderActor::setGrid(const TArray<FVector2D>& listOfWalls)
+void AMyPathBuilderActor::setGrid(const TArray<FVector>& listOfWalls)
 {
 	Walls.Empty();
 
@@ -182,15 +182,15 @@ void AMyPathBuilderActor::setGrid(const TArray<FVector2D>& listOfWalls)
 		}
 	}
 
-	int xB = 0;
-	int yB = 0;
-
 	for (int i = 0; i < listOfWalls.Num(); ++i)
 	{
+		int xB = 0;
+		int yB = 0;
+
 		xB = listOfWalls[i].X < GRID_SCALE_X ? listOfWalls[i].X : GRID_SCALE_X - 1;
 		xB = xB > 0 ? xB : 0;
 
-		yB = listOfWalls[i].Y < GRID_SCALE_Y ? listOfWalls[i].X : GRID_SCALE_Y - 1;
+		yB = listOfWalls[i].Y < GRID_SCALE_Y ? listOfWalls[i].Y : GRID_SCALE_Y - 1;
 		yB = yB > 0 ? yB : 0;
 
 		if (theGrid[xB][yB]->blocked == false)

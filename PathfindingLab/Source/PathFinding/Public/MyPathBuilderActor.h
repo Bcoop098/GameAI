@@ -24,7 +24,7 @@ public:
 		void changeGrid(int num);
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
-		void setGrid(const TArray<FVector2D>& listOfWalls);
+		void setGrid(const TArray<FVector>& listOfWalls);
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		void resetGrid();

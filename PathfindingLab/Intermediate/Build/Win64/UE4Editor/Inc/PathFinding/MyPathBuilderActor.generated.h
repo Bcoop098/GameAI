@@ -45,7 +45,7 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execsetGrid) \
 	{ \
-		P_GET_TARRAY_REF(FVector2D,Z_Param_Out_listOfWalls); \
+		P_GET_TARRAY_REF(FVector,Z_Param_Out_listOfWalls); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->setGrid(Z_Param_Out_listOfWalls); \
@@ -102,7 +102,7 @@ struct FVector;
  \
 	DECLARE_FUNCTION(execsetGrid) \
 	{ \
-		P_GET_TARRAY_REF(FVector2D,Z_Param_Out_listOfWalls); \
+		P_GET_TARRAY_REF(FVector,Z_Param_Out_listOfWalls); \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->setGrid(Z_Param_Out_listOfWalls); \
