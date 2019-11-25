@@ -8,14 +8,23 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
-struct FVector;
 struct FVector2D;
+struct FVector;
 #ifdef PATHFINDING_MyPathBuilderActor_generated_h
 #error "MyPathBuilderActor.generated.h already included, missing '#pragma once' in MyPathBuilderActor.h"
 #endif
 #define PATHFINDING_MyPathBuilderActor_generated_h
 
 #define PathfindingLab_Source_PathFinding_Public_MyPathBuilderActor_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execcheckPoint2D) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_target); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector2D*)Z_Param__Result=P_THIS->checkPoint2D(Z_Param_target); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execcheckPoint) \
 	{ \
@@ -31,6 +40,15 @@ struct FVector2D;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->resetGrid(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execsetGrid) \
+	{ \
+		P_GET_TARRAY_REF(FVector2D,Z_Param_Out_listOfWalls); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->setGrid(Z_Param_Out_listOfWalls); \
 		P_NATIVE_END; \
 	} \
  \
@@ -56,6 +74,15 @@ struct FVector2D;
 
 #define PathfindingLab_Source_PathFinding_Public_MyPathBuilderActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
  \
+	DECLARE_FUNCTION(execcheckPoint2D) \
+	{ \
+		P_GET_STRUCT(FVector2D,Z_Param_target); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector2D*)Z_Param__Result=P_THIS->checkPoint2D(Z_Param_target); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execcheckPoint) \
 	{ \
 		P_GET_STRUCT(FVector,Z_Param_target); \
@@ -70,6 +97,15 @@ struct FVector2D;
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
 		P_THIS->resetGrid(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execsetGrid) \
+	{ \
+		P_GET_TARRAY_REF(FVector2D,Z_Param_Out_listOfWalls); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->setGrid(Z_Param_Out_listOfWalls); \
 		P_NATIVE_END; \
 	} \
  \

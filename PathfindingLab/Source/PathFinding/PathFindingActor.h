@@ -33,7 +33,7 @@ protected:
 	
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	float ReachRadius = 100.0f;
+	float ReachRadius = 75.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool NeedNewDestination = true;

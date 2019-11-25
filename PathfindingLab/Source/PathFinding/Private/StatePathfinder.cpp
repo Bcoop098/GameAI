@@ -16,7 +16,7 @@ void AStatePathfinder::BeginPlay()
 		stateObjects.Add(ptr);
 	}
 
-	currentState = EState::ES_Patrol;
+	currentState = EState::ES_ReturnPatrol;
 
 	temp.Empty();
 
@@ -24,7 +24,7 @@ void AStatePathfinder::BeginPlay()
 	patrolRoute.Append(temp);
 	temp.Empty();
 
-	/*temp = pathBuilder->getPath(Point2, FVector2D(Point3.X, Point3.Y));
+	temp = pathBuilder->getPath(Point2, FVector2D(Point3.X, Point3.Y));
 	patrolRoute.Append(temp);
 	temp.Empty();
 
@@ -34,7 +34,7 @@ void AStatePathfinder::BeginPlay()
 
 	temp = pathBuilder->getPath(Point4, FVector2D(Point1.X, Point1.Y));
 	patrolRoute.Append(temp);
-	temp.Empty();*/
+	temp.Empty();
 
 	stateObjects[(int)currentState]->StartState();
 }

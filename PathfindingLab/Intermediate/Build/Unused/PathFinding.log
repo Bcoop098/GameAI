@@ -2,13 +2,13 @@
   Creating makefile for PathFindingEditor (ini files are newer than makefile)
   Parsing headers for PathFindingEditor
     Running UnrealHeaderTool "D:\Repos\GameAI\PathfindingLab\PathFinding.uproject" "D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PathFindingEditor in 6.4813906 seconds
+  Reflection code generated for PathFindingEditor in 8.1672655 seconds
   Using Visual Studio 2017 14.16.27023 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
   Building 3 actions with 8 processes...
-    [1/3] UE4Editor-PathFinding-0053.lib
-       Creating library D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0053.lib and object D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0053.exp
-    [2/3] UE4Editor-PathFinding-0053.dll
-       Creating library D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0053.suppressed.lib and object D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0053.suppressed.exp
+    [1/3] UE4Editor-PathFinding-0067.lib
+       Creating library D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0067.lib and object D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0067.exp
+    [2/3] UE4Editor-PathFinding-0067.dll
+       Creating library D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0067.suppressed.lib and object D:\Repos\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding-0067.suppressed.exp
     [3/3] PathFindingEditor.target
-  Total time in Parallel executor: 1.47 seconds
-  Total execution time: 11.83 seconds
+  Total time in Parallel executor: 1.52 seconds
+  Total execution time: 12.80 seconds

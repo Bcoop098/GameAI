@@ -24,10 +24,16 @@ public:
 		void changeGrid(int num);
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
+		void setGrid(const TArray<FVector2D>& listOfWalls);
+
+	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		void resetGrid();
 
 	UFUNCTION(BlueprintCallable, Category = "AStarPath")
 		FVector checkPoint(FVector target);
+
+	UFUNCTION(BlueprintCallable, Category = "AStarPath")
+		FVector2D checkPoint2D(FVector2D target);
 
 	UPROPERTY(BlueprintReadOnly)
 		TArray<FVector> Walls;
