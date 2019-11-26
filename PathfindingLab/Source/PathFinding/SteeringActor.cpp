@@ -31,11 +31,12 @@ void ASteeringActor::Tick(float DeltaTime)
 	SteeringVelocity += (SteeringVelocity * DragForce * DeltaTime);
 	SteeringVelocity += (Seek() * SeekStrength * DeltaTime);
 
-	// limit Speed
 	if (SteeringVelocity.Size() > MaxSpeed)
+	// limit Speed
 	{
 		SteeringVelocity = SteeringVelocity.GetSafeNormal() * MaxSpeed;
 	}
+	
 
 	// movement
 	Position += (SteeringVelocity * DeltaTime);

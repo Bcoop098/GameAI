@@ -1,31 +1,17 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (D:\Git\GameAI).
   Creating makefile for PathFindingEditor (ini files are newer than makefile)
   Parsing headers for PathFindingEditor
-    Running UnrealHeaderTool "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\PathFinding.uproject" "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\DebugGame\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PathFindingEditor in 7.6047408 seconds
-  Using Visual Studio 2019 14.23.28105 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105) and Windows 10.0.18362.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 11 actions with 8 processes...
-    [1/11] MyPathBuilderActor.cpp
-C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\Private\MyPathBuilderActor.cpp(258): error C2275: 'FVector': illegal use of this type as an expression
-    C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\MyPathBuilderActor.generated.h(12): note: see declaration of 'FVector'
-C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\Private\MyPathBuilderActor.cpp(258): fatal error C1903: unable to recover from previous error(s); stopping compilation
-    [2/11] PathFinding.init.gen.cpp
-    [3/11] PatrolState.cpp
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
-    [4/11] StatePrimative.cpp
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
-    [5/11] ChaseState.cpp
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
-    [6/11] StatePathfinder.gen.cpp
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
-    [7/11] ChaseReturnState.cpp
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
-    [8/11] StatePathfinder.cpp
-C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
-    C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
-C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.MakeFile.Targets(44,5): error MSB3075: The command ""C:\Program Files\Epic Games\UE_4.22\Engine\Build\BatchFiles\Build.bat" PathFindingEditor Win64 DebugGame -Project="C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\PathFinding.uproject" -WaitMutex -FromMsBuild" exited with code 5. Please verify that you have sufficient rights to run this command.
+    Running UnrealHeaderTool "D:\Git\GameAI\PathfindingLab\PathFinding.uproject" "D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\DebugGame\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PathFindingEditor in 8.2858296 seconds
+  Using Visual Studio 2017 14.16.27023 toolchain (D:\Visual Studio\VC\Tools\MSVC\14.16.27023) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+  Building 4 actions with 8 processes...
+    [1/4] SteeringActor.cpp
+D:\EpicGames\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+    D:\EpicGames\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+    [2/4] UE4Editor-PathFinding-Win64-DebugGame.lib
+       Creating library D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.lib and object D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.exp
+    [3/4] UE4Editor-PathFinding-Win64-DebugGame.dll
+       Creating library D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.suppressed.lib and object D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\UE4Editor-PathFinding-Win64-DebugGame.suppressed.exp
+    [4/4] PathFindingEditor-Win64-DebugGame.target
+  Total time in Parallel executor: 2.40 seconds
+  Total execution time: 13.80 seconds

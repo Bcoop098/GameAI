@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\Steering.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{6423DD8D-8F84-4CF4-83B9-36A78A5A51D0}</UniqueIdentifier>
+      <UniqueIdentifier>{210E0C7D-0A2E-4831-930C-C41278453FD4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Steering.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{58AD0A6D-C6D1-408C-AC7F-3FAF841DD777}</UniqueIdentifier>
+      <UniqueIdentifier>{E68C1AFA-8995-4661-A879-C762DDF04AA4}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -24,7 +24,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\Steering">
-      <UniqueIdentifier>{C9E8EBD1-4B8C-4B87-A067-AF88CAA56325}</UniqueIdentifier>
+      <UniqueIdentifier>{0C6B26F0-AB0E-4181-9474-24C712519BC5}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\Steering\Steering.Build.cs">
       <Filter>Source\Steering</Filter>
