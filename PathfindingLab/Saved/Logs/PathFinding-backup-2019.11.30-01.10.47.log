@@ -1,0 +1,1448 @@
+﻿Log file open, 11/29/19 19:45:23
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PathFinding
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.268109
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Warning: Incompatible or missing module: PathFinding
+Running D:/Games/Fortnite/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="E:/GamePhysicsandAI/GameAI/PathfindingLab/PathFinding.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
+Using 'git status' to determine working set for adaptive non-unity build (E:\GamePhysicsandAI\GameAI).
+Creating makefile for PathFindingEditor (Build.version is newer)
+@progress push 5%
+Parsing headers for PathFindingEditor
+  Running UnrealHeaderTool "E:\GamePhysicsandAI\GameAI\PathfindingLab\PathFinding.uproject" "E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+Reflection code generated for PathFindingEditor in 9.6786336 seconds
+@progress pop
+Using Visual Studio 2017 14.13.26128 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2017\Enterprise\VC\Tools\MSVC\14.13.26128) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+Building 28 actions with 4 processes...
+  @progress 'Compiling C++ source code...' 0%
+  @progress 'Compiling C++ source code...' 4%
+  [1/28] Default.rc2
+  @progress 'Compiling C++ source code...' 7%
+  [2/28] SharedPCH.Engine.cpp
+  @progress 'Compiling C++ source code...' 11%
+  [3/28] MyPathBuilderActor.cpp
+  @progress 'Compiling C++ source code...' 14%
+  [4/28] PatrolState.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 18%
+  [5/28] ChaseState.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 21%
+  [6/28] ChaseReturnState.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 25%
+  [7/28] StateMachine.cpp
+  @progress 'Compiling C++ source code...' 29%
+  [8/28] PathBuilder.cpp
+  @progress 'Compiling C++ source code...' 32%
+  [9/28] PathFinding.cpp
+  @progress 'Compiling C++ source code...' 36%
+  [10/28] StatePrimative.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 39%
+  [11/28] StatePathfinder.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 43%
+  [12/28] ChaseReturnState.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 46%
+  [13/28] ChaseState.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 50%
+  [14/28] MyPathBuilderActor.gen.cpp
+  @progress 'Compiling C++ source code...' 54%
+  [15/28] PathFindingActor.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  E:\GamePhysicsandAI\GameAI\PathfindingLab\Source\PathFinding\PathFindingActor.cpp(16): warning C4458: declaration of 'pos' hides class member
+  e:\gamephysicsandai\gameai\pathfindinglab\source\pathfinding\PathFindingActor.h(45): note: see declaration of 'APathFindingActor::pos'
+  @progress 'Compiling C++ source code...' 57%
+  [16/28] PathFinding.init.gen.cpp
+  @progress 'Compiling C++ source code...' 61%
+  [17/28] PathFindingActor.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 64%
+  [18/28] PatrolState.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 68%
+  [19/28] StateMachine.gen.cpp
+  @progress 'Compiling C++ source code...' 71%
+  [20/28] PathFindingGameModeBase.gen.cpp
+  @progress 'Compiling C++ source code...' 75%
+  [21/28] StatePrimative.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 79%
+  [22/28] StatePathfinder.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 82%
+  [23/28] SteeringActor.gen.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 86%
+  [24/28] SteeringActor.cpp
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(14): warning C4996: 'UObjectHeaderDeprecatedWarning': Including UObject.h has been deprecated. Please include Object.h instead. Please update your code to the new API before upgrading to the next release, otherwise your project will no longer compile.
+  D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/UObject.h(8): note: see declaration of 'UObjectHeaderDeprecatedWarning'
+  @progress 'Compiling C++ source code...' 89%
+  [25/28] PathFindingGameModeBase.cpp
+  @progress 'Compiling C++ source code...' 93%
+  [26/28] UE4Editor-PathFinding.lib
+     Creating library E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.lib and object E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.exp
+  @progress 'Compiling C++ source code...' 96%
+  [27/28] UE4Editor-PathFinding.dll
+     Creating library E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.suppressed.lib and object E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\UE4Editor-PathFinding.suppressed.exp
+  @progress 'Compiling C++ source code...' 100%
+  [28/28] PathFindingEditor.target
+Total time in Parallel executor: 57.12 seconds
+Total execution time: 147.13 seconds
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Core(TM) i5-4690K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line: 
+LogInit: Base Directory: D:/Games/Fortnite/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:290][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.11.30-00.47.58:290][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.11.30-00.47.58:291][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:291][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:301][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.30-00.47.58:301][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.30-00.47.58:302][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.30-00.47.58:302][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.30-00.47.58:302][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.11.30-00.47.58:337][  0]LogHAL: Display: Platform has ~ 16 GB [17126227968 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.11.30-00.47.58:337][  0]LogInit: Going up to parent DeviceProfile []
+[2019.11.30-00.47.58:337][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.11.30-00.47.58:337][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.11.30-00.47.58:338][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.11.30-00.47.58:338][  0]LogInit: Computer: DESKTOP-RF61S4J
+[2019.11.30-00.47.58:339][  0]LogInit: User: Ben
+[2019.11.30-00.47.58:339][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.11.30-00.47.58:339][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.11.30-00.47.58:339][  0]LogMemory: Memory total: Physical=16.0GB (16GB approx)
+[2019.11.30-00.47.58:339][  0]LogMemory: Platform Memory Stats for Windows
+[2019.11.30-00.47.58:339][  0]LogMemory: Process Physical Memory: 104.18 MB used, 104.19 MB peak
+[2019.11.30-00.47.58:339][  0]LogMemory: Process Virtual Memory: 84.47 MB used, 84.47 MB peak
+[2019.11.30-00.47.58:339][  0]LogMemory: Physical Memory: 6180.20 MB used,  10152.65 MB free, 16332.84 MB total
+[2019.11.30-00.47.58:339][  0]LogMemory: Virtual Memory: 4668.77 MB used,  134213056.00 MB free, 134217728.00 MB total
+[2019.11.30-00.47.59:030][  0]LogInit: Using OS detected language (en-US).
+[2019.11.30-00.47.59:030][  0]LogInit: Using OS detected locale (en-US).
+[2019.11.30-00.47.59:033][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.11.30-00.47.59:253][  0]LogInit: Setting process to per monitor DPI aware
+[2019.11.30-00.47.59:405][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.11.30-00.47.59:405][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.11.30-00.48.01:556][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.30-00.48.01:556][  0]LogD3D11RHI: D3D11 adapters:
+[2019.11.30-00.48.01:793][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.11.30-00.48.01:793][  0]LogD3D11RHI:       6052/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.11.30-00.48.01:797][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.11.30-00.48.01:797][  0]LogD3D11RHI:       0/0/8166 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.11.30-00.48.01:797][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.11.30-00.48.01:803][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.11.30-00.48.01:803][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.11.30-00.48.01:803][  0]LogWindows: EnumDisplayDevices:
+[2019.11.30-00.48.01:803][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.11.30-00.48.01:804][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.11.30-00.48.01:805][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.30-00.48.01:806][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.11.30-00.48.01:807][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.11.30-00.48.01:807][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.11.30-00.48.01:807][  0]LogD3D11RHI:   Driver Version: 441.41 (internal:26.21.14.4141, unified:441.41)
+[2019.11.30-00.48.01:807][  0]LogD3D11RHI:      Driver Date: 11-20-2019
+[2019.11.30-00.48.01:807][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.11.30-00.48.01:862][  0]LogD3D11RHI: Async texture creation enabled
+[2019.11.30-00.48.01:880][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.30-00.48.01:880][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.30-00.48.01:880][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.11.30-00.48.01:889][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.11.30-00.48.02:386][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.11.30-00.48.02:425][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.11.30-00.48.02:467][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.11.30-00.48.02:509][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.11.30-00.48.02:557][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.11.30-00.48.02:598][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.11.30-00.48.02:640][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.11.30-00.48.02:683][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.11.30-00.48.02:720][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.11.30-00.48.02:834][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.11.30-00.48.02:864][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.11.30-00.48.03:009][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.11.30-00.48.03:009][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.11.30-00.48.03:059][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.11.30-00.48.03:059][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.11.30-00.48.03:099][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.11.30-00.48.03:142][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.11.30-00.48.03:181][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.11.30-00.48.03:229][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.11.30-00.48.03:307][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.11.30-00.48.03:307][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.11.30-00.48.03:307][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.11.30-00.48.03:545][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.11.30-00.48.04:345][  0]LogShaderCompilers: Guid format shader working directory is 2 characters bigger than the processId version (E:/GamePhysicsandAI/GameAI/PathfindingLab/Intermediate/Shaders/WorkingDirectory/15600/).
+[2019.11.30-00.48.04:346][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Ben/AppData/Local/Temp/UnrealShaderWorkingDir/98ED51B5479C39BE48B0BEB8F33A6679/'.
+[2019.11.30-00.48.04:349][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.11.30-00.48.04:350][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.11.30-00.48.04:350][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.11.30-00.48.06:498][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.11.30-00.48.06:563][  0]LogDerivedDataCache: Loaded boot cache 0.06s 73MB C:/Users/Ben/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.30-00.48.06:563][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Ben/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.11.30-00.48.06:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file E:/GamePhysicsandAI/GameAI/PathfindingLab/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.11.30-00.48.06:563][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.11.30-00.48.06:563][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file E:/GamePhysicsandAI/GameAI/PathfindingLab/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.30-00.48.06:563][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.11.30-00.48.06:579][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.11.30-00.48.06:579][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.11.30-00.48.06:579][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.11.30-00.48.06:592][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Ben/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.11.30-00.48.06:592][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.11.30-00.48.06:592][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.11.30-00.48.06:612][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.11.30-00.48.06:613][  0]LogSlate: Using FreeType 2.6.0
+[2019.11.30-00.48.06:627][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.11.30-00.48.06:859][  0]LogAssetRegistry: FAssetRegistry took 0.0340 seconds to start up
+[2019.11.30-00.48.07:188][  0]LogInit: Selected Device Profile: [Windows]
+[2019.11.30-00.48.07:949][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.11.30-00.48.07:949][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.11.30-00.48.07:949][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.11.30-00.48.07:949][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.11.30-00.48.07:949][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.11.30-00.48.07:979][  0]LogNetVersion: PathFinding 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 315523671)
+[2019.11.30-00.48.08:763][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.068468 seconds
+[2019.11.30-00.48.08:769][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.11.30-00.48.08:769][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.11.30-00.48.08:769][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.11.30-00.48.13:069][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.11.30-00.48.13:106][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.11.30-00.48.13:872][  0]SourceControl: Source control is disabled
+[2019.11.30-00.48.13:872][  0]SourceControl: Source control is disabled
+[2019.11.30-00.48.13:979][  0]SourceControl: Source control is disabled
+[2019.11.30-00.48.14:019][  0]SourceControl: Source control is disabled
+[2019.11.30-00.48.15:610][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.11.30-00.48.16:652][  0]LogOcInput: OculusInput pre-init called
+[2019.11.30-00.48.17:949][  0]LogEngine: Initializing Engine...
+[2019.11.30-00.48.17:951][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.11.30-00.48.17:952][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.11.30-00.48.18:156][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.11.30-00.48.18:219][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.11.30-00.48.18:374][  0]LogInit: XAudio2 using 'Headphones (Astro MixAmp Pro Game)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2019.11.30-00.48.18:423][  0]LogInit: FAudioDevice initialized.
+[2019.11.30-00.48.18:424][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.11.30-00.48.18:500][  0]LogDerivedDataCache: Saved boot cache 0.08s 73MB C:/Users/Ben/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.11.30-00.48.18:508][  0]LogInit: Texture streaming: Enabled
+[2019.11.30-00.48.18:640][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.11.30-00.48.18:734][  0]LogInit: Transaction tracking system initialized
+[2019.11.30-00.48.18:946][  0]BlueprintLog: New page: Editor Load
+[2019.11.30-00.48.19:813][  0]LogTemp: IOS device listing is disabled (to many failed attempts)!
+[2019.11.30-00.48.19:895][  0]LocalizationService: Localization service is disabled
+[2019.11.30-00.48.20:727][  0]LogFileCache: Scanning file cache for directory 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/' took 0.02s
+[2019.11.30-00.48.20:727][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.11.30-00.48.20:727][  0]LogCook: Display: Mobile HDR setting 1
+[2019.11.30-00.48.22:105][  0]SourceControl: Source control is disabled
+[2019.11.30-00.48.22:105][  0]Cmd: MAP LOAD FILE="E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/PathfindingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.11.30-00.48.22:105][  0]LightingResults: New page: Lighting Build
+[2019.11.30-00.48.22:110][  0]MapCheck: New page: Map Check
+[2019.11.30-00.48.22:110][  0]LightingResults: New page: Lighting Build
+[2019.11.30-00.48.22:132][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2019.11.30-00.48.22:731][  0]LogAIModule: Creating AISystem for world PathfindingMap
+[2019.11.30-00.48.22:738][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.11.30-00.48.22:770][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.16ms
+[2019.11.30-00.48.22:770][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.11.30-00.48.22:770][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.071ms to complete.
+[2019.11.30-00.48.22:770][  0]LogFileHelpers: Loading map 'PathfindingMap' took 0.665
+[2019.11.30-00.48.23:137][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.30-00.48.23:153][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.30-00.48.23:169][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.30-00.48.23:180][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.30-00.48.23:248][  0]LogCollectionManager: Loaded 0 collections in 0.003666 seconds
+[2019.11.30-00.48.23:306][  0]LogFileCache: Scanning file cache for directory 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Collections/' took 0.01s
+[2019.11.30-00.48.23:306][  0]LogFileCache: Scanning file cache for directory 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/Developers/Ben/Collections/' took 0.01s
+[2019.11.30-00.48.23:306][  0]LogFileCache: Scanning file cache for directory 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/Collections/' took 0.00s
+[2019.11.30-00.48.23:306][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.11.30-00.48.23:317][  0]LogContentBrowser: Native class hierarchy populated in 0.0105 seconds. Added 2742 classes and 662 folders.
+[2019.11.30-00.48.23:328][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.11.30-00.48.23:378][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:406][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:426][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:462][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:468][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:474][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:488][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:506][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:511][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:519][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:588][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:595][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:601][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:607][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:696][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:706][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:760][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:770][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:810][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:821][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:920][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:941][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.23:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.24:001][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.11.30-00.48.25:300][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0014 seconds. Added 0 classes and 0 folders.
+[2019.11.30-00.48.25:458][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0008 seconds. Added 1 classes and 2 folders.
+[2019.11.30-00.48.25:492][  0]LogSlate: Took 0.006524 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.11.30-00.48.25:497][  0]LogSlate: Took 0.004351 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.11.30-00.48.25:566][  0]LogSlate: Took 0.035727 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.11.30-00.48.25:930][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.11.30-00.48.26:101][  0]LogSlate: Took 0.041440 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.30-00.48.26:152][  0]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.11.30-00.48.26:218][  0]LogSlate: Window 'Tutorials' being destroyed
+[2019.11.30-00.48.26:276][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0006 seconds. Added 0 classes and 0 folders.
+[2019.11.30-00.48.26:277][  0]LogLoad: (Engine Initialization) Total time: 188.13 seconds
+[2019.11.30-00.48.26:277][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.11.30-00.48.26:307][  0]LogAssetRegistry: Asset discovery search completed in 19.4700 seconds
+[2019.11.30-00.48.26:309][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.11.30-00.48.26:309][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000054 seconds (updated 0 objects)
+[2019.11.30-00.48.26:310][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.11.30-00.48.35:681][345]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.30-00.48.44:477][369]LogEditorViewport: Clicking on Actor (LMB): CTFAIActor_C (CTFAIActor)
+[2019.11.30-00.48.46:628][597]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.30-00.48.46:703][606]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.30-00.48.46:714][606]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.11.30-00.48.46:714][606]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.30-00.48.46:714][606]PIE: New page: PIE session: PathfindingMap (Nov 29, 2019, 2:48:46 PM)
+[2019.11.30-00.48.46:726][606]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PathfindingMap
+[2019.11.30-00.48.46:736][606]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009507s)
+[2019.11.30-00.48.46:736][606]LogAIModule: Creating AISystem for world PathfindingMap
+[2019.11.30-00.48.46:736][606]LogPlayLevel: PIE: World Init took: (0.000545s)
+[2019.11.30-00.48.46:736][606]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfindingMap.PathfindingMap to /Game/UEDPIE_0_PathfindingMap.PathfindingMap (0.010258s)
+[2019.11.30-00.48.46:757][606]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2019.11.30-00.48.46:938][606]LogInit: XAudio2 using 'Headphones (Astro MixAmp Pro Game)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2019.11.30-00.48.46:963][606]LogInit: FAudioDevice initialized.
+[2019.11.30-00.48.47:006][606]LogLoad: Game class is 'PathFindingGameMode_C'
+[2019.11.30-00.48.47:008][606]LogWorld: Bringing World /Game/UEDPIE_0_PathfindingMap.PathfindingMap up for play (max tick rate 0) at 2019.11.29-19.48.47
+[2019.11.30-00.48.47:008][606]LogWorld: Bringing up level for play took: 0.000856
+[2019.11.30-00.48.47:180][606]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0033 seconds. Added 20 classes and 0 folders.
+[2019.11.30-00.48.47:186][606]PIE: Play in editor start time for /Game/UEDPIE_0_PathfindingMap 1.145
+[2019.11.30-00.48.47:186][606]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.11.30-00.48.47:234][606]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:284][607]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:306][608]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:329][609]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:338][610]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:347][611]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:355][612]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:364][613]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:372][614]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:381][615]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:389][616]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:398][617]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:406][618]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:414][619]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:423][620]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:431][621]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:439][622]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:448][623]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:456][624]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:464][625]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:472][626]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:481][627]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:489][628]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:497][629]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:506][630]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:514][631]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:522][632]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:531][633]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:539][634]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:547][635]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:556][636]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:564][637]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:572][638]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:581][639]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:589][640]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:597][641]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:606][642]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:614][643]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:622][644]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:631][645]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:639][646]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:647][647]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:656][648]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:664][649]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:672][650]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:681][651]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:689][652]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:697][653]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:706][654]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:714][655]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:723][656]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:731][657]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:739][658]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:747][659]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:756][660]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:764][661]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:772][662]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:781][663]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:789][664]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:797][665]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:806][666]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:814][667]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:822][668]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:831][669]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:839][670]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:847][671]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:856][672]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:864][673]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:872][674]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:881][675]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:889][676]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:897][677]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:906][678]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:914][679]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:923][680]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:931][681]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:939][682]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:947][683]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:956][684]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:964][685]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:973][686]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:981][687]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:989][688]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.47:998][689]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:006][690]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:014][691]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:023][692]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:031][693]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:039][694]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:048][695]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:056][696]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:064][697]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:073][698]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:081][699]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:089][700]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:098][701]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:106][702]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:114][703]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:123][704]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:131][705]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:139][706]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:148][707]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:156][708]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:164][709]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:173][710]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:181][711]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:189][712]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:198][713]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:206][714]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:215][715]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:223][716]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:231][717]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:240][718]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:248][719]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:256][720]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:265][721]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:273][722]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:281][723]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:290][724]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:298][725]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:306][726]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:314][727]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:323][728]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:331][729]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:339][730]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:348][731]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:356][732]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:364][733]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:373][734]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:381][735]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:389][736]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:398][737]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:406][738]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:414][739]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:423][740]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:431][741]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:439][742]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:448][743]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:456][744]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:464][745]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:473][746]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:481][747]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:489][748]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:498][749]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:506][750]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:514][751]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:523][752]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:531][753]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:540][754]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:548][755]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:556][756]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:564][757]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:573][758]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:581][759]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:590][760]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:598][761]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:606][762]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:615][763]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:623][764]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:631][765]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:640][766]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:648][767]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:657][768]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:665][769]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:673][770]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:681][771]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:690][772]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:698][773]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:707][774]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:715][775]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:723][776]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:732][777]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:740][778]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:748][779]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:757][780]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:765][781]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:773][782]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:781][783]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:790][784]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:798][785]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:807][786]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:816][787]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:823][788]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:832][789]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:840][790]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:848][791]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:857][792]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:865][793]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:873][794]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:881][795]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:890][796]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:898][797]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:906][798]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:915][799]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:923][800]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:932][801]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:940][802]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:948][803]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:957][804]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:965][805]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:973][806]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:981][807]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:990][808]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.48:998][809]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:007][810]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:015][811]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:023][812]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:031][813]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:040][814]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:048][815]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:057][816]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:065][817]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:073][818]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:082][819]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:090][820]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:098][821]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:107][822]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:115][823]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:123][824]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:132][825]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:140][826]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:148][827]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:157][828]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:165][829]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:173][830]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:182][831]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:190][832]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:198][833]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:207][834]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:215][835]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:223][836]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:232][837]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:240][838]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:248][839]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:257][840]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:265][841]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:273][842]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:282][843]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:290][844]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:298][845]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:307][846]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:315][847]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:323][848]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:332][849]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:340][850]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:348][851]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:357][852]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:365][853]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:373][854]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:382][855]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:390][856]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:398][857]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:407][858]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:415][859]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:423][860]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:432][861]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:440][862]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:448][863]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:457][864]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:465][865]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:473][866]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:481][867]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:489][868]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:498][869]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:506][870]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:514][871]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:523][872]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:531][873]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:540][874]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:548][875]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:556][876]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:564][877]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:573][878]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:581][879]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:590][880]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:598][881]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:606][882]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:615][883]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:623][884]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:631][885]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:639][886]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:648][887]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:656][888]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:664][889]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:673][890]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:681][891]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:689][892]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:698][893]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:706][894]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:714][895]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:723][896]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:731][897]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:739][898]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:748][899]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:756][900]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:765][901]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:773][902]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:781][903]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:790][904]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:798][905]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:806][906]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:814][907]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:823][908]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:831][909]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:840][910]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:848][911]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:856][912]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:865][913]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:873][914]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:881][915]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:890][916]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:898][917]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:906][918]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:915][919]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:923][920]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:931][921]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:940][922]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:948][923]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:956][924]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:965][925]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:973][926]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:981][927]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:990][928]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.49:998][929]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:006][930]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:015][931]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:023][932]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:031][933]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:040][934]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:048][935]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:056][936]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:065][937]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:073][938]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:081][939]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:090][940]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:098][941]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:106][942]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:115][943]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:123][944]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:131][945]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:140][946]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:148][947]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:156][948]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:165][949]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:173][950]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:181][951]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:190][952]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:198][953]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:206][954]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:215][955]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:223][956]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:231][957]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:240][958]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:248][959]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:256][960]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:265][961]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:273][962]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:281][963]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:290][964]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:298][965]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:306][966]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:315][967]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:323][968]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:331][969]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:340][970]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:348][971]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:357][972]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:365][973]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:373][974]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:381][975]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:390][976]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:398][977]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:406][978]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:415][979]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:423][980]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:431][981]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:440][982]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:448][983]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:457][984]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:465][985]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:473][986]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:482][987]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:490][988]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:498][989]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:507][990]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:515][991]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:523][992]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:532][993]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:540][994]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:548][995]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:557][996]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:565][997]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:573][998]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:582][999]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:590][  0]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:598][  1]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:607][  2]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:615][  3]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:623][  4]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:632][  5]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:640][  6]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:648][  7]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:657][  8]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:665][  9]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:673][ 10]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:682][ 11]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:690][ 12]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:698][ 13]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:707][ 14]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:715][ 15]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:724][ 16]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:732][ 17]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:740][ 18]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:748][ 19]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:757][ 20]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:765][ 21]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:773][ 22]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:782][ 23]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:790][ 24]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:798][ 25]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:807][ 26]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:815][ 27]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:823][ 28]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:832][ 29]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:840][ 30]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:848][ 31]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:857][ 32]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:865][ 33]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:873][ 34]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:882][ 35]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:890][ 36]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:898][ 37]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:907][ 38]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:916][ 39]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:924][ 40]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:932][ 41]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:940][ 42]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:949][ 43]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:957][ 44]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:965][ 45]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:974][ 46]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:982][ 47]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:990][ 48]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.50:998][ 49]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:007][ 50]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:015][ 51]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:024][ 52]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:032][ 53]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:040][ 54]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:049][ 55]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:057][ 56]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:065][ 57]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:073][ 58]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:082][ 59]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:090][ 60]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:099][ 61]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:107][ 62]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:115][ 63]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:124][ 64]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:132][ 65]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:140][ 66]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:149][ 67]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:157][ 68]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:165][ 69]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:174][ 70]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:182][ 71]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:190][ 72]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:199][ 73]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:207][ 74]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:215][ 75]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:224][ 76]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:232][ 77]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:240][ 78]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:249][ 79]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:257][ 80]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:265][ 81]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:273][ 82]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:282][ 83]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:290][ 84]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:298][ 85]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:307][ 86]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:315][ 87]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:323][ 88]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:332][ 89]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:340][ 90]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:348][ 91]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:357][ 92]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:365][ 93]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:373][ 94]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:382][ 95]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:390][ 96]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:398][ 97]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:407][ 98]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:415][ 99]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:423][100]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:432][101]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:440][102]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:448][103]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:457][104]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:465][105]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:474][106]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:482][107]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:490][108]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:498][109]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:507][110]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:515][111]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:523][112]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:532][113]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:540][114]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:548][115]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:557][116]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:565][117]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:573][118]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:582][119]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:590][120]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:599][121]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:607][122]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:615][123]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:624][124]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:632][125]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:640][126]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:649][127]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:657][128]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:665][129]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:674][130]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:682][131]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:690][132]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:699][133]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:707][134]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:715][135]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:724][136]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:732][137]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:740][138]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:749][139]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:757][140]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:765][141]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:774][142]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:782][143]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:790][144]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:799][145]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:807][146]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:815][147]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:824][148]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:832][149]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:840][150]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:849][151]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:857][152]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:865][153]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:874][154]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:882][155]LogBlueprintUserMessages: [MyCTFActor_C_0] Hello
+[2019.11.30-00.48.51:883][155]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.11.30-00.48.51:883][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.30-00.48.51:914][155]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.11.30-00.48.51:915][155]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.11.30-00.48.51:960][155]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.11.30-00.48.51:963][155]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2019.11.30-00.48.52:008][157]LogPlayLevel: Display: Destroying online subsystem :Context_2
+[2019.11.30-00.48.56:192][655]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.30-00.48.56:363][675]LogSlate: Took 0.000250 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.11.30-00.48.56:369][675]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/Misc/MyAIController.MyAIController
+[2019.11.30-00.48.56:990][675]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0010 seconds. Added 121 classes and 0 folders.
+[2019.11.30-00.49.00:731][957]LogSlate: Window 'MyAIController' being destroyed
+[2019.11.30-00.49.00:735][957]LogSlate: Window 'MyAIController' being destroyed
+[2019.11.30-00.49.43:251][186]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SteeringActor/MyCTFActor.MyCTFActor
+[2019.11.30-00.49.43:597][186]LogSlate: Took 0.023881 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.11.30-00.49.52:264][185]BlueprintLog: New page: Compile MyCTFActor
+[2019.11.30-00.49.52:594][185]LogUObjectHash: Compacting FUObjectHashTables data took   3.58ms
+[2019.11.30-00.49.57:204][731]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SteeringActor/CTFAIActor.CTFAIActor
+[2019.11.30-00.50.24:116][725]LogSlate: Took 0.028170 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.11.30-00.50.43:786][980]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-00.50.43:942][980]LogUObjectHash: Compacting FUObjectHashTables data took   2.96ms
+[2019.11.30-00.50.44:670][ 64]BlueprintLog: New page: Compile MyCTFActor
+[2019.11.30-00.50.44:823][ 64]LogUObjectHash: Compacting FUObjectHashTables data took   3.31ms
+[2019.11.30-00.52.19:890][535]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SteeringActor/BP_SteeringActor.BP_SteeringActor
+[2019.11.30-00.53.29:723][181]LogSlate: Took 0.040962 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
+[2019.11.30-00.53.38:167][115]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-00.53.38:171][115]LogBlueprint: Warning: [Compiler CTFAIActor] Could not find a variable named "WallsOnGrid" in 'CTFAIActor_C'.
+Make sure 'CTFAIActor_C' has been compiled for  Get WallsOnGrid
+[2019.11.30-00.53.38:172][115]LogBlueprint: Warning: [Compiler CTFAIActor] Could not find a variable named "targetOfPlayer" in 'CTFAIActor_C'.
+Make sure 'CTFAIActor_C' has been compiled for  Set targetOfPlayer
+[2019.11.30-00.53.38:172][115]LogBlueprint: Warning: [Compiler CTFAIActor] Could not find a variable named "pathBuilder" in 'CTFAIActor_C'.
+Make sure 'CTFAIActor_C' has been compiled for  Set pathBuilder
+[2019.11.30-00.53.38:172][115]LogBlueprint: Warning: [Compiler CTFAIActor] Could not find a variable named "pathBuilder" in 'CTFAIActor_C'.
+Make sure 'CTFAIActor_C' has been compiled for  Get pathBuilder
+[2019.11.30-00.53.38:173][115]LogBlueprint: Error: [Compiler CTFAIActor] The property associated with  Walls on Grid  could not be found in '/Game/SteeringActor/CTFAIActor.CTFAIActor_C'
+[2019.11.30-00.53.38:173][115]LogBlueprint: Error: [Compiler CTFAIActor] The property associated with  Path Builder  could not be found in '/Game/SteeringActor/CTFAIActor.CTFAIActor_C'
+[2019.11.30-00.53.38:173][115]LogBlueprint: Error: [Compiler CTFAIActor] The property associated with  Path Builder  could not be found in '/Game/SteeringActor/CTFAIActor.CTFAIActor_C'
+[2019.11.30-00.53.38:173][115]LogBlueprint: Error: [Compiler CTFAIActor] The property associated with  Target Of Player  could not be found in '/Game/SteeringActor/CTFAIActor.CTFAIActor_C'
+[2019.11.30-00.53.38:405][115]LogUObjectHash: Compacting FUObjectHashTables data took   3.53ms
+[2019.11.30-00.53.38:413][115]LogBlueprint: Warning: [Compiler CTFAIActor] [0500.27] Compile of CTFAIActor failed. 4 Fatal Issue(s) 4 Warning(s) [in 245 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-00.56.30:223][353]LogEditorTransaction: Undo Delete current selection
+[2019.11.30-00.56.54:549][778]Running D:/Games/Fortnite/UE_4.22/Engine/Binaries/DotNET/UnrealBuildTool.exe  -projectfiles -project="E:/GamePhysicsandAI/GameAI/PathfindingLab/PathFinding.uproject" -game -rocket -progress
+[2019.11.30-00.56.55:548][778]Discovering modules, targets and source code for project...
+[2019.11.30-00.57.06:892][778]Binding IntelliSense data...
+[2019.11.30-00.57.12:449][778]Binding IntelliSense data... 100%
+[2019.11.30-00.57.12:449][778]Writing project files...
+[2019.11.30-00.57.22:763][778]LogAudio: Warning: Current Audio Device with ID {0.0.0.00000000}.{c4f32d9e-d7c5-407f-91fc-2ff9f654fcab} was removed. Shutting down audio device.
+[2019.11.30-00.57.22:864][778]Writing project files... 67%
+[2019.11.30-00.57.22:864][778]Writing project files... 100%
+[2019.11.30-00.57.23:743][778]LogInit: XAudio2 using 'Headphones (Astro MixAmp Pro Game)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2019.11.30-00.58.15:515][776]LogAssetEditorManager: Opening Asset editor for Class /Script/PathFinding.MyPathBuilderActor
+[2019.11.30-00.58.55:811][913]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.11.30-00.58.55:938][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PathfindingMap" FILE="E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Autosaves/Game/PathfindingMap_Auto1.umap" SILENT=true AUTOSAVING=true KEEPDIRTY=false
+[2019.11.30-00.58.56:464][913]LogSavePackage: Moving 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/PathfindingMap_Auto1C9C7751942D74F79AC6BE1B7F2104EEA.tmp' to 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Autosaves/Game/PathfindingMap_Auto1.umap'
+[2019.11.30-00.58.56:512][913]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PathfindingMap' took 0.753
+[2019.11.30-00.58.56:512][913]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.753
+[2019.11.30-00.58.56:514][913]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/SteeringActor/MyCTFActor] ([1] browsable assets)...
+[2019.11.30-00.58.56:542][913]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/SteeringActor/MyCTFActor.MyCTFActor]
+[2019.11.30-00.58.56:542][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/SteeringActor/MyCTFActor]
+[2019.11.30-00.58.56:542][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SteeringActor/MyCTFActor" FILE="E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Autosaves/Game/SteeringActor/MyCTFActor_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.30-00.58.56:778][913]LogSavePackage: Moving 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/MyCTFActor_Auto19F500FC048FBF2817A48C0A788E78EFF.tmp' to 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Autosaves/Game/SteeringActor/MyCTFActor_Auto1.uasset'
+[2019.11.30-00.58.56:816][913]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/SteeringActor/CTFAIActor] ([1] browsable assets)...
+[2019.11.30-00.58.56:816][913]OBJ SavePackage: Finished generating thumbnails for package [/Game/SteeringActor/CTFAIActor]
+[2019.11.30-00.58.56:816][913]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SteeringActor/CTFAIActor" FILE="E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Autosaves/Game/SteeringActor/CTFAIActor_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.11.30-00.58.56:915][913]LogSavePackage: Moving 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/CTFAIActor_Auto179B492E04A552D23387C50A7952E7061.tmp' to 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/Autosaves/Game/SteeringActor/CTFAIActor_Auto1.uasset'
+[2019.11.30-00.58.56:916][913]LogFileHelpers: Auto-saving content packages took 0.403
+[2019.11.30-00.59.21:191][125]LogSlate: Window 'Tutorials' being destroyed
+[2019.11.30-00.59.26:297][567]LogUnrealEdMisc: Warning: Heartbeat event firing too frequently (30.649 sec). This should never happen. Something is wrong with the timer delegate!
+[2019.11.30-00.59.31:128][997]LogSlate: Window 'Tutorials' being destroyed
+[2019.11.30-00.59.31:132][997]LogSlate: Window 'Tutorials' being destroyed
+[2019.11.30-01.00.01:498][908]LogAssetEditorManager: Opening Asset editor for Class /Script/PathFinding.StatePathfinder
+[2019.11.30-01.00.01:635][908]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Source/PathFinding/Public/StatePathfinder.h'
+[2019.11.30-01.00.01:775][908]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Source/PathFinding/Private/StatePathfinder.cpp'
+[2019.11.30-01.00.12:995][960]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.30-01.00.37:595][363]LogEditorTransaction: Undo Delete current selection
+[2019.11.30-01.00.37:990][389]LogEditorTransaction: Undo Create Pin Link
+[2019.11.30-01.00.38:444][426]LogEditorTransaction: Undo Change Class Pin Value
+[2019.11.30-01.00.38:688][444]LogEditorTransaction: Undo Add Node
+[2019.11.30-01.00.38:921][462]LogEditorTransaction: Undo Delete current selection
+[2019.11.30-01.00.39:194][483]LogEditorTransaction: Undo Create Pin Link
+[2019.11.30-01.00.39:546][511]LogEditorTransaction: Undo Move Node
+[2019.11.30-01.00.39:801][531]LogEditorTransaction: Undo Add Node
+[2019.11.30-01.00.40:221][566]LogEditorTransaction: Undo Delete current selection
+[2019.11.30-01.01.43:158][272]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.01.43:179][272]LogBlueprint: Error: [Compiler CTFAIActor] This blueprint (self) is not a PathFindingActor, therefore ' Target ' must have a connection.
+[2019.11.30-01.01.43:179][272]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Set pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.01.43:371][272]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2019.11.30-01.01.43:379][272]LogBlueprint: Warning: [Compiler CTFAIActor] [0985.23] Compile of CTFAIActor failed. 2 Fatal Issue(s) 0 Warning(s) [in 221 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.03.41:688][954]LogVSAccessor: Warning: Couldn't goto line number '1' in 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Source/PathFinding/PathFindingActor.h'
+[2019.11.30-01.05.44:975][446]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.05.44:978][446]LogBlueprint: Error: [Compiler CTFAIActor] This blueprint (self) is not a PathFindingActor, therefore ' Target ' must have a connection.
+[2019.11.30-01.05.44:978][446]LogBlueprint: Error: [Compiler CTFAIActor] This blueprint (self) is not a PathFindingActor, therefore ' Target ' must have a connection.
+[2019.11.30-01.05.44:978][446]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Set pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.05.44:978][446]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Get pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.05.44:978][446]LogBlueprint: Error: [Compiler CTFAIActor] The current value of the ' List Of Walls ' pin is invalid: Array inputs (like 'List Of Walls') must have an input wired into them (try connecting a MakeArray node).
+[2019.11.30-01.05.45:147][446]LogUObjectHash: Compacting FUObjectHashTables data took   3.32ms
+[2019.11.30-01.05.45:155][446]LogBlueprint: Warning: [Compiler CTFAIActor] [1227.01] Compile of CTFAIActor failed. 5 Fatal Issue(s) 0 Warning(s) [in 179 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.07.22:925][904]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.30-01.07.28:140][442]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/SteeringActor/MyCTFActor.MyCTFActor from SteeringActor to StatePathfinder...
+[2019.11.30-01.07.28:144][442]BlueprintLog: New page: Compile MyCTFActor
+[2019.11.30-01.07.28:303][442]LogUObjectHash: Compacting FUObjectHashTables data took   3.17ms
+[2019.11.30-01.07.31:030][741]BlueprintLog: New page: Compile MyCTFActor
+[2019.11.30-01.07.31:191][741]LogUObjectHash: Compacting FUObjectHashTables data took   3.16ms
+[2019.11.30-01.07.35:054][ 88]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
+[2019.11.30-01.07.37:209][279]LogBlueprint: Warning: Reparenting blueprint Blueprint /Game/SteeringActor/CTFAIActor.CTFAIActor from SteeringActor to StatePathfinder...
+[2019.11.30-01.07.37:217][279]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.07.37:219][279]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Get pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.07.37:219][279]LogBlueprint: Error: [Compiler CTFAIActor] The current value of the ' List Of Walls ' pin is invalid: Array inputs (like 'List Of Walls') must have an input wired into them (try connecting a MakeArray node).
+[2019.11.30-01.07.37:219][279]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Set pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.07.37:364][279]LogUObjectHash: Compacting FUObjectHashTables data took   3.11ms
+[2019.11.30-01.07.37:368][279]LogBlueprint: Warning: [Compiler CTFAIActor] [1339.22] Compile of CTFAIActor failed. 3 Fatal Issue(s) 0 Warning(s) [in 150 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.07.38:649][393]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.07.38:652][393]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Get pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.07.38:652][393]LogBlueprint: Error: [Compiler CTFAIActor] The current value of the ' List Of Walls ' pin is invalid: Array inputs (like 'List Of Walls') must have an input wired into them (try connecting a MakeArray node).
+[2019.11.30-01.07.38:652][393]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Set pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.07.38:802][393]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2019.11.30-01.07.38:809][393]LogBlueprint: Warning: [Compiler CTFAIActor] [1340.66] Compile of CTFAIActor failed. 3 Fatal Issue(s) 0 Warning(s) [in 159 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.07.39:617][470]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.07.39:620][470]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Get pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.07.39:620][470]LogBlueprint: Error: [Compiler CTFAIActor] The current value of the ' List Of Walls ' pin is invalid: Array inputs (like 'List Of Walls') must have an input wired into them (try connecting a MakeArray node).
+[2019.11.30-01.07.39:620][470]LogBlueprint: Error: [Compiler CTFAIActor] Variable node  Set pathBuilder  uses an invalid target.  It may depend on a node that is not connected to the execution chain, and got purged.
+[2019.11.30-01.07.39:770][470]LogUObjectHash: Compacting FUObjectHashTables data took   3.03ms
+[2019.11.30-01.07.39:777][470]LogBlueprint: Warning: [Compiler CTFAIActor] [1341.63] Compile of CTFAIActor failed. 3 Fatal Issue(s) 0 Warning(s) [in 159 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.07.40:637][537]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SteeringActor/CTFAIActor" FILE="E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/SteeringActor/CTFAIActor.uasset" SILENT=true
+[2019.11.30-01.07.40:758][537]LogSavePackage: Moving 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/CTFAIActor423AF8B44F5078B5E588A9B1ABD10EC0.tmp' to 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/SteeringActor/CTFAIActor.uasset'
+[2019.11.30-01.07.51:754][613]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.07.51:906][613]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.30-01.08.27:868][ 26]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.08.27:871][ 26]LogBlueprint: Warning: [Compiler CTFAIActor] Could not find a variable named "WallsOnGrid" in 'CTFAIActor_C'.
+Make sure 'CTFAIActor_C' has been compiled for  Get WallsOnGrid
+[2019.11.30-01.08.27:872][ 26]LogBlueprint: Error: [Compiler CTFAIActor] The property associated with  Walls on Grid  could not be found in '/Game/SteeringActor/CTFAIActor.CTFAIActor_C'
+[2019.11.30-01.08.28:018][ 26]LogUObjectHash: Compacting FUObjectHashTables data took   3.13ms
+[2019.11.30-01.08.28:026][ 26]LogBlueprint: Warning: [Compiler CTFAIActor] [1389.88] Compile of CTFAIActor failed. 1 Fatal Issue(s) 1 Warning(s) [in 157 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.08.41:312][ 69]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.08.41:315][ 69]LogBlueprint: Warning: [Compiler CTFAIActor] Could not find a variable named "WallsOnGrid" in 'CTFAIActor_C'.
+Make sure 'CTFAIActor_C' has been compiled for  Get WallsOnGrid
+[2019.11.30-01.08.41:317][ 69]LogBlueprint: Error: [Compiler CTFAIActor] The property associated with  Walls on Grid  could not be found in '/Game/SteeringActor/CTFAIActor.CTFAIActor_C'
+[2019.11.30-01.08.41:472][ 69]LogUObjectHash: Compacting FUObjectHashTables data took   3.24ms
+[2019.11.30-01.08.41:481][ 69]LogBlueprint: Warning: [Compiler CTFAIActor] [1403.33] Compile of CTFAIActor failed. 1 Fatal Issue(s) 1 Warning(s) [in 168 ms] (/Game/SteeringActor/CTFAIActor.CTFAIActor)
+[2019.11.30-01.09.03:487][753]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.09.03:663][753]LogUObjectHash: Compacting FUObjectHashTables data took   3.25ms
+[2019.11.30-01.09.12:439][489]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/SteeringActor/CTFAIActor" FILE="E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/SteeringActor/CTFAIActor.uasset" SILENT=true
+[2019.11.30-01.09.12:549][489]LogSavePackage: Moving 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Saved/CTFAIActor203576A34540CFF9DF9A7DB3B2F06575.tmp' to 'E:/GamePhysicsandAI/GameAI/PathfindingLab/Content/SteeringActor/CTFAIActor.uasset'
+[2019.11.30-01.10.05:879][546]BlueprintLog: New page: Compile CTFAIActor
+[2019.11.30-01.10.06:041][546]LogUObjectHash: Compacting FUObjectHashTables data took   3.42ms
+[2019.11.30-01.10.08:025][737]LogSlate: Window 'BP_SteeringActor' being destroyed
+[2019.11.30-01.10.08:033][737]LogSlate: Window 'BP_SteeringActor' being destroyed
+[2019.11.30-01.10.08:185][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.30-01.10.08:310][737]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2019.11.30-01.10.22:551][904]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.30-01.10.30:990][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.11.30-01.10.31:081][801]LogTemp: Repeating last play command: Selected Viewport
+[2019.11.30-01.10.31:092][801]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.11.30-01.10.31:092][801]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.11.30-01.10.31:093][801]PIE: New page: PIE session: PathfindingMap (Nov 29, 2019, 3:10:31 PM)
+[2019.11.30-01.10.31:093][801]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PathfindingMap
+[2019.11.30-01.10.31:153][801]LogPlayLevel: PIE: StaticDuplicateObject took: (0.060605s)
+[2019.11.30-01.10.31:154][801]LogAIModule: Creating AISystem for world PathfindingMap
+[2019.11.30-01.10.31:154][801]LogPlayLevel: PIE: World Init took: (0.000604s)
+[2019.11.30-01.10.31:154][801]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfindingMap.PathfindingMap to /Game/UEDPIE_0_PathfindingMap.PathfindingMap (0.061336s)
+[2019.11.30-01.10.31:253][801]LogUObjectHash: Compacting FUObjectHashTables data took   3.02ms
+[2019.11.30-01.10.31:393][801]LogInit: XAudio2 using 'Headphones (Astro MixAmp Pro Game)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x60f)
+[2019.11.30-01.10.31:445][801]LogInit: FAudioDevice initialized.
+[2019.11.30-01.10.31:499][801]LogLoad: Game class is 'PathFindingGameMode_C'
+[2019.11.30-01.10.31:500][801]LogWorld: Bringing World /Game/UEDPIE_0_PathfindingMap.PathfindingMap up for play (max tick rate 0) at 2019.11.29-20.10.31
+[2019.11.30-01.10.31:645][801]LogWorld: Bringing up level for play took: 0.145658
+[2019.11.30-01.10.31:769][801]LogOutputDevice: Warning: 
+
+Script Stack (0 frames):
+
+[2019.11.30-01.10.31:769][801]LogWindows: Windows GetLastError: The operation completed successfully. (0)
+[2019.11.30-01.10.46:144][801]LogWindows: Error: === Critical error: ===
+[2019.11.30-01.10.46:144][801]LogWindows: Error: 
+[2019.11.30-01.10.46:144][801]LogWindows: Error: Assertion failed: (Index >= 0) & (Index < ArrayNum) [File:D:\Games\Fortnite\UE_4.22\Engine\Source\Runtime\Core\Public\Containers/Array.h] [Line: 611] 
+[2019.11.30-01.10.46:144][801]LogWindows: Error: Array index out of bounds: 2 from an array of size 0
+[2019.11.30-01.10.46:144][801]LogWindows: Error: 
+[2019.11.30-01.10.46:144][801]LogWindows: Error: 
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffcd417a839 KERNELBASE.dll!UnknownFunction []
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc8ba51f37 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc8ba546e7 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc8b867d1a UE4Editor-Core.dll!UnknownFunction []
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc8b7efe33 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc8b7f04d0 UE4Editor-Core.dll!UnknownFunction []
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc62fb02c8 UE4Editor-PathFinding.dll!DispatchCheckVerify<void,<lambda_908da2019525aa6f501a09b995ca4c69> >() [d:\games\fortnite\ue_4.22\engine\source\runtime\core\public\misc\assertionmacros.h:162]
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc62fa79ed UE4Editor-PathFinding.dll!AStatePathfinder::BeginPlay() [e:\gamephysicsandai\gameai\pathfindinglab\source\pathfinding\private\statepathfinder.cpp:39]
+[2019.11.30-01.10.46:144][801]LogWindows: Error: [Callstack] 0x00007ffc78dc1af6 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc79edcb99 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc79442911 UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc79e9754e UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc794099af UE4Editor-Engine.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc89b0be44 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc89b2b044 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc89b4319f UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc8961fc4a UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffc89e3d396 UE4Editor-UnrealEd.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ff793366bb1 UE4Editor.exe!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ff79337554c UE4Editor.exe!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ff7933755ca UE4Editor.exe!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ff79338316c UE4Editor.exe!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ff793385b8e UE4Editor.exe!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffcd65d7bd4 KERNEL32.DLL!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: [Callstack] 0x00007ffcd680ced1 ntdll.dll!UnknownFunction []
+[2019.11.30-01.10.46:145][801]LogWindows: Error: 
+[2019.11.30-01.10.46:211][801]LogExit: Executing StaticShutdownAfterError
+[2019.11.30-01.10.46:885][801]LogWindows: FPlatformMisc::RequestExit(1)
+[2019.11.30-01.10.46:955][801]Log file closed, 11/29/19 20:10:46
