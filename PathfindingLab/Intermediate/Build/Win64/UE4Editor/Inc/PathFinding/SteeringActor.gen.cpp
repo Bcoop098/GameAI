@@ -33,6 +33,11 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_hasFlag_MetaData[];
+#endif
+		static void NewProp_hasFlag_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_hasFlag;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_TargetPos_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_TargetPos;
@@ -74,6 +79,17 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		{ "ModuleRelativePath", "SteeringActor.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag_MetaData[] = {
+		{ "Category", "Steering" },
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	void Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag_SetBit(void* Obj)
+	{
+		((ASteeringActor*)Obj)->hasFlag = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag = { "hasFlag", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(ASteeringActor), &Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag_SetBit, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_TargetPos_MetaData[] = {
 		{ "Category", "SteeringActor" },
@@ -123,6 +139,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_Position = { "Position", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, Position), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_Position_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_Position_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASteeringActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_hasFlag,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_TargetPos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_SeekDecelerationDistance,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_SeekStrength,
@@ -158,7 +175,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 4226328793);
+	IMPLEMENT_CLASS(ASteeringActor, 1540382683);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

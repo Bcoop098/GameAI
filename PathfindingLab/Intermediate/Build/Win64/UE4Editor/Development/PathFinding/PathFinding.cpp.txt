@@ -1,2 +1,2 @@
-E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
-e:\gamephysicsandai\gameai\pathfindinglab\source\pathfinding\PathFinding.h
+D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
+d:\git\gameai\pathfindinglab\source\pathfinding\PathFinding.h

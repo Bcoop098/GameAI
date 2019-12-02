@@ -21,7 +21,7 @@ void EmptyLinkFunctionForGeneratedCodePathFinding_init() {}
 				nullptr,
 				0,
 				PKG_CompiledIn | 0x00000000,
-				0xB63A0BBD,
+				0xEC175B44,
 				0x3D51A3F6,
 				METADATA_PARAMS(nullptr, 0)
 			};

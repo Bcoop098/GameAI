@@ -51,5 +51,6 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector TargetPos = FVector(0, 0, 0);
 
-
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Steering")
+		bool hasFlag = false;
 };
