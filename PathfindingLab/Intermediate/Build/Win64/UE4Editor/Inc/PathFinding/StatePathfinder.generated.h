@@ -16,6 +16,14 @@ struct FVector;
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execgetBasePosition) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->getBasePosition(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execGetLastPatrol) \
 	{ \
 		P_FINISH; \
@@ -64,6 +72,14 @@ struct FVector;
 
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execgetBasePosition) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->getBasePosition(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execGetLastPatrol) \
 	{ \
@@ -164,6 +180,7 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStatePathfinder); \
 	FORCEINLINE static uint32 __PPO__Point4() { return STRUCT_OFFSET(AStatePathfinder, Point4); } \
 	FORCEINLINE static uint32 __PPO__patrolRoute() { return STRUCT_OFFSET(AStatePathfinder, patrolRoute); } \
 	FORCEINLINE static uint32 __PPO__lastPatrolPoint() { return STRUCT_OFFSET(AStatePathfinder, lastPatrolPoint); } \
+	FORCEINLINE static uint32 __PPO__basePosition() { return STRUCT_OFFSET(AStatePathfinder, basePosition); } \
 	FORCEINLINE static uint32 __PPO__escapeTime() { return STRUCT_OFFSET(AStatePathfinder, escapeTime); } \
 	FORCEINLINE static uint32 __PPO__statesForSeeker() { return STRUCT_OFFSET(AStatePathfinder, statesForSeeker); } \
 	FORCEINLINE static uint32 __PPO__stateObjects() { return STRUCT_OFFSET(AStatePathfinder, stateObjects); } \

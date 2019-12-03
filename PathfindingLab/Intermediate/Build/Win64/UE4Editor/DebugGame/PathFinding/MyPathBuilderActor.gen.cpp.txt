@@ -1,6 +1,6 @@
-D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\Definitions.PathFinding.h
-D:\EpicGames\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
-D:\EpicGames\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
-D:\Git\GameAI\PathfindingLab\Source\PathFinding/Public/MyPathBuilderActor.h
-D:\EpicGames\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
-d:\git\gameai\pathfindinglab\intermediate\build\win64\ue4editor\inc\pathfinding\MyPathBuilderActor.generated.h
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\Definitions.PathFinding.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/GeneratedCppIncludes.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\CoreUObject\Public\UObject/MetaData.h
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding/Public/MyPathBuilderActor.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Public\DrawDebugHelpers.h
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\MyPathBuilderActor.generated.h

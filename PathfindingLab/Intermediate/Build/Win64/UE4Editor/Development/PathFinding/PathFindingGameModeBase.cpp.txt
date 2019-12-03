@@ -1,7 +1,7 @@
-D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
-d:\git\gameai\pathfindinglab\source\pathfinding\PathFindingGameModeBase.h
-D:\EpicGames\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
-D:\EpicGames\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
-D:\EpicGames\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
-D:\EpicGames\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
-D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\PathFindingGameModeBase.generated.h
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\PathFindingGameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\GameFramework/GameModeBase.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Source\Runtime\Engine\Classes\Engine/ServerStatReplicator.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\ServerStatReplicator.generated.h
+C:\Program Files\Epic Games\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\GameModeBase.generated.h
+C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding\PathFindingGameModeBase.generated.h

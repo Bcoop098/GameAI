@@ -1,0 +1,1961 @@
+﻿Log file open, 12/02/19 19:46:40
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: PathFinding
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 23 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.353626
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -5:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin AnimationSharing
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MaterialAnalyzer
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin SkeletalReduction
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SignificanceManager
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.1.1
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.22-CL-7053642
+LogInit: Engine Version: 4.22.3-7053642+++UE4+Release-4.22
+LogInit: Compatible Engine Version: 4.22.0-5660361+++UE4+Release-4.22
+LogInit: Net CL: 5660361
+LogInit: OS: Windows 10 (Release 1903) (), CPU: Intel(R) Xeon(R) CPU E5-1620 v4 @ 3.50GHz, GPU: NVIDIA GeForce GTX 1080
+LogInit: Compiled (64-bit): Jun 18 2019 03:09:11
+LogInit: Compiled with Visual C++: 19.16.27025.01
+LogInit: Build Configuration: DebugGame
+LogInit: Branch Name: ++UE4+Release-4.22
+LogInit: Command Line:  -skipcompile
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.22/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 23
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 3
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 30
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 35
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 28
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 11
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 25
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 6
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogDevObjectVersion:   Dev-Destruction (174F1F0B-B4C6-45A5-B13F-2EE8D0FB917D): 2
+LogInit: Presizing for max 16777216 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.ExtendDefaultLuminanceRange:1]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:610][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.12.03-00.46.40:610][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.12.03-00.46.40:611][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.12.03-00.46.40:612][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:612][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:624][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:624][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.03-00.46.40:624][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.03-00.46.40:624][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:624][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.03-00.46.40:624][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.03-00.46.40:625][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.03-00.46.40:626][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.03-00.46.40:627][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.03-00.46.40:628][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:628][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.03-00.46.40:629][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.03-00.46.40:629][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.03-00.46.40:630][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.12.03-00.46.40:643][  0]LogHAL: Display: Platform has ~ 16 GB [17098231808 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.12.03-00.46.40:643][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:0		; Required until we fix HLR fall-out]]
+[2019.12.03-00.46.40:643][  0]LogInit: Going up to parent DeviceProfile []
+[2019.12.03-00.46.40:643][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:643][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.12.03-00.46.40:643][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.12.03-00.46.40:643][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:643][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.12.03-00.46.40:643][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:643][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.12.03-00.46.40:643][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.12.03-00.46.40:644][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.12.03-00.46.40:645][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.12.03-00.46.40:646][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.12.03-00.46.40:647][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Scalability.ini]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.12.03-00.46.40:648][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.12.03-00.46.40:649][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.12.03-00.46.40:649][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2019.12.03-00.46.40:649][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Config/Windows/Engine.ini]
+[2019.12.03-00.46.40:649][  0]LogInit: Computer: 203-10
+[2019.12.03-00.46.40:649][  0]LogInit: User: student
+[2019.12.03-00.46.40:649][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.12.03-00.46.40:649][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.12.03-00.46.40:650][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.12.03-00.46.40:650][  0]LogMemory: Platform Memory Stats for Windows
+[2019.12.03-00.46.40:650][  0]LogMemory: Process Physical Memory: 96.56 MB used, 96.57 MB peak
+[2019.12.03-00.46.40:650][  0]LogMemory: Process Virtual Memory: 90.72 MB used, 90.72 MB peak
+[2019.12.03-00.46.40:650][  0]LogMemory: Physical Memory: 9117.19 MB used,  7188.96 MB free, 16306.14 MB total
+[2019.12.03-00.46.40:650][  0]LogMemory: Virtual Memory: 4643.81 MB used,  134213088.00 MB free, 134217728.00 MB total
+[2019.12.03-00.46.40:870][  0]LogInit: Using OS detected language (en-US).
+[2019.12.03-00.46.40:870][  0]LogInit: Using OS detected locale (en-US).
+[2019.12.03-00.46.40:871][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2019.12.03-00.46.41:091][  0]LogInit: Setting process to per monitor DPI aware
+[2019.12.03-00.46.41:156][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.12.03-00.46.41:156][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.12.03-00.46.41:432][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.03-00.46.41:432][  0]LogD3D11RHI: D3D11 adapters:
+[2019.12.03-00.46.41:525][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1080' (Feature Level 11_0)
+[2019.12.03-00.46.41:525][  0]LogD3D11RHI:       8079/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.12.03-00.46.41:531][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.12.03-00.46.41:531][  0]LogD3D11RHI:       0/0/8153 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.12.03-00.46.41:531][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.12.03-00.46.41:541][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.12.03-00.46.41:541][  0]LogD3D11RHI:     GPU DeviceId: 0x1b80 (for the marketing name, search the web for "GPU Device Id")
+[2019.12.03-00.46.41:541][  0]LogWindows: EnumDisplayDevices:
+[2019.12.03-00.46.41:541][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1080' (P:1 D:1)
+[2019.12.03-00.46.41:542][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1080' (P:0 D:1)
+[2019.12.03-00.46.41:542][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.12.03-00.46.41:543][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1080' (P:0 D:0)
+[2019.12.03-00.46.41:543][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.12.03-00.46.41:543][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1080
+[2019.12.03-00.46.41:543][  0]LogD3D11RHI:   Driver Version: 419.17 (internal:25.21.14.1917, unified:419.17)
+[2019.12.03-00.46.41:543][  0]LogD3D11RHI:      Driver Date: 2-20-2019
+[2019.12.03-00.46.41:543][  0]LogRHI: Texture pool is 5655 MB (70% of 8079 MB)
+[2019.12.03-00.46.41:601][  0]LogD3D11RHI: Async texture creation enabled
+[2019.12.03-00.46.41:605][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.03-00.46.41:605][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.03-00.46.41:606][  0]LogRendererCore: FGlobalReadBuffer::InitRHI
+[2019.12.03-00.46.41:614][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 1)
+[2019.12.03-00.46.42:040][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2019.12.03-00.46.42:058][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2019.12.03-00.46.42:075][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2019.12.03-00.46.42:093][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2019.12.03-00.46.42:113][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2019.12.03-00.46.42:131][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2019.12.03-00.46.42:148][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2019.12.03-00.46.42:163][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2019.12.03-00.46.42:172][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2019.12.03-00.46.42:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2019.12.03-00.46.42:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2019.12.03-00.46.42:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2019.12.03-00.46.42:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2019.12.03-00.46.42:275][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2019.12.03-00.46.42:276][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2019.12.03-00.46.42:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2019.12.03-00.46.42:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2019.12.03-00.46.42:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2019.12.03-00.46.42:277][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2019.12.03-00.46.42:282][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2019.12.03-00.46.42:348][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2019.12.03-00.46.42:348][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2019.12.03-00.46.42:376][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2019.12.03-00.46.42:376][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2019.12.03-00.46.42:393][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2019.12.03-00.46.42:408][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2019.12.03-00.46.42:424][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2019.12.03-00.46.42:439][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2019.12.03-00.46.42:488][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2019.12.03-00.46.42:488][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2019.12.03-00.46.42:489][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.12.03-00.46.42:521][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2019.12.03-00.46.42:627][  0]LogShaderCompilers: Guid format shader working directory is -43 characters bigger than the processId version (../../../../../../Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Intermediate/Shaders/WorkingDirectory/23492/).
+[2019.12.03-00.46.42:627][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Student/AppData/Local/Temp/UnrealShaderWorkingDir/68988E2943ADA822B9EAA2A77F80EFC9/'.
+[2019.12.03-00.46.42:629][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.12.03-00.46.42:630][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.12.03-00.46.42:630][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.12.03-00.46.43:284][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.12.03-00.46.43:379][  0]LogDerivedDataCache: Loaded boot cache 0.09s 71MB C:/Users/Student/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.03-00.46.43:379][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Student/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc
+[2019.12.03-00.46.43:380][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.12.03-00.46.43:380][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.12.03-00.46.43:380][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.03-00.46.43:380][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.12.03-00.46.43:411][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.12.03-00.46.43:411][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.12.03-00.46.43:411][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.12.03-00.46.43:426][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Student/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.12.03-00.46.43:426][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.12.03-00.46.43:426][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.12.03-00.46.43:455][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.12.03-00.46.43:459][  0]LogSlate: Using FreeType 2.6.0
+[2019.12.03-00.46.43:461][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.12.03-00.46.43:588][  0]LogAssetRegistry: FAssetRegistry took 0.0383 seconds to start up
+[2019.12.03-00.46.43:980][  0]LogInit: Selected Device Profile: [Windows]
+[2019.12.03-00.46.44:158][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.12.03-00.46.44:158][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2019.12.03-00.46.44:158][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.12.03-00.46.44:158][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2019.12.03-00.46.44:158][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2019.12.03-00.46.44:171][  0]LogNetVersion: PathFinding 1.0.0, NetCL: 5660361, EngineNetVer: 10, GameNetVer: 0 (Checksum: 315523671)
+[2019.12.03-00.46.44:681][  0]LogPackageLocalizationCache: Processed 10 localized package path(s) for 1 prioritized culture(s) in 0.048313 seconds
+[2019.12.03-00.46.44:689][  0]LogUObjectArray: 42205 objects as part of root set at end of initial load.
+[2019.12.03-00.46.44:690][  0]LogUObjectAllocator: 7325032 out of 0 bytes used by permanent object pool.
+[2019.12.03-00.46.44:690][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.12.03-00.46.46:379][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.12.03-00.46.46:396][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.12.03-00.46.46:812][  0]SourceControl: Source control is disabled
+[2019.12.03-00.46.46:812][  0]SourceControl: Source control is disabled
+[2019.12.03-00.46.46:817][  0]SourceControl: Source control is disabled
+[2019.12.03-00.46.46:820][  0]SourceControl: Source control is disabled
+[2019.12.03-00.46.47:002][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.12.03-00.46.47:222][  0]LogOcInput: OculusInput pre-init called
+[2019.12.03-00.46.48:317][  0]LogEngine: Initializing Engine...
+[2019.12.03-00.46.48:318][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.12.03-00.46.48:321][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
+[2019.12.03-00.46.48:598][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.12.03-00.46.48:616][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.12.03-00.46.48:722][  0]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.03-00.46.48:776][  0]LogInit: FAudioDevice initialized.
+[2019.12.03-00.46.48:777][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.12.03-00.46.48:868][  0]LogDerivedDataCache: Saved boot cache 0.09s 71MB C:/Users/Student/AppData/Local/UnrealEngine/4.22/DerivedDataCache/Boot.ddc.
+[2019.12.03-00.46.48:875][  0]LogInit: Texture streaming: Enabled
+[2019.12.03-00.46.48:924][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.12.03-00.46.48:924][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Debugger, SessionId={644F7C73-4177-43AC-40D4-CB9198B90A2F}
+[2019.12.03-00.46.48:959][  0]LogInit: Transaction tracking system initialized
+[2019.12.03-00.46.49:020][  0]BlueprintLog: New page: Editor Load
+[2019.12.03-00.46.49:202][  0]LocalizationService: Localization service is disabled
+[2019.12.03-00.46.49:603][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Content/' took 0.01s
+[2019.12.03-00.46.49:604][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.12.03-00.46.49:604][  0]LogCook: Display: Mobile HDR setting 1
+[2019.12.03-00.46.49:908][  0]SourceControl: Source control is disabled
+[2019.12.03-00.46.49:908][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Content/PathfindingMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.12.03-00.46.49:909][  0]LightingResults: New page: Lighting Build
+[2019.12.03-00.46.49:915][  0]MapCheck: New page: Map Check
+[2019.12.03-00.46.49:915][  0]LightingResults: New page: Lighting Build
+[2019.12.03-00.46.49:956][  0]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2019.12.03-00.46.50:203][  0]LogAIModule: Creating AISystem for world PathfindingMap
+[2019.12.03-00.46.50:220][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.12.03-00.46.50:257][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.10ms
+[2019.12.03-00.46.50:258][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.12.03-00.46.50:258][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.221ms to complete.
+[2019.12.03-00.46.50:258][  0]LogFileHelpers: Loading map 'PathfindingMap' took 0.350
+[2019.12.03-00.46.50:388][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.03-00.46.50:401][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.03-00.46.50:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.03-00.46.50:418][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.12.03-00.46.50:428][  0]LogCollectionManager: Loaded 0 collections in 0.001749 seconds
+[2019.12.03-00.46.50:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Saved/Collections/' took 0.01s
+[2019.12.03-00.46.50:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Content/Developers/student/Collections/' took 0.01s
+[2019.12.03-00.46.50:460][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Student/Documents/Unreal Projects/BenCGameAI/GameAI/PathfindingLab/Content/Collections/' took 0.00s
+[2019.12.03-00.46.50:460][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.12.03-00.46.50:470][  0]LogContentBrowser: Native class hierarchy populated in 0.0099 seconds. Added 2742 classes and 662 folders.
+[2019.12.03-00.46.50:479][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.03-00.46.50:481][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:482][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:483][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:483][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:484][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:485][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:486][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:486][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:487][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:488][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:489][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:490][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:491][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:492][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:493][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:494][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:494][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:495][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:496][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:497][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:498][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:499][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:500][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:501][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.12.03-00.46.50:542][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0004 seconds. Added 0 classes and 0 folders.
+[2019.12.03-00.46.50:550][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0004 seconds. Added 1 classes and 2 folders.
+[2019.12.03-00.46.50:616][  0]LogSlate: Took 0.000410 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.12.03-00.46.50:621][  0]LogSlate: Took 0.000340 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.12.03-00.46.50:625][  0]LogSlate: Took 0.000290 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.12.03-00.46.50:698][  0]LogRenderer: Reallocating scene render targets to support 1208x572 Format 10 NumSamples 1 (Frame:1).
+[2019.12.03-00.46.50:758][  0]LogSlate: Took 0.000352 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.03-00.46.50:870][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0005 seconds. Added 0 classes and 0 folders.
+[2019.12.03-00.46.50:870][  0]LogLoad: (Engine Initialization) Total time: 12.42 seconds
+[2019.12.03-00.46.50:870][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.12.03-00.46.50:902][  0]LogAssetRegistry: Asset discovery search completed in 7.3385 seconds
+[2019.12.03-00.46.50:904][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.12.03-00.46.50:904][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000146 seconds (updated 0 objects)
+[2019.12.03-00.46.50:905][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.12.03-00.46.51:910][103]LogSlate: Took 0.000251 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.12.03-00.46.53:236][260]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-00.46.53:355][272]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/SteeringActor/CTFAIActor.CTFAIActor
+[2019.12.03-00.46.53:627][272]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 121 classes and 0 folders.
+[2019.12.03-00.46.54:458][272]LogSlate: Took 0.000392 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.12.03-00.46.54:568][273]LogSlate: Took 0.000488 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.12.03-00.47.00:923][845]LogSlate: Window 'CTFAIActor' being destroyed
+[2019.12.03-00.47.00:927][845]LogSlate: Window 'CTFAIActor' being destroyed
+[2019.12.03-00.47.02:397][ 12]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.12.03-00.47.02:480][ 22]LogTemp: Repeating last play command: Selected Viewport
+[2019.12.03-00.47.02:490][ 22]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.12.03-00.47.02:490][ 22]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.12.03-00.47.02:491][ 22]PIE: New page: PIE session: PathfindingMap (Dec 2, 2019, 2:47:02 PM)
+[2019.12.03-00.47.02:506][ 22]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PathfindingMap
+[2019.12.03-00.47.02:516][ 22]LogPlayLevel: PIE: StaticDuplicateObject took: (0.009650s)
+[2019.12.03-00.47.02:517][ 22]LogAIModule: Creating AISystem for world PathfindingMap
+[2019.12.03-00.47.02:517][ 22]LogPlayLevel: PIE: World Init took: (0.000765s)
+[2019.12.03-00.47.02:517][ 22]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfindingMap.PathfindingMap to /Game/UEDPIE_0_PathfindingMap.PathfindingMap (0.011147s)
+[2019.12.03-00.47.02:568][ 22]LogUObjectHash: Compacting FUObjectHashTables data took   3.59ms
+[2019.12.03-00.47.02:601][ 22]LogInit: XAudio2 using 'Speakers / Headphones (Realtek Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.12.03-00.47.02:635][ 22]LogInit: FAudioDevice initialized.
+[2019.12.03-00.47.02:680][ 22]LogLoad: Game class is 'PathFindingGameMode_C'
+[2019.12.03-00.47.02:685][ 22]LogWorld: Bringing World /Game/UEDPIE_0_PathfindingMap.PathfindingMap up for play (max tick rate 0) at 2019.12.02-19.47.02
+[2019.12.03-00.47.02:685][ 22]LogWorld: Bringing up level for play took: 0.002499
+[2019.12.03-00.47.02:709][ 22]LogBlueprintActionDatabase: Requesting refresh due to module change: Voice (loaded)
+[2019.12.03-00.47.02:716][ 22]LogBlueprintActionDatabase: Requesting refresh due to module change: MovieSceneCapture (loaded)
+[2019.12.03-00.47.02:717][ 22]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0010 seconds. Added 20 classes and 0 folders.
+[2019.12.03-00.47.02:742][ 22]PIE: Play in editor start time for /Game/UEDPIE_0_PathfindingMap 0.561
+[2019.12.03-00.47.02:743][ 22]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PathfindingMap.PathfindingMap:PersistentLevel' has LevelScriptBlueprint '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap' with GeneratedClass '/Game/PathfindingMap.PathfindingMap_C' with ClassGeneratedBy '/Game/PathfindingMap.PathfindingMap:PersistentLevel.PathfindingMap'
+[2019.12.03-00.47.02:744][ 22]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:080][ 23]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:089][ 24]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:105][ 25]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:115][ 26]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:124][ 27]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:133][ 28]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:142][ 29]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:152][ 30]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:161][ 31]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:169][ 32]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:177][ 33]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:185][ 34]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:194][ 35]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:202][ 36]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:210][ 37]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:219][ 38]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:227][ 39]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:235][ 40]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:244][ 41]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:253][ 42]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:261][ 43]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:269][ 44]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:278][ 45]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:286][ 46]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:294][ 47]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:302][ 48]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:311][ 49]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:319][ 50]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:327][ 51]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:336][ 52]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:343][ 53]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:352][ 54]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:361][ 55]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:368][ 56]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:376][ 57]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:385][ 58]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:393][ 59]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:402][ 60]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:409][ 61]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:418][ 62]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:426][ 63]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:434][ 64]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:443][ 65]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:451][ 66]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:459][ 67]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:468][ 68]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:476][ 69]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:485][ 70]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:493][ 71]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:501][ 72]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:509][ 73]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:518][ 74]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:526][ 75]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:535][ 76]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:543][ 77]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:551][ 78]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:560][ 79]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:568][ 80]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:576][ 81]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:585][ 82]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:593][ 83]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:601][ 84]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:610][ 85]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:618][ 86]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:626][ 87]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:635][ 88]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:643][ 89]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:651][ 90]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:660][ 91]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:668][ 92]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:676][ 93]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:685][ 94]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:693][ 95]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:701][ 96]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:710][ 97]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:718][ 98]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:726][ 99]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:735][100]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:743][101]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:752][102]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:760][103]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:768][104]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:776][105]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:785][106]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:793][107]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:801][108]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:810][109]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:818][110]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:826][111]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:835][112]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:843][113]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:851][114]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:860][115]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:868][116]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:876][117]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:885][118]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:893][119]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:901][120]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:910][121]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:918][122]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:926][123]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:935][124]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:943][125]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:952][126]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:960][127]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:969][128]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:977][129]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:985][130]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.03:993][131]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:002][132]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:010][133]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:019][134]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:027][135]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:035][136]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:043][137]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:052][138]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:060][139]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:069][140]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:077][141]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:086][142]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:094][143]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:102][144]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:110][145]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:119][146]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:127][147]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:135][148]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:144][149]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:152][150]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:160][151]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:169][152]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:177][153]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:185][154]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:194][155]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:202][156]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:210][157]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:219][158]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:227][159]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:235][160]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:244][161]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:252][162]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:261][163]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:269][164]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:277][165]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:285][166]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:294][167]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:302][168]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:310][169]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:319][170]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:327][171]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:336][172]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:344][173]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:352][174]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:361][175]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:369][176]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:377][177]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:385][178]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:394][179]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:402][180]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:410][181]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:419][182]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:427][183]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:435][184]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:443][185]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:451][186]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:459][187]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:468][188]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:476][189]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:485][190]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:493][191]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:501][192]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:509][193]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:518][194]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:526][195]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:535][196]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:543][197]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:551][198]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:560][199]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:568][200]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:576][201]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:585][202]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:593][203]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:602][204]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:610][205]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:618][206]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:627][207]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:635][208]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:643][209]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:651][210]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:660][211]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:668][212]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:676][213]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:685][214]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:693][215]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:701][216]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:710][217]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:718][218]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:726][219]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:735][220]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:743][221]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:751][222]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:760][223]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:768][224]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:776][225]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:785][226]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:793][227]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:802][228]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:810][229]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:819][230]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:828][231]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:836][232]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:844][233]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:852][234]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:861][235]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:869][236]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:877][237]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:885][238]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:894][239]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:903][240]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:910][241]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:919][242]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:927][243]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:935][244]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:944][245]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:952][246]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:960][247]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:969][248]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:977][249]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:985][250]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.04:994][251]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:002][252]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:010][253]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:019][254]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:027][255]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:035][256]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:044][257]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:053][258]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:061][259]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:069][260]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:077][261]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:086][262]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:094][263]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:102][264]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:111][265]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:119][266]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:127][267]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:136][268]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:144][269]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:152][270]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:161][271]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:169][272]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:178][273]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:186][274]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:194][275]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:203][276]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:211][277]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:220][278]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:227][279]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:236][280]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:245][281]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:253][282]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:261][283]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:270][284]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:278][285]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:286][286]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:295][287]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:303][288]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:311][289]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:320][290]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:328][291]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:336][292]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:344][293]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:353][294]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:361][295]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:370][296]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:378][297]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:387][298]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:395][299]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:404][300]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:412][301]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:420][302]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:429][303]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:437][304]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:445][305]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:454][306]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:462][307]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:470][308]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:479][309]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:486][310]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:494][311]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:503][312]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:511][313]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:519][314]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:527][315]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:536][316]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:544][317]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:553][318]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:563][319]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:569][320]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:578][321]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:586][322]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:595][323]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:603][324]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:611][325]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:619][326]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:627][327]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:637][328]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:645][329]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:653][330]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:661][331]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:670][332]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:678][333]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:686][334]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:694][335]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:703][336]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:713][337]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:721][338]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:729][339]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:738][340]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:748][341]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:756][342]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:763][343]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:772][344]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:779][345]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:788][346]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:797][347]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:804][348]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:813][349]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:821][350]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:829][351]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:839][352]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:848][353]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:857][354]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:863][355]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:873][356]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:880][357]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:889][358]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:896][359]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:905][360]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:913][361]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:921][362]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:929][363]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:938][364]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:946][365]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:954][366]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:963][367]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:971][368]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:979][369]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:988][370]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.05:996][371]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:004][372]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:012][373]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:021][374]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:029][375]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:037][376]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:046][377]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:054][378]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:064][379]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:072][380]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:081][381]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:088][382]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:096][383]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:104][384]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:113][385]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:121][386]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:129][387]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:138][388]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:146][389]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:154][390]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:163][391]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:171][392]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:179][393]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:188][394]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:196][395]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:205][396]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:213][397]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:222][398]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:230][399]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:238][400]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:246][401]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:255][402]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:262][403]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:271][404]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:279][405]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:288][406]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:296][407]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:304][408]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:312][409]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:321][410]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:329][411]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:337][412]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:346][413]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:354][414]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:362][415]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:371][416]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:379][417]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:387][418]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:396][419]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:404][420]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:412][421]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:421][422]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:429][423]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:437][424]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:446][425]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:454][426]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:462][427]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:471][428]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:479][429]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:487][430]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:496][431]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:504][432]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:512][433]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:521][434]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:529][435]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:537][436]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:546][437]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:554][438]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:562][439]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:571][440]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:579][441]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:587][442]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:596][443]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:604][444]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:613][445]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:622][446]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:630][447]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:639][448]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:648][449]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:656][450]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:666][451]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:673][452]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:682][453]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:691][454]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:699][455]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:707][456]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:714][457]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:724][458]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:733][459]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:740][460]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:749][461]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:757][462]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:765][463]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:773][464]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:781][465]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:789][466]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:796][467]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:805][468]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:813][469]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:821][470]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:830][471]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:838][472]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:846][473]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:855][474]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:863][475]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:871][476]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:880][477]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:888][478]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:896][479]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:905][480]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:913][481]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:922][482]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:930][483]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:938][484]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:946][485]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:955][486]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:966][487]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:974][488]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:982][489]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:989][490]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.06:997][491]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:006][492]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:014][493]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:023][494]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:032][495]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:041][496]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:049][497]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:057][498]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:068][499]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:076][500]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:084][501]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:097][502]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:105][503]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:113][504]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:121][505]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:129][506]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:138][507]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:146][508]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:156][509]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:162][510]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:170][511]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:178][512]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:187][513]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:195][514]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:203][515]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:212][516]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:220][517]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:228][518]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:237][519]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:245][520]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:253][521]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:262][522]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:270][523]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:278][524]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:287][525]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:295][526]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:303][527]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:312][528]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:320][529]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:328][530]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:337][531]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:345][532]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:353][533]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:362][534]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:370][535]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:378][536]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:387][537]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:396][538]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:403][539]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:412][540]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:420][541]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:429][542]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:437][543]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:445][544]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:453][545]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:462][546]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:470][547]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:478][548]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:486][549]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:494][550]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:503][551]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:511][552]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:519][553]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:528][554]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:536][555]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:545][556]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:553][557]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:561][558]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:569][559]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:578][560]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:586][561]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:595][562]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:603][563]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:611][564]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:620][565]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:628][566]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:636][567]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:644][568]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:653][569]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:661][570]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:670][571]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:678][572]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:686][573]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:694][574]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:703][575]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:711][576]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:720][577]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:728][578]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:737][579]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:745][580]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:753][581]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:761][582]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:769][583]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:778][584]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:786][585]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:795][586]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:803][587]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:811][588]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:821][589]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:828][590]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:836][591]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:845][592]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:853][593]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:861][594]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:870][595]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:878][596]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:886][597]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:895][598]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:903][599]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:911][600]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:920][601]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:928][602]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:936][603]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:944][604]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:953][605]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:961][606]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:969][607]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:978][608]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:986][609]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.07:995][610]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:003][611]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:011][612]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:019][613]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:028][614]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:036][615]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:045][616]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:053][617]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:061][618]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:070][619]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:078][620]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:087][621]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:095][622]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:103][623]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:111][624]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:120][625]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:128][626]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:136][627]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:145][628]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:153][629]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:161][630]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:170][631]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:178][632]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:187][633]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:195][634]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:203][635]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:212][636]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:220][637]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:228][638]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:236][639]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:246][640]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:253][641]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:261][642]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:270][643]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:278][644]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:287][645]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:295][646]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:303][647]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:312][648]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:320][649]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:328][650]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:337][651]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:345][652]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:353][653]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:361][654]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:370][655]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:379][656]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:386][657]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:395][658]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:403][659]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:411][660]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:420][661]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:428][662]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:437][663]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:445][664]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:453][665]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:462][666]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:470][667]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:478][668]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:487][669]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:495][670]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:503][671]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:512][672]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:520][673]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:528][674]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:537][675]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:545][676]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:553][677]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:562][678]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:570][679]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:578][680]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:587][681]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:595][682]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:603][683]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:612][684]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:620][685]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:628][686]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:637][687]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:645][688]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:653][689]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:662][690]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:670][691]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:678][692]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:687][693]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:695][694]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:704][695]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:712][696]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:720][697]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:729][698]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:737][699]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:746][700]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:753][701]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:762][702]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:770][703]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:778][704]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:787][705]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:795][706]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:804][707]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:812][708]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:820][709]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:828][710]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:837][711]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:845][712]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:853][713]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:862][714]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:870][715]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:878][716]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:887][717]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:895][718]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:903][719]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:912][720]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:920][721]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:928][722]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:937][723]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:945][724]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:954][725]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:962][726]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:970][727]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:979][728]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:987][729]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.08:996][730]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:004][731]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:012][732]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:020][733]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:028][734]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:037][735]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:045][736]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:054][737]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:062][738]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:070][739]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:079][740]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:087][741]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:095][742]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:104][743]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:112][744]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:120][745]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:129][746]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:137][747]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:145][748]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:154][749]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:162][750]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:170][751]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:179][752]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:187][753]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:196][754]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:205][755]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:212][756]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:220][757]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:229][758]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:237][759]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:245][760]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:254][761]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:262][762]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:270][763]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:279][764]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:288][765]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:296][766]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:304][767]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:312][768]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:321][769]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:328][770]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:337][771]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:344][772]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:354][773]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:361][774]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:369][775]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:378][776]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:386][777]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:395][778]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:403][779]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:411][780]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:420][781]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:428][782]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:436][783]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:445][784]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:453][785]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:461][786]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:470][787]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:478][788]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:486][789]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:495][790]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:503][791]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:511][792]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:520][793]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:528][794]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:536][795]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:545][796]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:553][797]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:561][798]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:570][799]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:578][800]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:586][801]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:595][802]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:603][803]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:611][804]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:620][805]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:628][806]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:636][807]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:645][808]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:654][809]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:662][810]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:670][811]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:679][812]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:687][813]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:696][814]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:704][815]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:712][816]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:720][817]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:729][818]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:737][819]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:746][820]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:754][821]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:762][822]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:771][823]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:779][824]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:787][825]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:795][826]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:804][827]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:812][828]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:821][829]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:829][830]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:837][831]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:845][832]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:854][833]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:862][834]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:871][835]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:879][836]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:887][837]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:895][838]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:903][839]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:911][840]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:920][841]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:928][842]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:936][843]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:945][844]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:953][845]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:962][846]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:970][847]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:978][848]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:986][849]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.09:995][850]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:003][851]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:011][852]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:020][853]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:028][854]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:036][855]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:045][856]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:053][857]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:061][858]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:070][859]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:078][860]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:086][861]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:095][862]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:103][863]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:112][864]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:120][865]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:128][866]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:137][867]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:145][868]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:153][869]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:162][870]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:170][871]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:178][872]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:186][873]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:195][874]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:204][875]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:212][876]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:220][877]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:228][878]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:237][879]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:245][880]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:253][881]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:262][882]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:270][883]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:278][884]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:287][885]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:295][886]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:303][887]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:311][888]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:320][889]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:328][890]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:336][891]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:345][892]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:353][893]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:362][894]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:370][895]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:378][896]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:387][897]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:395][898]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:403][899]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:413][900]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:420][901]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:428][902]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:437][903]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:445][904]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:454][905]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:462][906]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:470][907]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:479][908]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:491][909]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:500][910]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:508][911]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:517][912]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:525][913]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:533][914]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:542][915]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:550][916]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:558][917]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:566][918]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:575][919]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:583][920]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:592][921]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:600][922]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:608][923]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:617][924]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:625][925]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:633][926]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:642][927]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:650][928]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:658][929]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:667][930]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:675][931]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:683][932]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:692][933]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:700][934]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:708][935]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:717][936]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:725][937]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:733][938]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:741][939]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:750][940]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:758][941]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:767][942]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:775][943]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:783][944]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:792][945]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:800][946]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:808][947]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:817][948]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:825][949]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:833][950]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:842][951]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:850][952]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:859][953]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:867][954]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:875][955]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:884][956]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:892][957]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:900][958]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:909][959]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:917][960]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:925][961]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:933][962]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:942][963]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:950][964]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:959][965]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:967][966]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:975][967]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:983][968]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.10:992][969]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:000][970]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:009][971]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:017][972]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:025][973]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:032][974]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:041][975]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:050][976]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:057][977]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:066][978]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:074][979]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:082][980]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:091][981]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:099][982]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:108][983]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:116][984]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:124][985]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:133][986]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:141][987]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:149][988]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:158][989]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:166][990]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:174][991]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:182][992]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:191][993]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:199][994]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:208][995]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:216][996]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:224][997]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:232][998]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:241][999]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:250][  0]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:258][  1]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:267][  2]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:275][  3]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:283][  4]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:292][  5]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:300][  6]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:308][  7]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:317][  8]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:325][  9]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:333][ 10]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:342][ 11]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:350][ 12]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:358][ 13]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:366][ 14]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:375][ 15]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:383][ 16]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:392][ 17]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:400][ 18]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:408][ 19]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:417][ 20]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:425][ 21]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:433][ 22]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:442][ 23]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:450][ 24]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:458][ 25]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:467][ 26]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:475][ 27]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:483][ 28]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:492][ 29]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:500][ 30]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:508][ 31]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:517][ 32]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:525][ 33]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:533][ 34]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:542][ 35]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:550][ 36]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:558][ 37]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:567][ 38]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:575][ 39]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:583][ 40]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:592][ 41]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:600][ 42]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:608][ 43]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:617][ 44]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:625][ 45]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:634][ 46]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:642][ 47]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:650][ 48]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:659][ 49]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:667][ 50]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:675][ 51]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:684][ 52]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:692][ 53]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:700][ 54]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:709][ 55]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:716][ 56]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:724][ 57]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:733][ 58]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:741][ 59]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:749][ 60]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:758][ 61]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:766][ 62]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:774][ 63]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:783][ 64]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:791][ 65]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:799][ 66]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:808][ 67]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:816][ 68]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:824][ 69]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:833][ 70]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:841][ 71]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:849][ 72]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:858][ 73]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:866][ 74]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:874][ 75]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:883][ 76]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:891][ 77]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:900][ 78]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:908][ 79]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:916][ 80]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:925][ 81]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:933][ 82]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:941][ 83]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:950][ 84]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:958][ 85]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:966][ 86]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:975][ 87]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:983][ 88]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.11:991][ 89]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:000][ 90]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:008][ 91]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:016][ 92]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:025][ 93]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:033][ 94]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:041][ 95]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:050][ 96]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:058][ 97]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:067][ 98]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:075][ 99]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:084][100]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:092][101]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:100][102]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:109][103]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:117][104]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:125][105]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:134][106]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:142][107]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:150][108]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:159][109]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:167][110]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:175][111]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:184][112]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:192][113]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:200][114]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:209][115]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:217][116]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:225][117]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:234][118]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:242][119]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:250][120]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:259][121]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:267][122]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:275][123]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:284][124]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:292][125]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:300][126]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:309][127]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:317][128]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:325][129]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:334][130]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:342][131]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:350][132]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:359][133]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:367][134]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:375][135]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:384][136]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:392][137]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:400][138]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:409][139]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:417][140]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:425][141]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:434][142]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:442][143]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:450][144]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:459][145]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:467][146]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:475][147]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:484][148]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:492][149]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:500][150]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:509][151]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:517][152]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:525][153]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:534][154]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:542][155]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:550][156]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:559][157]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:567][158]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:574][159]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:583][160]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:592][161]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:600][162]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:608][163]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:616][164]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:625][165]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:633][166]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:641][167]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:650][168]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:658][169]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:666][170]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:675][171]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:683][172]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:691][173]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:700][174]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:708][175]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:716][176]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:725][177]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:733][178]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:741][179]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:750][180]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:758][181]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:766][182]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:775][183]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:783][184]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:791][185]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:800][186]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:808][187]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:816][188]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:825][189]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:833][190]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:841][191]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:850][192]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:858][193]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:866][194]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:875][195]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:883][196]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:891][197]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:900][198]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:908][199]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:916][200]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:925][201]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:933][202]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:941][203]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:950][204]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:958][205]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:966][206]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:975][207]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:983][208]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.12:991][209]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:000][210]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:008][211]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:016][212]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:025][213]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:033][214]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:041][215]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:050][216]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:058][217]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:066][218]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:075][219]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:083][220]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:091][221]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:100][222]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:108][223]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:117][224]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:125][225]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:133][226]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:141][227]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:150][228]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:159][229]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:167][230]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:175][231]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:184][232]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:192][233]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:200][234]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:209][235]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:217][236]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:225][237]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:234][238]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:242][239]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:250][240]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:259][241]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:267][242]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:275][243]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:284][244]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:292][245]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:300][246]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:309][247]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:317][248]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:325][249]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:334][250]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:342][251]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:350][252]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:359][253]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:367][254]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:375][255]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:384][256]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:392][257]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:400][258]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:409][259]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:417][260]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:425][261]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:434][262]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:442][263]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:450][264]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:459][265]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:467][266]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:475][267]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:484][268]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:492][269]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:500][270]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:509][271]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:517][272]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:526][273]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:534][274]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:542][275]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:551][276]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:559][277]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:567][278]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:576][279]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:584][280]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:592][281]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:601][282]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:609][283]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:617][284]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:626][285]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:634][286]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:642][287]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:651][288]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:659][289]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:667][290]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:676][291]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:684][292]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:692][293]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:700][294]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:709][295]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:716][296]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:725][297]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:734][298]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:741][299]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:751][300]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:759][301]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:767][302]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:776][303]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:784][304]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:792][305]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:800][306]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:809][307]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:816][308]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:825][309]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:834][310]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:841][311]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:850][312]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:858][313]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:866][314]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:875][315]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:883][316]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:891][317]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:900][318]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:908][319]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:916][320]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:925][321]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:933][322]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:941][323]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:950][324]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:958][325]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:966][326]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:975][327]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:983][328]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.13:991][329]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:000][330]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:008][331]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:016][332]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:025][333]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:033][334]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:041][335]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:050][336]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:058][337]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:067][338]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:075][339]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:083][340]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:092][341]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:100][342]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:108][343]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:117][344]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:125][345]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:133][346]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:142][347]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:150][348]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:158][349]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:167][350]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:175][351]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:183][352]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:192][353]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:200][354]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:208][355]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:217][356]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:225][357]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:233][358]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:242][359]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:251][360]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:259][361]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:267][362]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:276][363]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:284][364]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:292][365]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:301][366]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:309][367]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:317][368]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:326][369]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:334][370]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:342][371]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:350][372]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:359][373]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:367][374]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:375][375]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:384][376]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:392][377]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:400][378]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:409][379]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:417][380]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:425][381]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:434][382]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:442][383]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:450][384]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:459][385]LogBlueprintUserMessages: [Flag_2] NotCaptured
+[2019.12.03-00.47.14:473][386]LogBlueprintUserMessages: [Flag_2] NotCaptured

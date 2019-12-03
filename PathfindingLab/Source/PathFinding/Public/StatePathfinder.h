@@ -41,6 +41,11 @@ public:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector targetOfPlayer;
 
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector flagPos;
+
+	UFUNCTION(BlueprintCallable)
+		FVector getBasePosition();
 protected:
 
 	virtual void BeginPlay() override;
@@ -65,6 +70,9 @@ protected:
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FVector lastPatrolPoint;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FVector basePosition;
 
 	UPROPERTY()
 	float escapeTime = 0.0;

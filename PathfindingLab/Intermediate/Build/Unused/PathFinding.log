@@ -1,7 +1,7 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (E:\GamePhysicsandAI\GameAI).
+﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI).
   Creating makefile for PathFindingEditor (ini files are newer than makefile)
   Parsing headers for PathFindingEditor
-    Running UnrealHeaderTool "E:\GamePhysicsandAI\GameAI\PathfindingLab\PathFinding.uproject" "E:\GamePhysicsandAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
-  Reflection code generated for PathFindingEditor in 30.5738818 seconds
+    Running UnrealHeaderTool "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\PathFinding.uproject" "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\DebugGame\PathFindingEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+  Reflection code generated for PathFindingEditor in 6.5476157 seconds
   Target is up to date
-  Total execution time: 36.67 seconds
+  Total execution time: 8.98 seconds

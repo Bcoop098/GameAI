@@ -18,7 +18,8 @@ void AStatePathfinder::BeginPlay()
 
 	currentState = EState::ES_ReturnPatrol;
 
-	temp.Empty();
+
+	/*temp.Empty();
 
 	temp = pathBuilder->getPath(Point1, FVector2D(Point2.X, Point2.Y));
 	patrolRoute.Append(temp);
@@ -34,7 +35,7 @@ void AStatePathfinder::BeginPlay()
 
 	temp = pathBuilder->getPath(Point4, FVector2D(Point1.X, Point1.Y));
 	patrolRoute.Append(temp);
-	temp.Empty();
+	temp.Empty();*/
 
 	stateObjects[(int)currentState]->StartState();
 }
@@ -43,7 +44,7 @@ void AStatePathfinder::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	//Check if player is in cone of vision
-	if (checkCone(this->GetPosition(), targetOfPlayer))
+	/*if (checkCone(this->GetPosition(), targetOfPlayer))
 	{
 		if (currentState != EState::ES_Chase)
 		{
@@ -73,8 +74,20 @@ void AStatePathfinder::Tick(float DeltaTime)
 	else if (currentState == EState::ES_Patrol)
 	{
 		lastPatrolPoint = patrolRoute[pos];
+	}*/
+	if (!hasFlag)
+	{
+		if (currentState != EState::ES_Chase)
+		{
+			currentState = EState::ES_Chase;
+			stateObjects[(int)currentState]->StartState();
+		}
 	}
-	
+	if(hasFlag)
+	{
+		currentState = EState::ES_ReturnPatrol;
+		stateObjects[(int)currentState]->StartState();
+	}
 
 	stateObjects[(int)currentState]->UpdateState(DeltaTime);
 }
@@ -153,4 +166,9 @@ TArray<FVector>& AStatePathfinder::GetPatrol()
 FVector AStatePathfinder::GetLastPatrol()
 {
 	return lastPatrolPoint;
+}
+
+FVector AStatePathfinder::getBasePosition()
+{
+	return basePosition;
 }
