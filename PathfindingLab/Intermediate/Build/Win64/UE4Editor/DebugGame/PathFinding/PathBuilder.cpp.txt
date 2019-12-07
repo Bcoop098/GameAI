@@ -1,2 +1,2 @@
-C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\Definitions.PathFinding.h
-C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\PathBuilder.h
+D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\DebugGame\PathFinding\Definitions.PathFinding.h
+d:\git\gameai\pathfindinglab\source\pathfinding\PathBuilder.h

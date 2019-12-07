@@ -53,4 +53,7 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Steering")
 		bool hasFlag = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Steering")
+		bool canShoot = true;
 };

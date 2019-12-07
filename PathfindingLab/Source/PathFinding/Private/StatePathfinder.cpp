@@ -85,8 +85,11 @@ void AStatePathfinder::Tick(float DeltaTime)
 	}
 	if(hasFlag)
 	{
-		currentState = EState::ES_ReturnPatrol;
-		stateObjects[(int)currentState]->StartState();
+		if(currentState != EState::ES_ReturnPatrol)
+		{
+			currentState = EState::ES_ReturnPatrol;
+			stateObjects[(int)currentState]->StartState();
+		}
 	}
 
 	stateObjects[(int)currentState]->UpdateState(DeltaTime);

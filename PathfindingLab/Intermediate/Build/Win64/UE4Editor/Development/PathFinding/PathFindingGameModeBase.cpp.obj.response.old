@@ -28,7 +28,7 @@
 /wd4838
 /we4668
 /I .
-/I D:\Git\GameAI\PathfindingLab\Source\PathFinding\Private
+/I "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\Private"
 /I ..\Intermediate\Build\Win64\UE4Editor\Inc\Engine
 /I Runtime
 /I Runtime\Engine\Classes
@@ -427,22 +427,21 @@
 /I ThirdParty
 /I ThirdParty\libSampleRate\Public
 /I ThirdParty\libSampleRate
-/I D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding
-/I D:\Git\GameAI\PathfindingLab\Source
-/I D:\Git\GameAI\PathfindingLab\Source\PathFinding\Public
-/I D:\Git\GameAI\PathfindingLab\Source\PathFinding
-/I "D:\Visual Studio\VC\Tools\MSVC\14.16.27023\INCLUDE"
-/I "C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6.1\include\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\ucrt"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\shared"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\um"
-/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.16299.0\winrt"
-/FI"D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\Engine\SharedPCH.Engine.h"
-/Yu"D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\Engine\SharedPCH.Engine.h"
-/Fp"D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\Engine\SharedPCH.Engine.h.pch"
-"D:\Git\GameAI\PathfindingLab\Source\PathFinding\PathFindingGameModeBase.cpp"
-/FI"D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h"
-/Fo"D:\Git\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\PathFindingGameModeBase.cpp.obj"
+/I "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Inc\PathFinding"
+/I "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source"
+/I "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\Public"
+/I "C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding"
+/I "C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\VC\Tools\MSVC\14.23.28105\INCLUDE"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\ucrt"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\shared"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\um"
+/I "C:\Program Files (x86)\Windows Kits\10\include\10.0.18362.0\winrt"
+/FI"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\Engine\SharedPCH.Engine.h"
+/Yu"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\Engine\SharedPCH.Engine.h"
+/Fp"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\PathFindingEditor\Development\Engine\SharedPCH.Engine.h.pch"
+"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Source\PathFinding\PathFindingGameModeBase.cpp"
+/FI"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\Definitions.PathFinding.h"
+/Fo"C:\Users\Student\Documents\Unreal Projects\BenCGameAI\GameAI\PathfindingLab\Intermediate\Build\Win64\UE4Editor\Development\PathFinding\PathFindingGameModeBase.cpp.obj"
 /TP
 /GR-
 /W4

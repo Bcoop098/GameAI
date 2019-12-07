@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\PathFinding.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{FEF7AA5D-1FEC-4337-8509-E260F8E3500B}</UniqueIdentifier>
+      <UniqueIdentifier>{E0ABAB90-8AF3-4BC0-94A8-1EE20BF23F1D}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\PathFinding.Target.cs">
       <Filter>Source</Filter>
@@ -13,7 +13,7 @@
     </None>
     <None Include="..\..\PathFindingLansinghBenC.zip" />
     <Filter Include="Config">
-      <UniqueIdentifier>{F29B767E-6F02-47F0-9C85-24FE62ACA0C0}</UniqueIdentifier>
+      <UniqueIdentifier>{63F4B08A-C7EA-460F-8B0D-C4DA9A5A1020}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -28,7 +28,7 @@
       <Filter>Config</Filter>
     </None>
     <Filter Include="Source\PathFinding">
-      <UniqueIdentifier>{45969920-530D-427F-AC3D-F0C64C90F9D5}</UniqueIdentifier>
+      <UniqueIdentifier>{F66130CA-24AE-4593-9324-1FA0B4F52E12}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\PathBuilder.cpp">
       <Filter>Source\PathFinding</Filter>
@@ -64,7 +64,7 @@
       <Filter>Source\PathFinding</Filter>
     </ClInclude>
     <Filter Include="Source\PathFinding\Private">
-      <UniqueIdentifier>{65283D2D-B5B3-4973-86E3-B4CACE134FCC}</UniqueIdentifier>
+      <UniqueIdentifier>{5F0E909A-27E9-4713-A8E6-2AE52C0E0351}</UniqueIdentifier>
     </Filter>
     <ClCompile Include="..\..\Source\PathFinding\Private\ChaseReturnState.cpp">
       <Filter>Source\PathFinding\Private</Filter>
@@ -88,7 +88,7 @@
       <Filter>Source\PathFinding\Private</Filter>
     </ClCompile>
     <Filter Include="Source\PathFinding\Public">
-      <UniqueIdentifier>{1945C32E-B766-41F7-919B-339A836ADDC0}</UniqueIdentifier>
+      <UniqueIdentifier>{28F9FD88-67D9-40AF-B7E6-CD25F8240A59}</UniqueIdentifier>
     </Filter>
     <ClInclude Include="..\..\Source\PathFinding\Public\ChaseReturnState.h">
       <Filter>Source\PathFinding\Public</Filter>

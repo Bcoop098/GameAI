@@ -7,7 +7,7 @@
 
 void UChaseReturnState::StartState()
 {
-	Owner->SetLooping(false);
+	//Owner->SetLooping(false);
 	//Owner->GetPathBuilder()->resetGrid();
 	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetPosition()), ((FVector2D)Owner->getBasePosition())));
 	/*

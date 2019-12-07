@@ -65,7 +65,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 	FORCEINLINE static uint32 __PPO__SeekStrength() { return STRUCT_OFFSET(ASteeringActor, SeekStrength); } \
 	FORCEINLINE static uint32 __PPO__SeekDecelerationDistance() { return STRUCT_OFFSET(ASteeringActor, SeekDecelerationDistance); } \
 	FORCEINLINE static uint32 __PPO__TargetPos() { return STRUCT_OFFSET(ASteeringActor, TargetPos); } \
-	FORCEINLINE static uint32 __PPO__hasFlag() { return STRUCT_OFFSET(ASteeringActor, hasFlag); }
+	FORCEINLINE static uint32 __PPO__hasFlag() { return STRUCT_OFFSET(ASteeringActor, hasFlag); } \
+	FORCEINLINE static uint32 __PPO__canShoot() { return STRUCT_OFFSET(ASteeringActor, canShoot); }
 
 
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_10_PROLOG
