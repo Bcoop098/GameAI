@@ -43,38 +43,19 @@ void AStatePathfinder::BeginPlay()
 void AStatePathfinder::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
-	//Check if player is in cone of vision
-	/*if (checkCone(this->GetPosition(), targetOfPlayer))
+	
+	SteeringVelocity += (Seperation()*sepStrength * DeltaTime);
+	if (beenShotAt)
 	{
-		if (currentState != EState::ES_Chase)
-		{
-			currentState = EState::ES_Chase;
-			stateObjects[(int)currentState]->StartState();
-		}
-		escapeTime = 0.0;
+		SteeringVelocity += (BulletAvoidance(bulletPos)*sepStrength * .5f * DeltaTime);
 	}
-	//check if they have been out of sight for too long
-	else if (currentState == EState::ES_Chase && escapeTime >= 4.0)
+	if (reset)
 	{
-		currentState = EState::ES_ReturnPatrol;
+		reset = false;
+		currentState = EState::ES_Chase;
 		stateObjects[(int)currentState]->StartState();
 	}
-	//check if player is out of chase cone
-	else if (currentState == EState::ES_Chase && !checkCone(this->GetActorLocation(), targetOfPlayer))
-	{
-		escapeTime += DeltaTime;
-	}
-	//check if they made it back to the patrol route
-	else if(currentState == EState::ES_ReturnPatrol && Path.Num() < 1)
-	{
-		currentState = EState::ES_Patrol;
-		stateObjects[(int)currentState]->StartState();
-	}
-	//keeping track of last point visited
-	else if (currentState == EState::ES_Patrol)
-	{
-		lastPatrolPoint = patrolRoute[pos];
-	}*/
+
 	if (!hasFlag)
 	{
 		if (currentState != EState::ES_Chase)
@@ -173,5 +154,58 @@ FVector AStatePathfinder::GetLastPatrol()
 
 FVector AStatePathfinder::getBasePosition()
 {
+
 	return basePosition;
+}
+
+FVector AStatePathfinder::Seperation()
+{
+	FVector avoidVect = FVector(0, 0, 0);
+	FVector temp = FVector(0, 0, 0);
+	int separationCount = 0;
+
+	for (int i = 0; i < pathBuilder->Walls.Num(); i++)
+	{
+		/*if (AllSteeringActors[i] == this)
+			continue;*/
+
+		temp = Position - pathBuilder->Walls[i];
+		if (temp.Size() <= avoidanceRadius)
+		{
+			avoidVect += GetPathBuilder()->Walls[i] - this->Position;
+			separationCount++;
+		}
+	}
+	if (separationCount != 0)
+	{
+		avoidVect /= separationCount;
+		avoidVect *= -1.f;
+	}
+
+	avoidVect.Z = 0.0f;
+	return avoidVect.GetSafeNormal();
+}
+
+FVector AStatePathfinder::BulletAvoidance(FVector bulletPos)
+{
+	FVector avoidVect = FVector(0, 0, 0);
+	FVector temp = FVector(0, 0, 0);
+	int separationCount = 0;
+
+	
+	temp = Position - bulletPos;
+	if (temp.Size() <= bulletAvoidRadius)
+	{
+		avoidVect += bulletPos - this->Position;
+		separationCount++;
+	}
+
+	if (separationCount != 0)
+	{
+		avoidVect /= separationCount;
+		avoidVect *= -1.f;
+	}
+
+	avoidVect.Z = 0.0f;
+	return avoidVect.GetSafeNormal();
 }

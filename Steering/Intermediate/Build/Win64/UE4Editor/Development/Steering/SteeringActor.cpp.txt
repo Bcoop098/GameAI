@@ -1,7 +1,7 @@
-D:\Repos\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\Definitions.Steering.h
-d:\repos\gameai\steering\source\steering\SteeringActor.h
-D:\Repos\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Inc\Steering\SteeringActor.generated.h
-D:\Unreal\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
-D:\Unreal\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
-D:\Unreal\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
-d:\unreal\ue_4.22\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl
+D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\Definitions.Steering.h
+d:\git\gameai\steering\source\steering\SteeringActor.h
+D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Inc\Steering\SteeringActor.generated.h
+D:\EpicGames\UE_4.22\Engine\Source\Runtime\Engine\Classes\Kismet/KismetMathLibrary.h
+D:\EpicGames\UE_4.22\Engine\Source\Runtime\Core\Public\Misc/QualifiedFrameTime.h
+D:\EpicGames\UE_4.22\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine\KismetMathLibrary.generated.h
+d:\epicgames\ue_4.22\engine\source\runtime\engine\classes\kismet\KismetMathLibrary.inl

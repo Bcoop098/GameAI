@@ -1,2 +1,2 @@
-D:\Repos\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\Definitions.Steering.h
-d:\repos\gameai\steering\source\steering\Steering.h
+D:\Git\GameAI\Steering\Intermediate\Build\Win64\UE4Editor\Development\Steering\Definitions.Steering.h
+d:\git\gameai\steering\source\steering\Steering.h

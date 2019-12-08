@@ -18,8 +18,9 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 	PATHFINDING_API UClass* Z_Construct_UClass_AStatePathfinder_NoRegister();
 	PATHFINDING_API UClass* Z_Construct_UClass_AStatePathfinder();
 	PATHFINDING_API UClass* Z_Construct_UClass_APathFindingActor();
-	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkCone();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_BulletAvoidance();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkCone();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkDistance();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_checkDistanceChase();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_AStatePathfinder_getBasePosition();
@@ -87,6 +88,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 	{
 		UClass* Class = AStatePathfinder::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
+			{ "BulletAvoidance", &AStatePathfinder::execBulletAvoidance },
 			{ "checkCone", &AStatePathfinder::execcheckCone },
 			{ "checkDistance", &AStatePathfinder::execcheckDistance },
 			{ "checkDistanceChase", &AStatePathfinder::execcheckDistanceChase },
@@ -95,6 +97,42 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 			{ "GetPatrol", &AStatePathfinder::execGetPatrol },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics
+	{
+		struct StatePathfinder_eventBulletAvoidance_Parms
+		{
+			FVector bulletPos;
+			FVector ReturnValue;
+		};
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_ReturnValue;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bulletPos;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::NewProp_ReturnValue = { "ReturnValue", nullptr, (EPropertyFlags)0x0010000000000580, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StatePathfinder_eventBulletAvoidance_Parms, ReturnValue), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::NewProp_bulletPos = { "bulletPos", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(StatePathfinder_eventBulletAvoidance_Parms, bulletPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::NewProp_ReturnValue,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::NewProp_bulletPos,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStatePathfinder, nullptr, "BulletAvoidance", sizeof(StatePathfinder_eventBulletAvoidance_Parms), Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04880401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_AStatePathfinder_BulletAvoidance()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_AStatePathfinder_BulletAvoidance_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	struct Z_Construct_UFunction_AStatePathfinder_checkCone_Statics
 	{
@@ -383,9 +421,9 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 #endif
 		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_escapeTime;
 #if WITH_METADATA
-		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_basePosition_MetaData[];
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletPos_MetaData[];
 #endif
-		static const UE4CodeGen_Private::FStructPropertyParams NewProp_basePosition;
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_bulletPos;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_lastPatrolPoint_MetaData[];
 #endif
@@ -412,10 +450,27 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 #endif
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_Point1;
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_bulletAvoidRadius_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_bulletAvoidRadius;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_avoidanceRadius_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_avoidanceRadius;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_sepStrength_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_sepStrength;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_temp_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FArrayPropertyParams NewProp_temp;
 		static const UE4CodeGen_Private::FStructPropertyParams NewProp_temp_Inner;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_beenShotAt_MetaData[];
+#endif
+		static void NewProp_beenShotAt_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_beenShotAt;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_flagPos_MetaData[];
 #endif
@@ -433,6 +488,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_PathFinding,
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_AStatePathfinder_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AStatePathfinder_BulletAvoidance, "BulletAvoidance" }, // 3160009257
 		{ &Z_Construct_UFunction_AStatePathfinder_checkCone, "checkCone" }, // 3649636018
 		{ &Z_Construct_UFunction_AStatePathfinder_checkDistance, "checkDistance" }, // 142003607
 		{ &Z_Construct_UFunction_AStatePathfinder_checkDistanceChase, "checkDistanceChase" }, // 3034434625
@@ -519,12 +575,12 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 #endif
 	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_escapeTime = { "escapeTime", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, escapeTime), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_escapeTime_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_escapeTime_MetaData)) };
 #if WITH_METADATA
-	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_basePosition_MetaData[] = {
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletPos_MetaData[] = {
 		{ "Category", "StatePathfinder" },
 		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
 	};
 #endif
-	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_basePosition = { "basePosition", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, basePosition), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_basePosition_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_basePosition_MetaData)) };
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletPos = { "bulletPos", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, bulletPos), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletPos_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletPos_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_lastPatrolPoint_MetaData[] = {
 		{ "Category", "StatePathfinder" },
@@ -569,12 +625,44 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1 = { "Point1", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, Point1), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1_MetaData)) };
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletAvoidRadius_MetaData[] = {
+		{ "Category", "StatePathfinder" },
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletAvoidRadius = { "bulletAvoidRadius", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, bulletAvoidRadius), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletAvoidRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletAvoidRadius_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_avoidanceRadius_MetaData[] = {
+		{ "Category", "StatePathfinder" },
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_avoidanceRadius = { "avoidanceRadius", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, avoidanceRadius), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_avoidanceRadius_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_avoidanceRadius_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_sepStrength_MetaData[] = {
+		{ "Category", "StatePathfinder" },
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_sepStrength = { "sepStrength", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, sepStrength), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_sepStrength_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_sepStrength_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_MetaData[] = {
 		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
 	};
 #endif
 	const UE4CodeGen_Private::FArrayPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp = { "temp", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Array, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(AStatePathfinder, temp), METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_MetaData)) };
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_Inner = { "temp", nullptr, (EPropertyFlags)0x0000000000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, 0, Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(nullptr, 0) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt_MetaData[] = {
+		{ "Category", "StatePathfinder" },
+		{ "ModuleRelativePath", "Public/StatePathfinder.h" },
+	};
+#endif
+	void Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt_SetBit(void* Obj)
+	{
+		((AStatePathfinder*)Obj)->beenShotAt = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt = { "beenShotAt", nullptr, (EPropertyFlags)0x0010000000000005, UE4CodeGen_Private::EPropertyGenFlags::Bool | UE4CodeGen_Private::EPropertyGenFlags::NativeBool, RF_Public|RF_Transient|RF_MarkAsNative, 1, sizeof(bool), sizeof(AStatePathfinder), &Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt_SetBit, METADATA_PARAMS(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt_MetaData, ARRAY_COUNT(Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStatePathfinder_Statics::NewProp_flagPos_MetaData[] = {
 		{ "Category", "StatePathfinder" },
@@ -602,7 +690,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_statesForSeeker,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_statesForSeeker_Inner,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_escapeTime,
-		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_basePosition,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletPos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_lastPatrolPoint,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_patrolRoute,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_patrolRoute_Inner,
@@ -610,8 +698,12 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point3,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point2,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_Point1,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_bulletAvoidRadius,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_avoidanceRadius,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_sepStrength,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_temp_Inner,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_beenShotAt,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_flagPos,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_AStatePathfinder_Statics::NewProp_targetOfPlayer,
 	};
@@ -642,7 +734,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStatePathfinder, 1953993207);
+	IMPLEMENT_CLASS(AStatePathfinder, 1434951946);
 	template<> PATHFINDING_API UClass* StaticClass<AStatePathfinder>()
 	{
 		return AStatePathfinder::StaticClass();

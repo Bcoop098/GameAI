@@ -46,12 +46,29 @@ public:
 
 	UFUNCTION(BlueprintCallable)
 		FVector getBasePosition();
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool beenShotAt;
 protected:
 
 	virtual void BeginPlay() override;
 
+	FVector Seperation();
+
+	UFUNCTION(BlueprintCallable)
+		FVector BulletAvoidance(FVector bulletPos);
+
 	UPROPERTY()
 		TArray<FVector> temp;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float sepStrength = 900.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float avoidanceRadius = 115.0f;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		float bulletAvoidRadius = 500.0f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector Point1 = FVector(0.0, 0.0, 0.0);
@@ -72,7 +89,8 @@ protected:
 	FVector lastPatrolPoint;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FVector basePosition;
+		FVector bulletPos;
+	
 
 	UPROPERTY()
 	float escapeTime = 0.0;
@@ -101,6 +119,7 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float distanceToDetectChase = 800.0f;
 
+	
 	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		//bool ray = false;
 

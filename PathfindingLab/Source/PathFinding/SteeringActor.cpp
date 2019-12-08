@@ -27,6 +27,11 @@ void ASteeringActor::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	if (reset)
+	{
+		Position = basePosition;
+	}
+
 	// steering
 	SteeringVelocity += (SteeringVelocity * DragForce * DeltaTime);
 	SteeringVelocity += (Seek() * SeekStrength * DeltaTime);

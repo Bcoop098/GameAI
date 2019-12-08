@@ -299,7 +299,7 @@ void EmptyLinkFunctionForGeneratedCodePathFindingActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(APathFindingActor, 1098494969);
+	IMPLEMENT_CLASS(APathFindingActor, 2680973010);
 	template<> PATHFINDING_API UClass* StaticClass<APathFindingActor>()
 	{
 		return APathFindingActor::StaticClass();

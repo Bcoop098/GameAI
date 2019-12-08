@@ -16,6 +16,15 @@ struct FVector;
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execBulletAvoidance) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_bulletPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->BulletAvoidance(Z_Param_bulletPos); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execgetBasePosition) \
 	{ \
 		P_FINISH; \
@@ -72,6 +81,15 @@ struct FVector;
 
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execBulletAvoidance) \
+	{ \
+		P_GET_STRUCT(FVector,Z_Param_bulletPos); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		*(FVector*)Z_Param__Result=P_THIS->BulletAvoidance(Z_Param_bulletPos); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execgetBasePosition) \
 	{ \
@@ -174,13 +192,16 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStatePathfinder); \
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_20_PRIVATE_PROPERTY_OFFSET \
 	FORCEINLINE static uint32 __PPO__temp() { return STRUCT_OFFSET(AStatePathfinder, temp); } \
+	FORCEINLINE static uint32 __PPO__sepStrength() { return STRUCT_OFFSET(AStatePathfinder, sepStrength); } \
+	FORCEINLINE static uint32 __PPO__avoidanceRadius() { return STRUCT_OFFSET(AStatePathfinder, avoidanceRadius); } \
+	FORCEINLINE static uint32 __PPO__bulletAvoidRadius() { return STRUCT_OFFSET(AStatePathfinder, bulletAvoidRadius); } \
 	FORCEINLINE static uint32 __PPO__Point1() { return STRUCT_OFFSET(AStatePathfinder, Point1); } \
 	FORCEINLINE static uint32 __PPO__Point2() { return STRUCT_OFFSET(AStatePathfinder, Point2); } \
 	FORCEINLINE static uint32 __PPO__Point3() { return STRUCT_OFFSET(AStatePathfinder, Point3); } \
 	FORCEINLINE static uint32 __PPO__Point4() { return STRUCT_OFFSET(AStatePathfinder, Point4); } \
 	FORCEINLINE static uint32 __PPO__patrolRoute() { return STRUCT_OFFSET(AStatePathfinder, patrolRoute); } \
 	FORCEINLINE static uint32 __PPO__lastPatrolPoint() { return STRUCT_OFFSET(AStatePathfinder, lastPatrolPoint); } \
-	FORCEINLINE static uint32 __PPO__basePosition() { return STRUCT_OFFSET(AStatePathfinder, basePosition); } \
+	FORCEINLINE static uint32 __PPO__bulletPos() { return STRUCT_OFFSET(AStatePathfinder, bulletPos); } \
 	FORCEINLINE static uint32 __PPO__escapeTime() { return STRUCT_OFFSET(AStatePathfinder, escapeTime); } \
 	FORCEINLINE static uint32 __PPO__statesForSeeker() { return STRUCT_OFFSET(AStatePathfinder, statesForSeeker); } \
 	FORCEINLINE static uint32 __PPO__stateObjects() { return STRUCT_OFFSET(AStatePathfinder, stateObjects); } \

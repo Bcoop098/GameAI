@@ -56,4 +56,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Steering")
 		bool canShoot = true;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "Steering")
+		bool reset = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		FVector basePosition;
 };
