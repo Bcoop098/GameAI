@@ -112,4 +112,14 @@
       <Filter>Source\PathFinding\Public</Filter>
     </ClInclude>
   </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\PathFinding\Public\Flag.h">
+      <Filter>Source\PathFinding\Public</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\PathFinding\Private\Flag.cpp">
+      <Filter>Source\PathFinding\Private</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

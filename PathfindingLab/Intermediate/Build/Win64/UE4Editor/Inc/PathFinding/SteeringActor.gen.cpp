@@ -17,10 +17,67 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	PATHFINDING_API UClass* Z_Construct_UClass_ASteeringActor();
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PathFinding();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_BP_Kill();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_kill();
+	PATHFINDING_API UClass* Z_Construct_UClass_AFlag_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
+	static FName NAME_ASteeringActor_BP_Kill = FName(TEXT("BP_Kill"));
+	void ASteeringActor::BP_Kill()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ASteeringActor_BP_Kill),NULL);
+	}
 	void ASteeringActor::StaticRegisterNativesASteeringActor()
 	{
+		UClass* Class = ASteeringActor::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "kill", &ASteeringActor::execkill },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_ASteeringActor_BP_Kill_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_BP_Kill_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_BP_Kill_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "BP_Kill", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_BP_Kill_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_BP_Kill_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASteeringActor_BP_Kill()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_BP_Kill_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASteeringActor_kill_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_kill_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_kill_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "kill", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_kill_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_kill_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASteeringActor_kill()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_kill_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	UClass* Z_Construct_UClass_ASteeringActor_NoRegister()
 	{
@@ -29,9 +86,18 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	struct Z_Construct_UClass_ASteeringActor_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_myFlag_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_myFlag;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_flagCount_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FUnsizedIntPropertyParams NewProp_flagCount;
 #if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_basePosition_MetaData[];
 #endif
@@ -87,12 +153,30 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		(UObject* (*)())Z_Construct_UClass_AActor,
 		(UObject* (*)())Z_Construct_UPackage__Script_PathFinding,
 	};
+	const FClassFunctionLinkInfo Z_Construct_UClass_ASteeringActor_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_ASteeringActor_BP_Kill, "BP_Kill" }, // 1937228550
+		{ &Z_Construct_UFunction_ASteeringActor_kill, "kill" }, // 4250492754
+	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::Class_MetaDataParams[] = {
 		{ "IncludePath", "SteeringActor.h" },
 		{ "ModuleRelativePath", "SteeringActor.h" },
 	};
 #endif
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_myFlag_MetaData[] = {
+		{ "Category", "SteeringActor" },
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_myFlag = { "myFlag", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Object, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, myFlag), Z_Construct_UClass_AFlag_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_myFlag_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_myFlag_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_flagCount_MetaData[] = {
+		{ "Category", "SteeringActor" },
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FUnsizedIntPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_flagCount = { "flagCount", nullptr, (EPropertyFlags)0x0020080000000005, UE4CodeGen_Private::EPropertyGenFlags::Int, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, flagCount), METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_flagCount_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_flagCount_MetaData)) };
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::NewProp_basePosition_MetaData[] = {
 		{ "Category", "SteeringActor" },
@@ -182,6 +266,8 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 #endif
 	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UClass_ASteeringActor_Statics::NewProp_Position = { "Position", nullptr, (EPropertyFlags)0x0020080000000000, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(ASteeringActor, Position), Z_Construct_UScriptStruct_FVector, METADATA_PARAMS(Z_Construct_UClass_ASteeringActor_Statics::NewProp_Position_MetaData, ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::NewProp_Position_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ASteeringActor_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_myFlag,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_flagCount,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_basePosition,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_reset,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ASteeringActor_Statics::NewProp_canShoot,
@@ -202,11 +288,11 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		nullptr,
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_ASteeringActor_Statics::PropPointers,
 		nullptr,
 		ARRAY_COUNT(DependentSingletons),
-		0,
+		ARRAY_COUNT(FuncInfo),
 		ARRAY_COUNT(Z_Construct_UClass_ASteeringActor_Statics::PropPointers),
 		0,
 		0x009000A0u,
@@ -221,7 +307,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 255761905);
+	IMPLEMENT_CLASS(ASteeringActor, 66367672);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

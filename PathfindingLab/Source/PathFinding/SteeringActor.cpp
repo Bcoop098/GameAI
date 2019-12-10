@@ -3,6 +3,7 @@
 
 #include "SteeringActor.h"
 #include "Kismet/KismetMathLibrary.h"
+#include "Flag.h"
 
 
 
@@ -72,4 +73,17 @@ FVector ASteeringActor::Seek()
 FVector ASteeringActor::GetPosition()
 { 
 	return Position;
+}
+
+void ASteeringActor::kill()
+{
+	if (hasFlag && myFlag != nullptr)
+	{
+		hasFlag = false;
+		myFlag->resetFlag();
+	}
+	SetActorLocation(basePosition);
+
+	reset = true;
+	BP_Kill();
 }

@@ -13,8 +13,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define PATHFINDING_SteeringActor_generated_h
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS \
+ \
+	DECLARE_FUNCTION(execkill) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->kill(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execkill) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->kill(); \
+		P_NATIVE_END; \
+	}
+
+
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_EVENT_PARMS
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_CALLBACK_WRAPPERS
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesASteeringActor(); \
@@ -68,15 +90,21 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(ASteeringActor); \
 	FORCEINLINE static uint32 __PPO__hasFlag() { return STRUCT_OFFSET(ASteeringActor, hasFlag); } \
 	FORCEINLINE static uint32 __PPO__canShoot() { return STRUCT_OFFSET(ASteeringActor, canShoot); } \
 	FORCEINLINE static uint32 __PPO__reset() { return STRUCT_OFFSET(ASteeringActor, reset); } \
-	FORCEINLINE static uint32 __PPO__basePosition() { return STRUCT_OFFSET(ASteeringActor, basePosition); }
+	FORCEINLINE static uint32 __PPO__basePosition() { return STRUCT_OFFSET(ASteeringActor, basePosition); } \
+	FORCEINLINE static uint32 __PPO__flagCount() { return STRUCT_OFFSET(ASteeringActor, flagCount); } \
+	FORCEINLINE static uint32 __PPO__myFlag() { return STRUCT_OFFSET(ASteeringActor, myFlag); }
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_10_PROLOG
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_10_PROLOG \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_EVENT_PARMS
+
+
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_CALLBACK_WRAPPERS \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_STANDARD_CONSTRUCTORS \
 public: \
@@ -88,6 +116,7 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_PRIVATE_PROPERTY_OFFSET \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	PathfindingLab_Source_PathFinding_SteeringActor_h_13_CALLBACK_WRAPPERS \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS_NO_PURE_DECLS \
 	PathfindingLab_Source_PathFinding_SteeringActor_h_13_ENHANCED_CONSTRUCTORS \
 private: \

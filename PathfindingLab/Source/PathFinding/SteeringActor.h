@@ -27,6 +27,13 @@ public:
 	FVector GetPosition();
 
 protected:
+
+	UFUNCTION(BlueprintCallable)
+		void kill();
+
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+		void BP_Kill();
+
 	FVector Seek();
 
 	UPROPERTY()
@@ -62,4 +69,10 @@ protected:
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		FVector basePosition;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		int flagCount;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		class AFlag* myFlag = nullptr;
 };

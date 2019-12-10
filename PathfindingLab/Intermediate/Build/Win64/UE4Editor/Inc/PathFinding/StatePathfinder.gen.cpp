@@ -734,7 +734,7 @@ void EmptyLinkFunctionForGeneratedCodeStatePathfinder() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(AStatePathfinder, 1434951946);
+	IMPLEMENT_CLASS(AStatePathfinder, 1197215400);
 	template<> PATHFINDING_API UClass* StaticClass<AStatePathfinder>()
 	{
 		return AStatePathfinder::StaticClass();
