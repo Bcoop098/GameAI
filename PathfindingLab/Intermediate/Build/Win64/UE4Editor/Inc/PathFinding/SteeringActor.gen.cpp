@@ -18,7 +18,12 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	ENGINE_API UClass* Z_Construct_UClass_AActor();
 	UPackage* Z_Construct_UPackage__Script_PathFinding();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_BP_Kill();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_BP_resetTheGame();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_BP_Shoot();
+	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FTransform();
 	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_kill();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_resetTheGame();
+	PATHFINDING_API UFunction* Z_Construct_UFunction_ASteeringActor_shoot();
 	PATHFINDING_API UClass* Z_Construct_UClass_AFlag_NoRegister();
 	COREUOBJECT_API UScriptStruct* Z_Construct_UScriptStruct_FVector();
 // End Cross Module References
@@ -27,11 +32,25 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	{
 		ProcessEvent(FindFunctionChecked(NAME_ASteeringActor_BP_Kill),NULL);
 	}
+	static FName NAME_ASteeringActor_BP_resetTheGame = FName(TEXT("BP_resetTheGame"));
+	void ASteeringActor::BP_resetTheGame()
+	{
+		ProcessEvent(FindFunctionChecked(NAME_ASteeringActor_BP_resetTheGame),NULL);
+	}
+	static FName NAME_ASteeringActor_BP_Shoot = FName(TEXT("BP_Shoot"));
+	void ASteeringActor::BP_Shoot(FTransform shootDir)
+	{
+		SteeringActor_eventBP_Shoot_Parms Parms;
+		Parms.shootDir=shootDir;
+		ProcessEvent(FindFunctionChecked(NAME_ASteeringActor_BP_Shoot),&Parms);
+	}
 	void ASteeringActor::StaticRegisterNativesASteeringActor()
 	{
 		UClass* Class = ASteeringActor::StaticClass();
 		static const FNameNativePtrPair Funcs[] = {
 			{ "kill", &ASteeringActor::execkill },
+			{ "resetTheGame", &ASteeringActor::execresetTheGame },
+			{ "shoot", &ASteeringActor::execshoot },
 		};
 		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, ARRAY_COUNT(Funcs));
 	}
@@ -57,6 +76,56 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return ReturnFunction;
 	}
+	struct Z_Construct_UFunction_ASteeringActor_BP_resetTheGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_BP_resetTheGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_BP_resetTheGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "BP_resetTheGame", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C080800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_BP_resetTheGame_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_BP_resetTheGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASteeringActor_BP_resetTheGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_BP_resetTheGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics
+	{
+		static const UE4CodeGen_Private::FStructPropertyParams NewProp_shootDir;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FStructPropertyParams Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::NewProp_shootDir = { "shootDir", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Struct, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventBP_Shoot_Parms, shootDir), Z_Construct_UScriptStruct_FTransform, METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::NewProp_shootDir,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "BP_Shoot", sizeof(SteeringActor_eventBP_Shoot_Parms), Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x0C880800, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASteeringActor_BP_Shoot()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_BP_Shoot_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
 	struct Z_Construct_UFunction_ASteeringActor_kill_Statics
 	{
 #if WITH_METADATA
@@ -76,6 +145,60 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		if (!ReturnFunction)
 		{
 			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_kill_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASteeringActor_resetTheGame_Statics
+	{
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_resetTheGame_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_resetTheGame_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "resetTheGame", 0, nullptr, 0, RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_resetTheGame_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_resetTheGame_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASteeringActor_resetTheGame()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_resetTheGame_Statics::FuncParams);
+		}
+		return ReturnFunction;
+	}
+	struct Z_Construct_UFunction_ASteeringActor_shoot_Statics
+	{
+		struct SteeringActor_eventshoot_Parms
+		{
+			float scale;
+		};
+		static const UE4CodeGen_Private::FFloatPropertyParams NewProp_scale;
+		static const UE4CodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UE4CodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UE4CodeGen_Private::FFloatPropertyParams Z_Construct_UFunction_ASteeringActor_shoot_Statics::NewProp_scale = { "scale", nullptr, (EPropertyFlags)0x0010000000000080, UE4CodeGen_Private::EPropertyGenFlags::Float, RF_Public|RF_Transient|RF_MarkAsNative, 1, STRUCT_OFFSET(SteeringActor_eventshoot_Parms, scale), METADATA_PARAMS(nullptr, 0) };
+	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_ASteeringActor_shoot_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_ASteeringActor_shoot_Statics::NewProp_scale,
+	};
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_ASteeringActor_shoot_Statics::Function_MetaDataParams[] = {
+		{ "ModuleRelativePath", "SteeringActor.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FFunctionParams Z_Construct_UFunction_ASteeringActor_shoot_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_ASteeringActor, nullptr, "shoot", sizeof(SteeringActor_eventshoot_Parms), Z_Construct_UFunction_ASteeringActor_shoot_Statics::PropPointers, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_shoot_Statics::PropPointers), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04080401, 0, 0, METADATA_PARAMS(Z_Construct_UFunction_ASteeringActor_shoot_Statics::Function_MetaDataParams, ARRAY_COUNT(Z_Construct_UFunction_ASteeringActor_shoot_Statics::Function_MetaDataParams)) };
+	UFunction* Z_Construct_UFunction_ASteeringActor_shoot()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UE4CodeGen_Private::ConstructUFunction(ReturnFunction, Z_Construct_UFunction_ASteeringActor_shoot_Statics::FuncParams);
 		}
 		return ReturnFunction;
 	}
@@ -155,7 +278,11 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 	};
 	const FClassFunctionLinkInfo Z_Construct_UClass_ASteeringActor_Statics::FuncInfo[] = {
 		{ &Z_Construct_UFunction_ASteeringActor_BP_Kill, "BP_Kill" }, // 1937228550
+		{ &Z_Construct_UFunction_ASteeringActor_BP_resetTheGame, "BP_resetTheGame" }, // 2619866226
+		{ &Z_Construct_UFunction_ASteeringActor_BP_Shoot, "BP_Shoot" }, // 1974338852
 		{ &Z_Construct_UFunction_ASteeringActor_kill, "kill" }, // 4250492754
+		{ &Z_Construct_UFunction_ASteeringActor_resetTheGame, "resetTheGame" }, // 2003624432
+		{ &Z_Construct_UFunction_ASteeringActor_shoot, "shoot" }, // 1934005696
 	};
 #if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ASteeringActor_Statics::Class_MetaDataParams[] = {
@@ -307,7 +434,7 @@ void EmptyLinkFunctionForGeneratedCodeSteeringActor() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ASteeringActor, 66367672);
+	IMPLEMENT_CLASS(ASteeringActor, 3803026605);
 	template<> PATHFINDING_API UClass* StaticClass<ASteeringActor>()
 	{
 		return ASteeringActor::StaticClass();

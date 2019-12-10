@@ -111,7 +111,7 @@ protected:
 		bool rad = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		float detectionCone = 120.0f;
+		float detectionCone = 30.f;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float distanceToDetect = 400.0f;
@@ -119,9 +119,8 @@ protected:
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 		float distanceToDetectChase = 800.0f;
 
-	
-	//UPROPERTY(EditAnywhere, BlueprintReadWrite)
-		//bool ray = false;
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+		bool shouldShoot = false;
 
 	
 };

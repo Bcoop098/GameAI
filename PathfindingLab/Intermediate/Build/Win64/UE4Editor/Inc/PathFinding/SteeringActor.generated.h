@@ -8,6 +8,7 @@
 #include "UObject/ScriptMacros.h"
 
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
+struct FTransform;
 #ifdef PATHFINDING_SteeringActor_generated_h
 #error "SteeringActor.generated.h already included, missing '#pragma once' in SteeringActor.h"
 #endif
@@ -15,16 +16,13 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS \
  \
-	DECLARE_FUNCTION(execkill) \
+	DECLARE_FUNCTION(execresetTheGame) \
 	{ \
 		P_FINISH; \
 		P_NATIVE_BEGIN; \
-		P_THIS->kill(); \
+		P_THIS->resetTheGame(); \
 		P_NATIVE_END; \
-	}
-
-
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+	} \
  \
 	DECLARE_FUNCTION(execkill) \
 	{ \
@@ -32,10 +30,53 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 		P_NATIVE_BEGIN; \
 		P_THIS->kill(); \
 		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execshoot) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_scale); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->shoot(Z_Param_scale); \
+		P_NATIVE_END; \
 	}
 
 
-#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_EVENT_PARMS
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execresetTheGame) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->resetTheGame(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execkill) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->kill(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execshoot) \
+	{ \
+		P_GET_PROPERTY(UFloatProperty,Z_Param_scale); \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		P_THIS->shoot(Z_Param_scale); \
+		P_NATIVE_END; \
+	}
+
+
+#define PathfindingLab_Source_PathFinding_SteeringActor_h_13_EVENT_PARMS \
+	struct SteeringActor_eventBP_Shoot_Parms \
+	{ \
+		FTransform shootDir; \
+	};
+
+
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_CALLBACK_WRAPPERS
 #define PathfindingLab_Source_PathFinding_SteeringActor_h_13_INCLASS_NO_PURE_DECLS \
 private: \

@@ -8,7 +8,7 @@
 void UChaseState::StartState()
 {
 	Owner->SetLooping(false);
-	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetPosition()), (FVector2D)(Owner->targetOfPlayer)));
+	Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath((Owner->GetPosition()), (FVector2D)(Owner->flagPos)));
 	targetTime = maxTargetTime;
 }
 
@@ -18,7 +18,7 @@ void UChaseState::UpdateState(float deltaTime)
 	{
 		targetTime = maxTargetTime;
 		//Owner->GetPathBuilder()->resetGrid();
-		Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath(Owner->GetPosition(), (FVector2D)Owner->targetOfPlayer));
+		Owner->SetPathToFollow(Owner->GetPathBuilder()->getPath(Owner->GetPosition(), (FVector2D)Owner->flagPos));
 	}
 	else
 	{

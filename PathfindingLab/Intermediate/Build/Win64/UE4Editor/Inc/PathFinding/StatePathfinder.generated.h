@@ -210,7 +210,8 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AStatePathfinder); \
 	FORCEINLINE static uint32 __PPO__rad() { return STRUCT_OFFSET(AStatePathfinder, rad); } \
 	FORCEINLINE static uint32 __PPO__detectionCone() { return STRUCT_OFFSET(AStatePathfinder, detectionCone); } \
 	FORCEINLINE static uint32 __PPO__distanceToDetect() { return STRUCT_OFFSET(AStatePathfinder, distanceToDetect); } \
-	FORCEINLINE static uint32 __PPO__distanceToDetectChase() { return STRUCT_OFFSET(AStatePathfinder, distanceToDetectChase); }
+	FORCEINLINE static uint32 __PPO__distanceToDetectChase() { return STRUCT_OFFSET(AStatePathfinder, distanceToDetectChase); } \
+	FORCEINLINE static uint32 __PPO__shouldShoot() { return STRUCT_OFFSET(AStatePathfinder, shouldShoot); }
 
 
 #define PathfindingLab_Source_PathFinding_Public_StatePathfinder_h_17_PROLOG

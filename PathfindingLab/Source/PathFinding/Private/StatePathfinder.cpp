@@ -19,23 +19,7 @@ void AStatePathfinder::BeginPlay()
 	currentState = EState::ES_ReturnPatrol;
 
 
-	/*temp.Empty();
-
-	temp = pathBuilder->getPath(Point1, FVector2D(Point2.X, Point2.Y));
-	patrolRoute.Append(temp);
-	temp.Empty();
-
-	temp = pathBuilder->getPath(Point2, FVector2D(Point3.X, Point3.Y));
-	patrolRoute.Append(temp);
-	temp.Empty();
-
-	temp = pathBuilder->getPath(Point3, FVector2D(Point4.X, Point4.Y));
-	patrolRoute.Append(temp);
-	temp.Empty();
-
-	temp = pathBuilder->getPath(Point4, FVector2D(Point1.X, Point1.Y));
-	patrolRoute.Append(temp);
-	temp.Empty();*/
+	
 
 	stateObjects[(int)currentState]->StartState();
 }
@@ -49,6 +33,17 @@ void AStatePathfinder::Tick(float DeltaTime)
 	{
 		SteeringVelocity += (BulletAvoidance(bulletPos)*sepStrength * .5f * DeltaTime);
 	}
+
+	if (checkDistanceChase(this->GetActorLocation(), targetOfPlayer))
+	{
+		if (checkCone(this->GetActorLocation(), targetOfPlayer))
+		{
+			shouldShoot = true;
+		}
+	}
+	else
+		shouldShoot = false;
+
 	if (reset)
 	{
 		reset = false;
@@ -104,19 +99,6 @@ bool AStatePathfinder::checkDistanceChase(FVector actorPos, FVector playerPos)
 
 bool AStatePathfinder::checkCone(FVector actorPos, FVector playerPos)
 {
-	//Check if player is in range first
-	if (currentState == EState::ES_Patrol && !checkDistance(actorPos, playerPos))
-	{
-		return false;
-	}
-	else if (currentState == EState::ES_ReturnPatrol && !checkDistance(actorPos, playerPos))
-	{
-		return false;
-	}
-	else if (currentState == EState::ES_Chase && !checkDistanceChase(actorPos, playerPos))
-	{
-		return false;
-	}
 
 	FVector velocityNormal = SteeringVelocity.GetSafeNormal();
 	FVector direction = playerPos - actorPos;

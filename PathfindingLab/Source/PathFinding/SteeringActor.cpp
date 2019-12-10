@@ -57,6 +57,16 @@ void ASteeringActor::Tick(float DeltaTime)
 }
 
 
+void ASteeringActor::resetTheGame()
+{
+
+	hasFlag = false;
+	canShoot = true;
+	reset = true;
+	SetActorLocation(basePosition);
+	BP_resetTheGame();
+}
+
 FVector ASteeringActor::Seek()
 {
 	FVector dir = TargetPos - Position;
@@ -73,6 +83,16 @@ FVector ASteeringActor::Seek()
 FVector ASteeringActor::GetPosition()
 { 
 	return Position;
+}
+
+void ASteeringActor::shoot(float scale)
+{
+	FVector forwardVec = GetActorForwardVector();
+	forwardVec = forwardVec * scale;
+	forwardVec += GetActorLocation();
+	FRotator actRot = GetActorRotation();
+	FVector oneScale(1, 1, 1);
+	BP_Shoot(FTransform(actRot, forwardVec, oneScale));
 }
 
 void ASteeringActor::kill()

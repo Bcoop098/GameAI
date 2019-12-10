@@ -29,10 +29,22 @@ public:
 protected:
 
 	UFUNCTION(BlueprintCallable)
+		void shoot(float scale);
+
+	UFUNCTION(BlueprintCallable)
 		void kill();
 
 	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
 		void BP_Kill();
+
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+		void BP_Shoot(FTransform shootDir);
+
+	UFUNCTION(BlueprintCallable)
+		void resetTheGame();
+
+	UFUNCTION(BlueprintImplementableEvent, BlueprintCallable)
+		void BP_resetTheGame();
 
 	FVector Seek();
 
