@@ -97,7 +97,6 @@ void ASteeringActor::shoot(float scale)
 
 void ASteeringActor::kill()
 {
-	canShoot = true;
 	if (hasFlag && myFlag != nullptr)
 	{
 		hasFlag = false;
