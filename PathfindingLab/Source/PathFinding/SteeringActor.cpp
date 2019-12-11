@@ -103,6 +103,7 @@ void ASteeringActor::kill()
 		myFlag->resetFlag();
 	}
 	SetActorLocation(basePosition);
+	TargetPos = basePosition;
 
 	reset = true;
 	BP_Kill();

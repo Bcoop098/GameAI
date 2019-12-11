@@ -79,9 +79,9 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 	
 	openList.Empty();
 
-	theGrid[FMath::RoundToInt(redPos.X)][FMath::RoundToInt(redPos.Y)]->dist = 0;
+	theGrid[FMath::FloorToInt(redPos.X)][FMath::FloorToInt(redPos.Y)]->dist = 0;
 
-	openList.Add(theGrid[FMath::RoundToInt(redPos.X)][FMath::RoundToInt(redPos.Y)]);
+	openList.Add(theGrid[FMath::FloorToInt(redPos.X)][FMath::FloorToInt(redPos.Y)]);
 
 	/* CODE SEGEMENT */
 	while (openList.Num() > 0)
@@ -90,7 +90,7 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 
 		Node* current;
 
-		if (openList[smolIndex] == theGrid[FMath::RoundToInt(targetPos.X)][FMath::RoundToInt(targetPos.Y)])
+		if (openList[smolIndex] == theGrid[FMath::FloorToInt(targetPos.X)][FMath::FloorToInt(targetPos.Y)])
 		{
 			break;
 		}
@@ -115,10 +115,10 @@ TArray<FVector> AMyPathBuilderActor::getPath(FVector position, FVector2D target)
 	}
 
 
-	Node* tNode = theGrid[FMath::RoundToInt(targetPos.X)][FMath::RoundToInt(targetPos.Y)];
+	Node* tNode = theGrid[FMath::FloorToInt(targetPos.X)][FMath::FloorToInt(targetPos.Y)];
 	TArray<FVector> path;
 
-	if (tNode->prev != nullptr || tNode == theGrid[FMath::RoundToInt(redPos.X)][FMath::RoundToInt(redPos.Y)])
+	if (tNode->prev != nullptr || tNode == theGrid[FMath::FloorToInt(redPos.X)][FMath::FloorToInt(redPos.Y)])
 	{
 		while (tNode != nullptr)
 		{
@@ -257,20 +257,20 @@ FVector AMyPathBuilderActor::checkPoint(FVector target)
 	FVector newPoint = targetPoint;
 	FVector oldPoint = FVector(MAX_FLT, MAX_FLT, targetPoint.Z);
 
-	while (theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->blocked)
+	while (theGrid[FMath::FloorToInt(newPoint.X)][FMath::FloorToInt(newPoint.Y)]->blocked)
 	{
-		for (int i = 0; i < theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors.Num(); ++i)
+		for (int i = 0; i < theGrid[FMath::FloorToInt(targetPoint.X)][FMath::FloorToInt(targetPoint.Y)]->neighbors.Num(); ++i)
 		{
-			if (!(theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->blocked))
+			if (!(theGrid[FMath::FloorToInt(targetPoint.X)][FMath::FloorToInt(targetPoint.Y)]->neighbors[i]->blocked))
 			{
-				/*if (FVector2D::Distance(theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->pos, FVector2D(targetPoint.X, targetPoint.Y))
+				/*if (FVector2D::Distance(theGrid[FMath::FloorToInt(targetPoint.X)][FMath::FloorToInt(targetPoint.Y)]->neighbors[i]->pos, FVector2D(targetPoint.X, targetPoint.Y))
 					<
 					FVector2D::Distance(FVector2D(oldPoint.X, oldPoint.Y), FVector2D(targetPoint.X, targetPoint.Y)))*/
 				{
 					//oldPoint = newPoint;
 
-					newPoint.X = theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->pos.X;
-					newPoint.Y = theGrid[FMath::RoundToInt(targetPoint.X)][FMath::RoundToInt(targetPoint.Y)]->neighbors[i]->pos.Y;
+					newPoint.X = theGrid[FMath::FloorToInt(targetPoint.X)][FMath::FloorToInt(targetPoint.Y)]->neighbors[i]->pos.X;
+					newPoint.Y = theGrid[FMath::FloorToInt(targetPoint.X)][FMath::FloorToInt(targetPoint.Y)]->neighbors[i]->pos.Y;
 				}
 				
 			}
@@ -285,14 +285,14 @@ FVector2D AMyPathBuilderActor::checkPoint2D(FVector2D target)
 {
 	FVector2D newPoint = target / GridScale;
 
-	while (theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->blocked)
+	while (theGrid[FMath::FloorToInt(newPoint.X)][FMath::FloorToInt(newPoint.Y)]->blocked)
 	{
-		for (int i = 0; i < theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors.Num(); ++i)
+		for (int i = 0; i < theGrid[FMath::FloorToInt(newPoint.X)][FMath::FloorToInt(newPoint.Y)]->neighbors.Num(); ++i)
 		{
-			if (!(theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->blocked))
+			if (!(theGrid[FMath::FloorToInt(newPoint.X)][FMath::FloorToInt(newPoint.Y)]->neighbors[i]->blocked))
 			{
-				newPoint.X = theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->pos.X;
-				newPoint.Y = theGrid[FMath::RoundToInt(newPoint.X)][FMath::RoundToInt(newPoint.Y)]->neighbors[i]->pos.Y;
+				newPoint.X = theGrid[FMath::FloorToInt(newPoint.X)][FMath::FloorToInt(newPoint.Y)]->neighbors[i]->pos.X;
+				newPoint.Y = theGrid[FMath::FloorToInt(newPoint.X)][FMath::FloorToInt(newPoint.Y)]->neighbors[i]->pos.Y;
 			}
 		}
 

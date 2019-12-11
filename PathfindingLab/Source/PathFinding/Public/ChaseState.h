@@ -21,7 +21,7 @@ public:
 
 protected:
 	UPROPERTY()
-	float maxTargetTime = 3.0;
+	float maxTargetTime = 1.5f;
 
 	UPROPERTY()
 	float targetTime = 0.0;
