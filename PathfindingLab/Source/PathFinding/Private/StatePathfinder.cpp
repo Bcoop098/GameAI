@@ -28,22 +28,24 @@ void AStatePathfinder::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 	
+	//Wall avoidance
 	SteeringVelocity += (Seperation()*sepStrength * DeltaTime);
+
+	//Bullet avoidance
 	if (beenShotAt)
 	{
 		SteeringVelocity += (BulletAvoidance(bulletPos)*sepStrength * .5f * DeltaTime);
 	}
 
-	if (checkDistanceChase(this->GetActorLocation(), targetOfPlayer))
+	//Checks to see if the AI should shoot, it still needs to be able to shoot as well in order to fire
+	if (checkDistanceChase(this->GetActorLocation(), targetOfPlayer) && checkCone(this->GetActorLocation(), targetOfPlayer))
 	{
-		if (checkCone(this->GetActorLocation(), targetOfPlayer))
-		{
-			shouldShoot = true;
-		}
+		shouldShoot = true;
 	}
 	else
 		shouldShoot = false;
 
+	//resets the AI if it's been hit
 	if (reset)
 	{
 		reset = false;
@@ -51,6 +53,7 @@ void AStatePathfinder::Tick(float DeltaTime)
 		stateObjects[(int)currentState]->StartState();
 	}
 
+	//Chase after the flag
 	if (!hasFlag)
 	{
 		if (currentState != EState::ES_Chase)
@@ -59,6 +62,8 @@ void AStatePathfinder::Tick(float DeltaTime)
 			stateObjects[(int)currentState]->StartState();
 		}
 	}
+
+	//return to base to capture
 	if(hasFlag)
 	{
 		if(currentState != EState::ES_ReturnPatrol)
@@ -140,6 +145,7 @@ FVector AStatePathfinder::getBasePosition()
 	return basePosition;
 }
 
+//separation for the walls
 FVector AStatePathfinder::Seperation()
 {
 	FVector avoidVect = FVector(0, 0, 0);
@@ -168,6 +174,8 @@ FVector AStatePathfinder::Seperation()
 	return avoidVect.GetSafeNormal();
 }
 
+
+//Separation for bullet avoidance
 FVector AStatePathfinder::BulletAvoidance(FVector bulletPos)
 {
 	FVector avoidVect = FVector(0, 0, 0);

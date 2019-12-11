@@ -85,6 +85,7 @@ FVector ASteeringActor::GetPosition()
 	return Position;
 }
 
+//Creates a transform for the bullet spawn, scale is the distance from the actor
 void ASteeringActor::shoot(float scale)
 {
 	FVector forwardVec = GetActorForwardVector();
@@ -92,11 +93,14 @@ void ASteeringActor::shoot(float scale)
 	forwardVec += GetActorLocation();
 	FRotator actRot = GetActorRotation();
 	FVector oneScale(1, 1, 1);
+	//Transform is then passed to the blueprint for spawning
 	BP_Shoot(FTransform(actRot, forwardVec, oneScale));
 }
 
+//Kills the actor (Really it just resets the position)
 void ASteeringActor::kill()
 {
+	//resets the flag if it is currently held by the actor
 	if (hasFlag && myFlag != nullptr)
 	{
 		hasFlag = false;
@@ -106,5 +110,6 @@ void ASteeringActor::kill()
 	TargetPos = basePosition;
 
 	reset = true;
+	//used for the AI
 	BP_Kill();
 }
